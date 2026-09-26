@@ -1,0 +1,16 @@
+.DS_Store
+
+# 表紙の元画像（印刷用の高解像度データ）。サイトでは assets/covers/ の
+# 縮小版だけを使うので、この元データは公開リポジトリに含めない。
+assets/JLPT N2es.jpg
+assets/JLPT N3es.jpg
+assets/JLPT N4es.jpg
+assets/JLPT N5es.jpg
+assets/PRIMER.jpg
+assets/SEGUNDO.jpg
+assets/tercer.jpg
+assets/cuentos.jpg
+assets/ejercicio_n3.jpg
+assets/tesoro.jpg
+assets/viaje1.jpg
+assets/viaje2.jpg

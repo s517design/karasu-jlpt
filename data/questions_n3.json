@@ -1,0 +1,194 @@
+[
+  {
+    "id": "orig_n3_001",
+    "grammar_point": "〜上がる",
+    "question_ja": "花火が夜空に（　　）上がった。",
+    "choices": [
+      "高く",
+      "高い",
+      "高くて",
+      "高さ"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "動詞の前で状態を表す時、い形容詞は副詞形（高く）になる。",
+    "answer_sentence_ja": "花火が夜空に高く上がった。",
+    "answer_sentence_es": "Los fuegos artificiales se elevaron alto en el cielo nocturno."
+  },
+  {
+    "id": "orig_n3_002",
+    "grammar_point": "〜一方",
+    "question_ja": "都会は便利な一方、人が多くて（　　）。",
+    "choices": [
+      "疲れる",
+      "疲れ",
+      "疲れて",
+      "疲れた"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜一方 contrasta dos aspectos de una misma cosa. La segunda cláusula sigue en forma simple.",
+    "answer_sentence_ja": "都会は便利な一方、人が多くて疲れる。",
+    "answer_sentence_es": "La ciudad es conveniente, pero por otro lado, hay tanta gente que cansa."
+  },
+  {
+    "id": "orig_n3_003",
+    "grammar_point": "〜せいで",
+    "question_ja": "電車が遅れた（　　）、会議に遅刻した。",
+    "choices": [
+      "せいで",
+      "おかげで",
+      "ために",
+      "ものの"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜せいで culpa a algo de un resultado negativo. おかげで se usaría para un resultado positivo.",
+    "answer_sentence_ja": "電車が遅れたせいで、会議に遅刻した。",
+    "answer_sentence_es": "Por culpa de que el tren se retrasó, llegué tarde a la reunión."
+  },
+  {
+    "id": "orig_n3_004",
+    "grammar_point": "〜おきに",
+    "question_ja": "この薬は3時間（　　）に飲んでください。",
+    "choices": [
+      "おき",
+      "ごと",
+      "たび",
+      "あいだ"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "数字+おきに significa 'cada X (intervalo)'. Aquí, cada 3 horas.",
+    "answer_sentence_ja": "この薬は3時間おきに飲んでください。",
+    "answer_sentence_es": "Por favor, tome esta medicina cada 3 horas."
+  },
+  {
+    "id": "orig_n3_005",
+    "grammar_point": "くらい・ぐらい",
+    "question_ja": "駅まで歩いて10分（　　）かかります。",
+    "choices": [
+      "くらい",
+      "しか",
+      "だけ",
+      "ばかり"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "くらい/ぐらい da una cantidad aproximada. しか/だけ implicarían una limitación, no una estimación.",
+    "answer_sentence_ja": "駅まで歩いて10分くらいかかります。",
+    "answer_sentence_es": "Caminando hasta la estación se tarda unos 10 minutos."
+  },
+  {
+    "id": "orig_n3_006",
+    "grammar_point": "〜だって",
+    "question_ja": "子供（　　）そのくらいのことは分かる。",
+    "choices": [
+      "だって",
+      "ばかり",
+      "こそ",
+      "さえ"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜だって (＝でも) enfatiza un caso extremo ('incluso un niño').",
+    "answer_sentence_ja": "子供だってそのくらいのことは分かる。",
+    "answer_sentence_es": "Hasta un niño entiende algo así."
+  },
+  {
+    "id": "orig_n3_007",
+    "grammar_point": "〜だろうか",
+    "question_ja": "彼は本当にこの話を知っているの（　　）。",
+    "choices": [
+      "だろうか",
+      "ものか",
+      "べきか",
+      "ことか"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜だろうか expresa una duda que el hablante se plantea a sí mismo.",
+    "answer_sentence_ja": "彼は本当にこの話を知っているのだろうか。",
+    "answer_sentence_es": "Me pregunto si él realmente sabe de esta historia."
+  },
+  {
+    "id": "orig_n3_008",
+    "grammar_point": "〜から見ると・見れば",
+    "question_ja": "医者から（　　）、この計画には問題が多い。",
+    "choices": [
+      "見ると",
+      "見せると",
+      "見られると",
+      "見えると"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜から見ると muestra un punto de vista. Se usa 見る en forma condicional: 見ると。",
+    "answer_sentence_ja": "医者から見ると、この計画には問題が多い。",
+    "answer_sentence_es": "Visto desde la perspectiva de un médico, este plan tiene muchos problemas."
+  },
+  {
+    "id": "orig_n3_009",
+    "grammar_point": "〜とは・〜というのは",
+    "question_ja": "彼が仕事を辞めた（　　）、本当に意外だった。",
+    "choices": [
+      "とは",
+      "ので",
+      "から",
+      "のに"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜とは introduce algo sorprendente que se acaba de saber, con un tono de asombro.",
+    "answer_sentence_ja": "彼が仕事を辞めたとは、本当に意外だった。",
+    "answer_sentence_es": "El que él haya dejado el trabajo de verdad fue una sorpresa."
+  },
+  {
+    "id": "orig_n3_010",
+    "grammar_point": "〜上に",
+    "question_ja": "この店は安い上に、味も（　　）。",
+    "choices": [
+      "いい",
+      "よくて",
+      "よければ",
+      "よかった"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜上に añade una segunda característica en la misma dirección ('además de'). El predicado final va en forma simple.",
+    "answer_sentence_ja": "この店は安い上に、味もいい。",
+    "answer_sentence_es": "Esta tienda, además de barata, también tiene buen sabor."
+  },
+  {
+    "id": "orig_n3_011",
+    "grammar_point": "〜と見える",
+    "question_ja": "彼は元気がない。何かあった（　　）見える。",
+    "choices": [
+      "と",
+      "を",
+      "が",
+      "に"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜と見える muestra una conjetura basada en lo que se observa. Se marca con と。",
+    "answer_sentence_ja": "彼は元気がない。何かあったと見える。",
+    "answer_sentence_es": "Él no tiene energía. Parece que algo pasó."
+  },
+  {
+    "id": "orig_n3_012",
+    "grammar_point": "〜づらい",
+    "question_ja": "この字は小さくて読み（　　）。",
+    "choices": [
+      "づらい",
+      "やすい",
+      "すぎる",
+      "がち"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "動詞のます形+づらい significa que algo es incómodo o difícil de hacer.",
+    "answer_sentence_ja": "この字は小さくて読みづらい。",
+    "answer_sentence_es": "Esta letra es tan pequeña que es difícil de leer."
+  }
+]

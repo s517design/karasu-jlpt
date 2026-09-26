@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Karasu — Practica JLPT en español</title>
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#14181c" />
+<meta name="description" content="Practica gratis para el JLPT N5, N4, N3 y N2 en español, con explicaciones bilingües japonés-español, y descubre los libros de gramática de BABEROU." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+
+<!-- SNSでシェアされた時のプレビュー（OGP）。ドメインを取得したら
+     og:url と og:image のURLを、実際のドメインの絶対URLに直してください。 -->
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:title" content="Karasu — Practica gramática del JLPT gratis" />
+<meta property="og:description" content="Preguntas de práctica del JLPT N5, N4, N3 y N2 en español, con explicaciones bilingües japonés-español." />
+<meta property="og:image" content="assets/og-image.jpg" />
+<meta property="og:url" content="https://nihongopractica.example.com/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Karasu — Practica gramática del JLPT gratis" />
+<meta name="twitter:description" content="Preguntas de práctica del JLPT N5, N4, N3 y N2 en español, con explicaciones bilingües japonés-español." />
+<meta name="twitter:image" content="assets/og-image.jpg" />
+
+<!-- 構造化データ（JSON-LD）。og:url と同じく、ドメインを取得したら
+     "url" の値を実際の絶対URLに直してください。 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Karasu",
+  "url": "https://nihongopractica.example.com/",
+  "description": "Practica gratis para el JLPT N5, N4, N3 y N2 en español, con explicaciones bilingües japonés-español."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué es el JLPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El JLPT (Japanese-Language Proficiency Test) es el examen oficial de nivel de japonés, organizado por la Japan Foundation y JEES. Se divide en cinco niveles, de N5 (básico) a N1 (avanzado), y en la mayoría de los países se celebra dos veces al año, en julio y diciembre."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<noscript>
+  <div style="background: var(--color-accent-soft); color: var(--color-ink); text-align: center; padding: 14px 20px;">
+    Este sitio necesita JavaScript activado para mostrar los títulos de los libros, los enlaces a Amazon y las preguntas de práctica correctamente.
+  </div>
+</noscript>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.png" alt="" class="brand-logo" width="1420" height="968" />
+      Karasu
+    </a>
+    <nav class="site-nav">
+      <a href="#niveles">Practicar</a>
+      <a href="#libros">Libros</a>
+      <a href="#baberou">Sobre Karasu</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <h1>Practica gramática del JLPT, gratis y en español</h1>
+      <p class="lead">
+        Preguntas de práctica al estilo del examen real, con explicaciones
+        bilingües japonés-español para cada respuesta. Elige tu nivel y
+        empieza ahora mismo, sin registro.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#niveles">Elegir mi nivel</a>
+        <a class="btn btn-outline" href="#libros">Ver los libros</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="assets/logo.png" alt="Karasu" class="hero-logo" width="1420" height="968" />
+    </div>
+  </div>
+</section>
+
+<section id="jlpt-info" style="padding-block: 12px 0;">
+  <div class="wrap" style="max-width: 680px;">
+    <h2 class="section-title" style="font-size: 1.3rem;">¿Qué es el JLPT?</h2>
+    <p class="section-sub" style="margin-bottom: 0;">
+      El JLPT (Japanese-Language Proficiency Test) es el examen oficial de
+      nivel de japonés, organizado por la Japan Foundation y JEES. Se
+      divide en cinco niveles, de N5 (básico) a N1 (avanzado), y en la
+      mayoría de los países se celebra dos veces al año, en julio y
+      diciembre.
+    </p>
+  </div>
+</section>
+
+<section id="niveles">
+  <div class="wrap">
+    <h2 class="section-title">¿En qué nivel estás?</h2>
+    <p class="section-sub">
+      Cada nivel tiene una mini-prueba de gramática con corrección
+      inmediata y explicación en japonés y español.
+    </p>
+    <div class="level-grid">
+      <div class="level-card">
+        <span class="level-tag">N5</span>
+        <p>Lo básico: verbos, adjetivos y frases simples.</p>
+        <a class="btn btn-primary btn-block" href="quiz.html?level=n5">Empezar</a>
+      </div>
+      <div class="level-card">
+        <span class="level-tag">N4</span>
+        <p>Conectores y formas un poco más elaboradas.</p>
+        <a class="btn btn-primary btn-block" href="quiz.html?level=n4">Empezar</a>
+      </div>
+      <div class="level-card">
+        <span class="level-tag">N3</span>
+        <p>Gramática intermedia, la más usada en la vida real.</p>
+        <a class="btn btn-primary btn-block" href="quiz.html?level=n3">Empezar</a>
+      </div>
+      <div class="level-card">
+        <span class="level-tag">N2</span>
+        <p>Gramática avanzada, la base para leer y trabajar en japonés.</p>
+        <a class="btn btn-primary btn-block" href="quiz.html?level=n2">Empezar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="libros" style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+  <div class="wrap">
+    <h2 class="section-title">Los libros de BABEROU</h2>
+    <p class="section-sub">
+      Dos colecciones con objetivos distintos: una para practicar como en
+      el examen real, y otra para aprender gramática paso a paso desde
+      cero. Elige según lo que necesites ahora.
+    </p>
+
+    <div class="book-category">
+      <span class="book-category-eyebrow"><span lang="ja">実践</span> — Jissen</span>
+      <h3 class="book-category-title">Práctica de examen JLPT</h3>
+      <p class="book-category-sub">
+        Para quien ya estudió y quiere entrenar con el formato real del
+        examen.
+      </p>
+      <div class="book-grid">
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/n5.jpg" alt="" />
+          <span class="book-level">JLPT N5</span>
+          <h3 data-book-title="n5"></h3>
+          <p>Explicaciones, simulacros y vocabulario para el nivel inicial.</p>
+          <a class="btn btn-accent" data-book="n5" href="#">Ver en Amazon</a>
+        </article>
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/n4.jpg" alt="" />
+          <span class="book-level">JLPT N4</span>
+          <h3 data-book-title="n4"></h3>
+          <p>Explicaciones, simulacros y vocabulario para el segundo nivel.</p>
+          <a class="btn btn-accent" data-book="n4" href="#">Ver en Amazon</a>
+        </article>
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/n3.jpg" alt="" />
+          <span class="book-level">JLPT N3</span>
+          <h3 data-book-title="n3"></h3>
+          <p>Explicaciones, simulacros y vocabulario para el nivel intermedio.</p>
+          <a class="btn btn-accent" data-book="n3" href="#">Ver en Amazon</a>
+        </article>
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/n2.jpg" alt="" />
+          <span class="book-level">JLPT N2</span>
+          <h3 data-book-title="n2"></h3>
+          <p>Explicaciones, simulacros y vocabulario para el nivel avanzado.</p>
+          <a class="btn btn-accent" data-book="n2" href="#">Ver en Amazon</a>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="book-category">
+      <span class="book-category-eyebrow"><span lang="ja">基礎</span> — Kiso</span>
+      <h3 class="book-category-title">Curso de Japonés Real</h3>
+      <p class="book-category-sub">
+        Para aprender gramática desde cero, con japonés real, no&nbsp;solo
+        para el examen.
+      </p>
+      <div class="book-grid">
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/curso1.jpg" alt="" />
+          <span class="book-level">N5 · N4</span>
+          <h3 data-book-title="curso1"></h3>
+          <p>Japonés tal&nbsp;como se habla de&nbsp;verdad, para los primeros niveles.</p>
+          <a class="btn btn-accent" data-book="curso1" href="#">Ver en Amazon</a>
+        </article>
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/curso2.jpg" alt="" />
+          <span class="book-level">N5 · N4</span>
+          <h3 data-book-title="curso2"></h3>
+          <p>La continuación del japonés real, con más situaciones cotidianas.</p>
+          <a class="btn btn-accent" data-book="curso2" href="#">Ver en Amazon</a>
+        </article>
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/curso3.jpg" alt="" />
+          <span class="book-level">N4 · N3</span>
+          <h3 data-book-title="curso3"></h3>
+          <p><span lang="ja">敬語, 尊敬語, 謙譲語, 丁寧語</span> — el lenguaje formal explicado con calma.</p>
+          <a class="btn btn-accent" data-book="curso3" href="#">Ver en Amazon</a>
+        </article>
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/ejercicios_n3.jpg" alt="" />
+          <span class="book-level">JLPT N3</span>
+          <h3 data-book-title="ejercicios_n3"></h3>
+          <p>Gramática y comprensión de lectura, práctica extra al estilo del examen.</p>
+          <a class="btn btn-accent" data-book="ejercicios_n3" href="#">Ver en Amazon</a>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="book-category">
+      <span class="book-category-eyebrow"><span lang="ja">教養</span> — Kyōyō</span>
+      <h3 class="book-category-title">Otros libros</h3>
+      <p class="book-category-sub">
+        Cultura, lectura y viajes para tu aprendizaje del japonés.
+      </p>
+      <div class="book-grid">
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/cuentos.jpg" alt="" />
+          <span class="book-level">N4 · N3</span>
+          <h3 data-book-title="cuentos"></h3>
+          <p>Relato original en japonés para practicar lectura con historia.</p>
+          <a class="btn btn-accent" data-book="cuentos" href="#">Ver en Amazon</a>
+        </article>
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/culinaria.jpg" alt="" />
+          <span class="book-level">Cultura</span>
+          <h3 data-book-title="culinaria"></h3>
+          <p>Sabores tradicionales que perduran más&nbsp;allá&nbsp;de las modas.</p>
+          <a class="btn btn-accent" data-book="culinaria" href="#">Ver en Amazon</a>
+        </article>
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/viaja1.jpg" alt="" />
+          <span class="book-level">Viajes</span>
+          <h3 data-book-title="viaja1"></h3>
+          <p>Todo lo que necesitas saber para divertirte en tu viaje.</p>
+          <a class="btn btn-accent" data-book="viaja1" href="#">Ver en Amazon</a>
+        </article>
+
+        <article class="book-card">
+          <img class="book-cover" loading="lazy" src="assets/covers/viaja2.jpg" alt="" />
+          <span class="book-level">Viajes</span>
+          <h3 data-book-title="viaja2"></h3>
+          <p>La segunda parte de la guía de viaje a Japón.</p>
+          <a class="btn btn-accent" data-book="viaja2" href="#">Ver en Amazon</a>
+        </article>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="baberou" style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+  <div class="wrap" style="max-width: 680px;">
+    <img src="assets/logo.png" alt="" width="1420" height="968" style="height: 56px; width: auto; margin-bottom: 18px;" />
+    <h2 class="section-title">Sobre Karasu</h2>
+    <p>
+      El nombre viene del yatagarasu (<span lang="ja">八咫烏</span>), el cuervo de tres patas de
+      la mitología japonesa que guio al primer emperador en su camino.
+      Ese cuervo no caminaba la ruta por él — solo lo acompañaba, paso a
+      paso, hasta donde necesitaba llegar. Karasu nace con la misma idea:
+      un proyecto que no memoriza el examen por ti, pero te acompaña
+      nivel a nivel, desde los primeros pasos (N5) hasta un nivel
+      avanzado (N2), con explicaciones claras y ejemplos basados en
+      situaciones reales.
+    </p>
+    <p>
+      Los libros de esta primera etapa de Karasu se publican bajo el
+      nombre BABEROU, y van desde la gramática del JLPT hasta la
+      cultura y los viajes por Japón.
+    </p>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="wrap" style="max-width: 680px;">
+    <h2 class="section-title">Sobre este sitio</h2>
+    <p>
+      Este sitio ofrece preguntas de práctica originales, escritas para
+      familiarizarte con el formato y el estilo del examen JLPT. No son
+      preguntas reales del examen, y este sitio no está afiliado ni
+      respaldado por la Fundación de Japón (Japan Foundation) ni por la
+      Sociedad Japonesa de Apoyo Educativo Internacional (JEES), organismos
+      responsables del JLPT oficial.
+    </p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="year"></span> Karasu</p>
+    <p>
+      "JLPT" es una marca de la Japan Foundation y JEES. Este sitio es
+      independiente y no está afiliado con dichas organizaciones.
+    </p>
+  </div>
+</footer>
+
+<script src="js/amazon-links.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

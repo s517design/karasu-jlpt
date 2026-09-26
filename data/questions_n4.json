@@ -1,0 +1,194 @@
+[
+  {
+    "id": "orig_n4_001",
+    "grammar_point": "〜そうだ（伝聞）",
+    "question_ja": "先生の話によると、テストは来週（　　）そうだ。",
+    "choices": [
+      "ある",
+      "あって",
+      "あり",
+      "あった"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "そうだ de oído decir se une a la forma llana del verbo: ある.",
+    "answer_sentence_ja": "先生の話によると、テストは来週あるそうだ。",
+    "answer_sentence_es": "Según lo que dijo el profesor, dicen que hay examen la próxima semana."
+  },
+  {
+    "id": "orig_n4_002",
+    "grammar_point": "〜ようにしている",
+    "question_ja": "体のために、毎朝走る（　　）にしている。",
+    "choices": [
+      "よう",
+      "こと",
+      "もの",
+      "はず"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜ようにしている expresa un esfuerzo habitual por hacer algo. こと no expresa ese matiz de esfuerzo.",
+    "answer_sentence_ja": "体のために、毎朝走るようにしている。",
+    "answer_sentence_es": "Para estar sano, procuro correr todas las mañanas."
+  },
+  {
+    "id": "orig_n4_003",
+    "grammar_point": "〜てくる",
+    "question_ja": "だんだん風が強く（　　）きた。",
+    "choices": [
+      "なって",
+      "なる",
+      "なり",
+      "なった"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜てくる tras un cambio (なる) muestra que el cambio se acerca al presente. Se usa la forma -te: なって。",
+    "answer_sentence_ja": "だんだん風が強くなってきた。",
+    "answer_sentence_es": "Poco a poco el viento se ha ido haciendo más fuerte."
+  },
+  {
+    "id": "orig_n4_004",
+    "grammar_point": "〜をもらう",
+    "question_ja": "友人から本を（　　）。",
+    "choices": [
+      "もらった",
+      "あげた",
+      "くれた",
+      "かりた"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "もらう es recibir. Como el sujeto (yo) recibe algo de 友人から, もらった es correcto.",
+    "answer_sentence_ja": "友人から本をもらった。",
+    "answer_sentence_es": "Recibí un libro de un amigo."
+  },
+  {
+    "id": "orig_n4_005",
+    "grammar_point": "なかなか",
+    "question_ja": "この問題はなかなか（　　）。",
+    "choices": [
+      "むずかしい",
+      "むずかしくて",
+      "むずかしかった",
+      "むずかしければ"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "なかなか + adjetivo en forma simple enfatiza el grado ('bastante, considerablemente').",
+    "answer_sentence_ja": "この問題はなかなかむずかしい。",
+    "answer_sentence_es": "Este problema es bastante difícil."
+  },
+  {
+    "id": "orig_n4_006",
+    "grammar_point": "〜さ",
+    "question_ja": "この山の高（　　）はとても有名だ。",
+    "choices": [
+      "さ",
+      "み",
+      "げ",
+      "っぽさ"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜さ convierte un adjetivo -i en sustantivo (高い→高さ, 'la altura').",
+    "answer_sentence_ja": "この山の高さはとても有名だ。",
+    "answer_sentence_es": "La altura de esta montaña es muy famosa."
+  },
+  {
+    "id": "orig_n4_007",
+    "grammar_point": "〜ところ",
+    "question_ja": "今、ちょうど出かける（　　）です。",
+    "choices": [
+      "ところ",
+      "とき",
+      "あいだ",
+      "うち"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "動詞の辞書形+ところ describe el momento justo antes de una acción.",
+    "answer_sentence_ja": "今、ちょうど出かけるところです。",
+    "answer_sentence_es": "Justo ahora estoy a punto de salir."
+  },
+  {
+    "id": "orig_n4_008",
+    "grammar_point": "〜のに",
+    "question_ja": "早く出た（　　）、電車に間に合わなかった。",
+    "choices": [
+      "のに",
+      "ので",
+      "から",
+      "ば"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜のに muestra un resultado contrario a lo esperado. ので/から expresarían una razón, no un contraste.",
+    "answer_sentence_ja": "早く出たのに、電車に間に合わなかった。",
+    "answer_sentence_es": "A pesar de haber salido temprano, no llegué a tiempo para el tren."
+  },
+  {
+    "id": "orig_n4_009",
+    "grammar_point": "〜たら",
+    "question_ja": "もし時間があった（　　）、教えてください。",
+    "choices": [
+      "ら",
+      "なら",
+      "ので",
+      "のに"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "もし〜たら es la forma más natural para una condición hipotética simple.",
+    "answer_sentence_ja": "もし時間があったら、教えてください。",
+    "answer_sentence_es": "Si tienes tiempo, por favor avísame."
+  },
+  {
+    "id": "orig_n4_010",
+    "grammar_point": "〜ようとおもう",
+    "question_ja": "来年、日本へ行こう（　　）思う。",
+    "choices": [
+      "と",
+      "を",
+      "に",
+      "が"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜ようと思う expresa una intención. La forma volitiva (行こう) se marca con と before 思う。",
+    "answer_sentence_ja": "来年、日本へ行こうと思う。",
+    "answer_sentence_es": "Estoy pensando en ir a Japón el año próximo."
+  },
+  {
+    "id": "orig_n4_011",
+    "grammar_point": "〜たらどうですか",
+    "question_ja": "元気じゃないなら、少し休んだら（　　）。",
+    "choices": [
+      "どうですか",
+      "どうでした",
+      "いいです",
+      "かまいません"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜たらどうですか sugiere algo a la otra persona de forma suave.",
+    "answer_sentence_ja": "元気じゃないなら、少し休んだらどうですか。",
+    "answer_sentence_es": "Si no te sientes bien, ¿qué tal si descansas un poco?"
+  },
+  {
+    "id": "orig_n4_012",
+    "grammar_point": "〜よてい",
+    "question_ja": "来月、旅行に行く（　　）です。",
+    "choices": [
+      "よてい",
+      "つもり",
+      "はず",
+      "ところ"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "よてい (予定) expresa un plan ya decidido. つもり es más una intención personal, sin ser un plan fijo.",
+    "answer_sentence_ja": "来月、旅行に行くよていです。",
+    "answer_sentence_es": "Tengo previsto ir de viaje el próximo mes."
+  }
+]

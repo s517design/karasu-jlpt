@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <!-- 藍色系のトーンをファセットごとに変えて、ローポリの質感を出す -->
+  <!-- 尾 -->
+  <polygon points="20,150 95,120 100,165" fill="#4a3f8f"/>
+  <polygon points="20,150 100,165 55,190" fill="#3a3175"/>
+  <polygon points="95,120 150,110 100,165" fill="#5a4ea3"/>
+
+  <!-- 背中〜体の上部 -->
+  <polygon points="95,120 150,110 190,75" fill="#6a5cb8"/>
+  <polygon points="150,110 240,80 190,75" fill="#5a4ea3"/>
+  <polygon points="240,80 300,95 262,70" fill="#6a5cb8"/>
+  <polygon points="190,75 240,80 220,120" fill="#4a3f8f"/>
+  <polygon points="150,110 240,80 220,120" fill="#4a4090"/>
+  <polygon points="240,80 300,95 220,120" fill="#5a4ea3"/>
+  <polygon points="150,110 220,120 190,150" fill="#3a3175"/>
+  <polygon points="100,165 150,110 190,150" fill="#4a3f8f"/>
+
+  <!-- 胸〜腹 -->
+  <polygon points="190,150 220,120 260,150" fill="#4a3f8f"/>
+  <polygon points="100,165 190,150 160,205" fill="#2f2860"/>
+  <polygon points="190,150 260,150 220,205" fill="#3a3175"/>
+  <polygon points="160,205 190,150 220,205" fill="#241d4d"/>
+
+  <!-- 首〜頭 -->
+  <polygon points="262,70 300,95 320,55" fill="#6a5cb8"/>
+  <polygon points="300,95 335,80 320,55" fill="#5a4ea3"/>
+  <polygon points="300,95 260,150 220,120" fill="#3a3175"/>
+  <polygon points="300,95 335,80 310,115" fill="#4a3f8f"/>
+  <polygon points="300,95 310,115 260,150" fill="#2f2860"/>
+
+  <!-- くちばし -->
+  <polygon points="335,80 375,88 320,55" fill="#e0451f"/>
+  <polygon points="335,80 375,88 310,115" fill="#b8380f"/>
+
+  <!-- 目 -->
+  <circle cx="313" cy="78" r="4" fill="#f2ecd9"/>
+
+  <!-- 足（八咫烏にちなんで3本、体から自然に開くように） -->
+  <polygon points="165,203 183,203 155,262 145,262" fill="#453a7a"/>
+  <polygon points="192,196 206,196 202,258 194,258" fill="#362d6e"/>
+  <polygon points="205,203 223,203 256,262 246,262" fill="#2f2860"/>
+
+  <!-- 足の甲（つま先が生えるパッド部分） -->
+  <polygon points="145,262 155,262 161,271 139,271" fill="#3a3070"/>
+  <polygon points="194,258 202,258 208,268 188,268" fill="#2c2559"/>
+  <polygon points="246,262 256,262 264,271 238,271" fill="#251f4c"/>
+
+  <!-- 足の爪（左右対称・中央と同じ太さ・他の足の爪と重ならない間隔に） -->
+  <!-- 左足 -->
+  <polygon points="132,271 142,271 132,283" fill="#453a7a"/>
+  <polygon points="145,271 155,271 150,293" fill="#453a7a"/>
+  <polygon points="158,271 168,271 168,283" fill="#453a7a"/>
+
+  <!-- 中央足 -->
+  <polygon points="181,268 191,268 183,280" fill="#362d6e"/>
+  <polygon points="194,268 202,268 198,288" fill="#362d6e"/>
+  <polygon points="205,268 215,268 213,280" fill="#362d6e"/>
+
+  <!-- 右足 -->
+  <polygon points="229,271 241,271 230,285" fill="#2f2860"/>
+  <polygon points="245,271 257,271 251,297" fill="#2f2860"/>
+  <polygon points="261,271 273,271 272,285" fill="#2f2860"/>
+</svg>

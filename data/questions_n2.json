@@ -1,0 +1,194 @@
+[
+  {
+    "id": "orig_n2_001",
+    "grammar_point": "〜あげく（に）",
+    "question_ja": "何時間も悩んだ（　　）、結局元の案に戻した。",
+    "choices": [
+      "あげく",
+      "末に",
+      "ところ",
+      "ばかりに"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜あげく muestra que, tras mucho tiempo, se llega a un resultado no muy positivo. 末に es más neutral.",
+    "answer_sentence_ja": "何時間も悩んだあげく、結局元の案に戻した。",
+    "answer_sentence_es": "Después de darle vueltas durante horas, al final volví al plan original."
+  },
+  {
+    "id": "orig_n2_002",
+    "grammar_point": "〜ずにはいられない",
+    "question_ja": "この話を聞くと、いつもわらわ（　　）。",
+    "choices": [
+      "ずにはいられない",
+      "ないこともない",
+      "ないわけではない",
+      "ずにすまない"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜ずにはいられない expresa un impulso que no se puede contener.",
+    "answer_sentence_ja": "この話を聞くと、いつもわらわずにはいられない。",
+    "answer_sentence_es": "Cada vez que escucho esta historia, no puedo evitar reírme."
+  },
+  {
+    "id": "orig_n2_003",
+    "grammar_point": "〜あっての",
+    "question_ja": "お客様（　　）この店だということを忘れてはいけない。",
+    "choices": [
+      "あっての",
+      "のもとで",
+      "のための",
+      "といった"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜あっての significa 'que existe gracias a', mostrando que A es indispensable para B.",
+    "answer_sentence_ja": "お客様あってのこの店だということを忘れてはいけない。",
+    "answer_sentence_es": "No hay que olvidar que esta tienda existe gracias a los clientes."
+  },
+  {
+    "id": "orig_n2_004",
+    "grammar_point": "〜まじき",
+    "question_ja": "それは医者として許す（　　）ことだ。",
+    "choices": [
+      "まじき",
+      "べからざる",
+      "かねない",
+      "がたい"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜まじき (辞書形+まじき) dice que algo no debería hacerse, dado un rol o posición.",
+    "answer_sentence_ja": "それは医者として許すまじきことだ。",
+    "answer_sentence_es": "Eso es algo imperdonable para un médico."
+  },
+  {
+    "id": "orig_n2_005",
+    "grammar_point": "〜ざるを得ない",
+    "question_ja": "会社の指示なので、そう（　　）。",
+    "choices": [
+      "せざるを得ない",
+      "しないでもない",
+      "せずにはおかない",
+      "しないとも限らない"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜ざるを得ない dice que, aunque no se quiera, no queda otra opción.",
+    "answer_sentence_ja": "会社の指示なので、そうせざるを得ない。",
+    "answer_sentence_es": "Como es una orden de la empresa, no tengo más remedio que hacerlo así."
+  },
+  {
+    "id": "orig_n2_006",
+    "grammar_point": "〜きらいがある",
+    "question_ja": "彼は仕事を一人で抱え込む（　　）がある。",
+    "choices": [
+      "きらい",
+      "おそれ",
+      "はず",
+      "ふし"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜きらいがある señala una tendencia negativa que alguien suele tener.",
+    "answer_sentence_ja": "彼は仕事を一人で抱え込むきらいがある。",
+    "answer_sentence_es": "Él tiene la tendencia de cargar con el trabajo solo."
+  },
+  {
+    "id": "orig_n2_007",
+    "grammar_point": "〜を皮切りに",
+    "question_ja": "この店の開店（　　）皮切りに、近くに新しい店が増えた。",
+    "choices": [
+      "を",
+      "に",
+      "と",
+      "で"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜を皮切りに marca el punto de partida de una serie de eventos.",
+    "answer_sentence_ja": "この店の開店を皮切りに、近くに新しい店が増えた。",
+    "answer_sentence_es": "A partir de la apertura de esta tienda, cerca de ahí aumentaron las tiendas nuevas."
+  },
+  {
+    "id": "orig_n2_008",
+    "grammar_point": "〜と思いきや",
+    "question_ja": "簡単に終わる（　　）思いきや、意外と時間がかかった。",
+    "choices": [
+      "かと",
+      "ものと",
+      "ことと",
+      "のかと"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜（か）と思いきや muestra que la realidad fue distinta de lo que se esperaba.",
+    "answer_sentence_ja": "簡単に終わるかと思いきや、意外と時間がかかった。",
+    "answer_sentence_es": "Pensé que terminaría fácilmente, pero sorprendentemente tomó bastante tiempo."
+  },
+  {
+    "id": "orig_n2_009",
+    "grammar_point": "〜をふまえて",
+    "question_ja": "これまでの結果（　　）ふまえて、計画を見直した。",
+    "choices": [
+      "を",
+      "に",
+      "で",
+      "が"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜をふまえて significa 'tomando como base'. Se marca con を。",
+    "answer_sentence_ja": "これまでの結果をふまえて、計画を見直した。",
+    "answer_sentence_es": "Tomando en cuenta los resultados hasta ahora, revisamos el plan."
+  },
+  {
+    "id": "orig_n2_010",
+    "grammar_point": "〜ないとも限らない",
+    "question_ja": "今は元気でも、いつか病気になら（　　）。",
+    "choices": [
+      "ないとも限らない",
+      "ないに違いない",
+      "ないではおかない",
+      "ずにはいられない"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜ないとも限らない deja abierta la posibilidad de algo, aunque sea poco probable.",
+    "answer_sentence_ja": "今は元気でも、いつか病気にならないとも限らない。",
+    "answer_sentence_es": "Aunque ahora esté sano, no se puede descartar que algún día se enferme."
+  },
+  {
+    "id": "orig_n2_011",
+    "grammar_point": "ろくに〜ない",
+    "question_ja": "彼は忙しくて、ろくに食事も（　　）。",
+    "choices": [
+      "していない",
+      "する",
+      "した",
+      "している"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "ろくに〜ない dice que algo no se hace de manera adecuada o suficiente.",
+    "answer_sentence_ja": "彼は忙しくて、ろくに食事もしていない。",
+    "answer_sentence_es": "Está tan ocupado que casi no ha comido bien."
+  },
+  {
+    "id": "orig_n2_012",
+    "grammar_point": "〜ことだし",
+    "question_ja": "もう食べた（　　）、少し歩こう。",
+    "choices": [
+      "ことだし",
+      "ものだし",
+      "はずだし",
+      "わけだし"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜ことだし da una razón suave y natural para una decisión.",
+    "answer_sentence_ja": "もう食べたことだし、少し歩こう。",
+    "answer_sentence_es": "Ya que comimos, caminemos un poco."
+  }
+]

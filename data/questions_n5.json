@@ -1,0 +1,194 @@
+[
+  {
+    "id": "orig_n5_001",
+    "grammar_point": "〜てもいいです",
+    "question_ja": "テレビを（　　）もいいですか。",
+    "choices": [
+      "見る",
+      "見て",
+      "見ます",
+      "見ない"
+    ],
+    "correct_index": 1,
+    "explanation_ja": "",
+    "explanation_es": "~てもいいです pide o da permiso. El verbo va en forma -te, así que 見て es correcto.",
+    "answer_sentence_ja": "テレビを見てもいいですか。",
+    "answer_sentence_es": "¿Puedo ver la televisión?"
+  },
+  {
+    "id": "orig_n5_002",
+    "grammar_point": "〜は〜です",
+    "question_ja": "わたしの　名前（　　）たなかです。",
+    "choices": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "El tema de la oración se marca con は. Aquí, 'mi nombre' es el tema, así que は es correcto.",
+    "answer_sentence_ja": "わたしの名前はたなかです。",
+    "answer_sentence_es": "Mi nombre es Tanaka."
+  },
+  {
+    "id": "orig_n5_003",
+    "grammar_point": "〜は〜で〜です",
+    "question_ja": "父は　いしゃ（　　）、母はきょうしです。",
+    "choices": [
+      "で",
+      "と",
+      "や",
+      "も"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "Para unir dos frases con です, se usa で antes de la coma. と, や y も no funcionan aquí.",
+    "answer_sentence_ja": "父はいしゃで、母はきょうしです。",
+    "answer_sentence_es": "Mi padre es médico y mi madre es profesora."
+  },
+  {
+    "id": "orig_n5_004",
+    "grammar_point": "〜や（並立）",
+    "question_ja": "テーブルの上に　りんご（　　）バナナがあります。",
+    "choices": [
+      "や",
+      "と",
+      "も",
+      "か"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "や une ejemplos sin ser una lista completa ('cosas como A y B'). と daría una lista cerrada.",
+    "answer_sentence_ja": "テーブルの上にりんごやバナナがあります。",
+    "answer_sentence_es": "Sobre la mesa hay manzanas, plátanos, etc."
+  },
+  {
+    "id": "orig_n5_005",
+    "grammar_point": "でも",
+    "question_ja": "つかれたから、ジュース（　　）飲みませんか。",
+    "choices": [
+      "でも",
+      "とか",
+      "には",
+      "から"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "でも aquí sugiere una opción entre varias posibles ('jugo o algo'), no es el でも de contraste.",
+    "answer_sentence_ja": "つかれたから、ジュースでも飲みませんか。",
+    "answer_sentence_es": "Como estoy cansado, ¿qué tal si tomamos un jugo o algo así?"
+  },
+  {
+    "id": "orig_n5_006",
+    "grammar_point": "〜ちゅう",
+    "question_ja": "今、テスト（　　）です。",
+    "choices": [
+      "中",
+      "間",
+      "時",
+      "前"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜中 (ちゅう) se pega directo al sustantivo para decir 'en medio de'. 間・時・方 no se usan así.",
+    "answer_sentence_ja": "今、テスト中です。",
+    "answer_sentence_es": "Ahora estamos en medio de un examen."
+  },
+  {
+    "id": "orig_n5_007",
+    "grammar_point": "少し",
+    "question_ja": "きょうは少し（　　）ですね。",
+    "choices": [
+      "さむい",
+      "さむく",
+      "さむかった",
+      "さむくない"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "少し modifica al adjetivo en su forma simple (さむい) antes de です. さむく necesitaría otra estructura.",
+    "answer_sentence_ja": "きょうは少しさむいですね。",
+    "answer_sentence_es": "Hoy hace un poco de frío, ¿verdad?"
+  },
+  {
+    "id": "orig_n5_008",
+    "grammar_point": "〜ませんか",
+    "question_ja": "しゅうまつ、いっしょにプールに（　　）。",
+    "choices": [
+      "行きませんか",
+      "行きます",
+      "行って",
+      "行かない"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜ませんか invita a alguien a hacer algo juntos. 行きませんか es la invitación correcta.",
+    "answer_sentence_ja": "しゅうまつ、いっしょにプールに行きませんか。",
+    "answer_sentence_es": "¿Vamos juntos a la piscina el fin de semana?"
+  },
+  {
+    "id": "orig_n5_009",
+    "grammar_point": "〜てから",
+    "question_ja": "ばんごはんを（　　）から、おふろに入ります。",
+    "choices": [
+      "食べて",
+      "食べる",
+      "食べます",
+      "食べた"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜てから indica el orden de dos acciones. El verbo va en forma -te: 食べて。",
+    "answer_sentence_ja": "ばんごはんを食べてから、おふろに入ります。",
+    "answer_sentence_es": "Después de cenar, me baño."
+  },
+  {
+    "id": "orig_n5_010",
+    "grammar_point": "〜なくてもいいです",
+    "question_ja": "あしたは　しごとに（　　）。",
+    "choices": [
+      "行かなくてもいいです",
+      "行ってもいいです",
+      "行きたいです",
+      "行きました"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜なくてもいいです dice que algo no es obligatorio. 行ってもいいです significaría permiso, no obligación.",
+    "answer_sentence_ja": "あしたはしごとに行かなくてもいいです。",
+    "answer_sentence_es": "Mañana no tengo que ir al trabajo."
+  },
+  {
+    "id": "orig_n5_011",
+    "grammar_point": "どうやって",
+    "question_ja": "これは（　　）読みますか。",
+    "choices": [
+      "どうやって",
+      "どうして",
+      "どのぐらい",
+      "どんな"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "どうやって pregunta por el método ('de qué manera'). どうして pregunta por la razón.",
+    "answer_sentence_ja": "これはどうやって読みますか。",
+    "answer_sentence_es": "¿Cómo se lee esto?"
+  },
+  {
+    "id": "orig_n5_012",
+    "grammar_point": "〜はどうですか",
+    "question_ja": "たんじょうびのプレゼントに、この花（　　）。",
+    "choices": [
+      "はどうですか",
+      "をください",
+      "がいいです",
+      "にします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜はどうですか propone algo y pregunta la opinión del otro.",
+    "answer_sentence_ja": "たんじょうびのプレゼントに、この花はどうですか。",
+    "answer_sentence_es": "Para el regalo de cumpleaños, ¿qué te parecen estas flores?"
+  }
+]
