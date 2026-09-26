@@ -158,7 +158,7 @@ class Quiz {
     const nextLevelBtn = document.getElementById("next-level-btn");
     const nextLevel = NEXT_LEVEL[this.level];
     if (nextLevel) {
-      nextLevelBtn.href = `quiz.html?level=${nextLevel}`;
+      nextLevelBtn.href = `/quiz?level=${nextLevel}`;
       nextLevelBtn.textContent = `Probar el nivel ${LEVEL_LABELS[nextLevel]} →`;
       nextLevelBox.hidden = false;
     } else {
