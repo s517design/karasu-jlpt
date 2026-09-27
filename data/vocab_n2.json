@@ -190,5 +190,293 @@
     "explanation_es": "「消極的な」は「pasivo」という意味。",
     "answer_sentence_ja": "かれはいつも消極的です。",
     "answer_sentence_es": "Él siempre es pasivo."
+  },
+  {
+    "id": "vocab_n2_013",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "あたらしいせいどを【実施します】。",
+    "choices": [
+      "じっしします",
+      "じつしします",
+      "じっそします",
+      "じっちします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「実施する」は「じっしする」と読む(implementar)。",
+    "answer_sentence_ja": "あたらしいせいどを実施します。",
+    "answer_sentence_es": "Implementamos el nuevo sistema."
+  },
+  {
+    "id": "vocab_n2_014",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "けいかくを【検討します】。",
+    "choices": [
+      "けんとうします",
+      "けんどうします",
+      "けんきゅうします",
+      "けんさします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「検討する」は「けんとうする」と読む(examinar/considerar)。「研究する(けんきゅうする)」と間違えないように。",
+    "answer_sentence_ja": "けいかくを検討します。",
+    "answer_sentence_es": "Examinamos el plan."
+  },
+  {
+    "id": "vocab_n2_015",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "あたらしいアイデアを【提案します】。",
+    "choices": [
+      "ていあんします",
+      "ていげんします",
+      "ていじします",
+      "ていしゅつします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「提案する」は「ていあんする」と読む(proponer)。「提出する(ていしゅつする)」と間違えないように。",
+    "answer_sentence_ja": "あたらしいアイデアを提案します。",
+    "answer_sentence_es": "Propongo una nueva idea."
+  },
+  {
+    "id": "vocab_n2_016",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "もんだいを【解決します】。",
+    "choices": [
+      "かいけつします",
+      "かいせつします",
+      "かいとうします",
+      "かいしゃくします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「解決する」は「かいけつする」と読む(resolver)。「解説(かいせつ)」「回答(かいとう)」と間違えないように。",
+    "answer_sentence_ja": "もんだいを解決します。",
+    "answer_sentence_es": "Resuelvo el problema."
+  },
+  {
+    "id": "vocab_n2_017",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "しょうらいを【予測します】。",
+    "choices": [
+      "よそくします",
+      "よちします",
+      "よそうします",
+      "よげんします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「予測する」は「よそくする」と読む(predecir)。「予想する(よそうする)」と間違えないように。",
+    "answer_sentence_ja": "しょうらいを予測します。",
+    "answer_sentence_es": "Predigo el futuro."
+  },
+  {
+    "id": "vocab_n2_018",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "けんこうを【維持します】。",
+    "choices": [
+      "いじします",
+      "いじしします",
+      "ゆじします",
+      "いちじします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「維持する」は「いじする」と読む(mantener)。",
+    "answer_sentence_ja": "けんこうを維持します。",
+    "answer_sentence_es": "Mantengo la salud."
+  },
+  {
+    "id": "vocab_n2_019",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "スマホが【普及しました】。",
+    "choices": [
+      "ふきゅうしました",
+      "ふうきゅうしました",
+      "ふんきゅうしました",
+      "ほきゅうしました"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「普及する」は「ふきゅうする」と読む(difundirse/popularizarse)。",
+    "answer_sentence_ja": "スマホが普及しました。",
+    "answer_sentence_es": "El smartphone se popularizó."
+  },
+  {
+    "id": "vocab_n2_020",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "じぶんのいけんを【主張します】。",
+    "choices": [
+      "しゅちょうします",
+      "しゅうちょうします",
+      "しゅじょうします",
+      "しゅっちょうします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「主張する」は「しゅちょうする」と読む(sostener una opinión)。",
+    "answer_sentence_ja": "じぶんのいけんを主張します。",
+    "answer_sentence_es": "Sostengo mi propia opinión."
+  },
+  {
+    "id": "vocab_n2_021",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "おたがいに【妥協します】。",
+    "choices": [
+      "だきょうします",
+      "たきょうします",
+      "だきゅうします",
+      "だごうします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「妥協する」は「だきょうする」と読む(transigir/ceder)。",
+    "answer_sentence_ja": "おたがいに妥協します。",
+    "answer_sentence_es": "Nos hacemos concesiones mutuamente."
+  },
+  {
+    "id": "vocab_n2_022",
+    "grammar_point": "ことばの意味",
+    "question_ja": "じょうきょうが【徐々に】かいぜんしている。",
+    "choices": [
+      "gradualmente",
+      "repentinamente",
+      "completamente",
+      "nunca"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「徐々に」は「gradualmente」という意味。",
+    "answer_sentence_ja": "じょうきょうが徐々にかいぜんしている。",
+    "answer_sentence_es": "La situación está mejorando gradualmente."
+  },
+  {
+    "id": "vocab_n2_023",
+    "grammar_point": "ことばの意味",
+    "question_ja": "べんりだ。【一方で】、あぶない。",
+    "choices": [
+      "por otro lado",
+      "además",
+      "por ejemplo",
+      "en resumen"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「一方で」は「por otro lado」という意味。",
+    "answer_sentence_ja": "べんりだ。一方で、あぶない。",
+    "answer_sentence_es": "Es conveniente. Por otro lado, es peligroso."
+  },
+  {
+    "id": "vocab_n2_024",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かかくが【大幅に】あがった。",
+    "choices": [
+      "significativamente",
+      "ligeramente",
+      "raramente",
+      "brevemente"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「大幅に」は「significativamente / ampliamente」という意味。",
+    "answer_sentence_ja": "かかくが大幅にあがった。",
+    "answer_sentence_es": "El precio subió significativamente."
+  },
+  {
+    "id": "vocab_n2_025",
+    "grammar_point": "ことばの意味",
+    "question_ja": "げんいんは【明らか】だ。",
+    "choices": [
+      "evidente",
+      "confuso",
+      "secreto",
+      "falso"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「明らかな」は「evidente」という意味。",
+    "answer_sentence_ja": "げんいんは明らかだ。",
+    "answer_sentence_es": "La causa es evidente."
+  },
+  {
+    "id": "vocab_n2_026",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かれのこたえは【あいまい】だった。",
+    "choices": [
+      "ambiguo",
+      "claro",
+      "directo",
+      "honesto"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「あいまいな」は「ambiguo」という意味。",
+    "answer_sentence_ja": "かれのこたえはあいまいだった。",
+    "answer_sentence_es": "Su respuesta fue ambigua."
+  },
+  {
+    "id": "vocab_n2_027",
+    "grammar_point": "ことばの意味",
+    "question_ja": "これは【貴重な】けいけんでした。",
+    "choices": [
+      "valioso",
+      "inútil",
+      "común",
+      "barato"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「貴重な」は「valioso」という意味。",
+    "answer_sentence_ja": "これは貴重なけいけんでした。",
+    "answer_sentence_es": "Esta fue una experiencia valiosa."
+  },
+  {
+    "id": "vocab_n2_028",
+    "grammar_point": "ことばの意味",
+    "question_ja": "これは【深刻な】もんだいだ。",
+    "choices": [
+      "grave",
+      "leve",
+      "divertido",
+      "extraño"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「深刻な」は「grave / serio」という意味。",
+    "answer_sentence_ja": "これは深刻なもんだいだ。",
+    "answer_sentence_es": "Este es un problema grave."
+  },
+  {
+    "id": "vocab_n2_029",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かれのたいどは【一貫して】いる。",
+    "choices": [
+      "consistente",
+      "inconsistente",
+      "extraño",
+      "temporal"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「一貫した」は「consistente」という意味。",
+    "answer_sentence_ja": "かれのたいどは一貫している。",
+    "answer_sentence_es": "Su actitud es consistente."
+  },
+  {
+    "id": "vocab_n2_030",
+    "grammar_point": "ことばの意味",
+    "question_ja": "【潜在的な】きけんがある。",
+    "choices": [
+      "potencial",
+      "evidente",
+      "pasado",
+      "resuelto"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「潜在的な」は「potencial」という意味。",
+    "answer_sentence_ja": "潜在的なきけんがある。",
+    "answer_sentence_es": "Hay un peligro potencial."
   }
 ]

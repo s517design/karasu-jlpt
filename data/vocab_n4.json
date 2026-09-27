@@ -190,5 +190,293 @@
     "explanation_es": "「なるべく」は「en la medida de lo posible」という意味。",
     "answer_sentence_ja": "なるべくはやくきてください。",
     "answer_sentence_es": "Por favor, venga lo antes posible."
+  },
+  {
+    "id": "vocab_n4_013",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "おとが【聞こえます】。",
+    "choices": [
+      "きこえます",
+      "きけます",
+      "きえます",
+      "きかせます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「聞こえる」は「きこえる」と読む(poder oírse)。",
+    "answer_sentence_ja": "おとが聞こえます。",
+    "answer_sentence_es": "Se puede oír un sonido."
+  },
+  {
+    "id": "vocab_n4_014",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "山が【見えます】。",
+    "choices": [
+      "みえます",
+      "みます",
+      "みられます",
+      "みせます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「見える」は「みえる」と読む(poder verse)。",
+    "answer_sentence_ja": "山が見えます。",
+    "answer_sentence_es": "Se puede ver la montaña."
+  },
+  {
+    "id": "vocab_n4_015",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "しつもんに【答えます】。",
+    "choices": [
+      "こたえます",
+      "といます",
+      "こたいます",
+      "とうえます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「答える」は「こたえる」と読む(responder)。",
+    "answer_sentence_ja": "しつもんに答えます。",
+    "answer_sentence_es": "Respondo a la pregunta."
+  },
+  {
+    "id": "vocab_n4_016",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "みちで【転びました】。",
+    "choices": [
+      "ころびました",
+      "てんびました",
+      "まろびました",
+      "ころこびました"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「転ぶ」は「ころぶ」と読む(caerse)。",
+    "answer_sentence_ja": "みちで転びました。",
+    "answer_sentence_es": "Me caí en el camino."
+  },
+  {
+    "id": "vocab_n4_017",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "これと【同じ】ものをください。",
+    "choices": [
+      "おなじ",
+      "どうじ",
+      "どうしゃ",
+      "おなし"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「同じ」は「おなじ」と読む(igual)。",
+    "answer_sentence_ja": "これと同じものをください。",
+    "answer_sentence_es": "Deme uno igual a este."
+  },
+  {
+    "id": "vocab_n4_018",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "たいせつな【事】をわすれないで。",
+    "choices": [
+      "こと",
+      "じ",
+      "ごと",
+      "ことう"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「事」は「こと」と読む(cosa, asunto)。",
+    "answer_sentence_ja": "たいせつな事をわすれないで。",
+    "answer_sentence_es": "No olvides algo importante."
+  },
+  {
+    "id": "vocab_n4_019",
+    "grammar_point": "ことばの意味",
+    "question_ja": "ともだちにプレゼントを【あげます】。",
+    "choices": [
+      "dar (a alguien)",
+      "recibir",
+      "pedir",
+      "devolver"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「あげる」は「dar (a alguien)」という意味。",
+    "answer_sentence_ja": "ともだちにプレゼントをあげます。",
+    "answer_sentence_es": "Le doy un regalo a mi amigo."
+  },
+  {
+    "id": "vocab_n4_020",
+    "grammar_point": "ことばの意味",
+    "question_ja": "たんじょうびにプレゼントを【もらいました】。",
+    "choices": [
+      "recibir",
+      "dar",
+      "comprar",
+      "vender"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「もらう」は「recibir」という意味。",
+    "answer_sentence_ja": "たんじょうびにプレゼントをもらいました。",
+    "answer_sentence_es": "Recibí un regalo en mi cumpleaños."
+  },
+  {
+    "id": "vocab_n4_021",
+    "grammar_point": "ことばの意味",
+    "question_ja": "ともだちがほんを【くれました】。",
+    "choices": [
+      "dar (a mí)",
+      "recibir",
+      "prestar",
+      "pedir prestado"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「くれる」は「dar (a mí)」という意味。",
+    "answer_sentence_ja": "ともだちがほんをくれました。",
+    "answer_sentence_es": "Mi amigo me dio un libro."
+  },
+  {
+    "id": "vocab_n4_022",
+    "grammar_point": "ことばの意味",
+    "question_ja": "あした会う【やくそくをしました】。",
+    "choices": [
+      "prometer",
+      "olvidar",
+      "cancelar",
+      "recordar"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「やくそくする」は「prometer」という意味。",
+    "answer_sentence_ja": "あした会うやくそくをしました。",
+    "answer_sentence_es": "Prometí que nos veríamos mañana."
+  },
+  {
+    "id": "vocab_n4_023",
+    "grammar_point": "ことばの意味",
+    "question_ja": "らいねん【けっこんします】。",
+    "choices": [
+      "casarse",
+      "divorciarse",
+      "mudarse",
+      "viajar"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「けっこんする」は「casarse」という意味。",
+    "answer_sentence_ja": "らいねんけっこんします。",
+    "answer_sentence_es": "El próximo año me caso."
+  },
+  {
+    "id": "vocab_n4_024",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かぎを【さがしています】。",
+    "choices": [
+      "buscar",
+      "encontrar",
+      "perder",
+      "romper"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「さがす」は「buscar」という意味。",
+    "answer_sentence_ja": "かぎをさがしています。",
+    "answer_sentence_es": "Estoy buscando la llave."
+  },
+  {
+    "id": "vocab_n4_025",
+    "grammar_point": "ことばの意味",
+    "question_ja": "コップを【こわしました】。",
+    "choices": [
+      "romper (algo)",
+      "arreglar",
+      "lavar",
+      "comprar"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「こわす」は「romper (algo)」という意味。",
+    "answer_sentence_ja": "コップをこわしました。",
+    "answer_sentence_es": "Rompí un vaso."
+  },
+  {
+    "id": "vocab_n4_026",
+    "grammar_point": "ことばの意味",
+    "question_ja": "そのニュースに【おどろきました】。",
+    "choices": [
+      "sorprenderse",
+      "alegrarse",
+      "enojarse",
+      "aburrirse"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「おどろく」は「sorprenderse」という意味。",
+    "answer_sentence_ja": "そのニュースにおどろきました。",
+    "answer_sentence_es": "Me sorprendí con esa noticia."
+  },
+  {
+    "id": "vocab_n4_027",
+    "grammar_point": "ことばの意味",
+    "question_ja": "このケーキは【あまい】です。",
+    "choices": [
+      "dulce",
+      "amargo",
+      "agrio",
+      "picante"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「あまい」は「dulce」という意味。",
+    "answer_sentence_ja": "このケーキはあまいです。",
+    "answer_sentence_es": "Este pastel es dulce."
+  },
+  {
+    "id": "vocab_n4_028",
+    "grammar_point": "ことばの意味",
+    "question_ja": "あのせんせいは【きびしい】です。",
+    "choices": [
+      "estricto",
+      "amable",
+      "divertido",
+      "tranquilo"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「きびしい」は「estricto」という意味。",
+    "answer_sentence_ja": "あのせんせいはきびしいです。",
+    "answer_sentence_es": "Ese profesor es estricto."
+  },
+  {
+    "id": "vocab_n4_029",
+    "grammar_point": "ことばの意味",
+    "question_ja": "このえいがは【たいくつ】です。",
+    "choices": [
+      "aburrido",
+      "interesante",
+      "divertido",
+      "corto"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「たいくつな」は「aburrido」という意味。",
+    "answer_sentence_ja": "このえいがはたいくつです。",
+    "answer_sentence_es": "Esta película es aburrida."
+  },
+  {
+    "id": "vocab_n4_030",
+    "grammar_point": "ことばの意味",
+    "question_ja": "けんこうは【じゅうよう】です。",
+    "choices": [
+      "importante",
+      "inútil",
+      "fácil",
+      "difícil"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「じゅうような」は「importante」という意味。",
+    "answer_sentence_ja": "けんこうはじゅうようです。",
+    "answer_sentence_es": "La salud es importante."
   }
 ]

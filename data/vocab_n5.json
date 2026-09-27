@@ -190,5 +190,293 @@
     "explanation_es": "「べんりな」は「conveniente」という意味。",
     "answer_sentence_ja": "このみせはべんりです。",
     "answer_sentence_es": "Esta tienda es conveniente."
+  },
+  {
+    "id": "vocab_n5_013",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "あさごはんを【食べます】。",
+    "choices": [
+      "たべます",
+      "たてます",
+      "たへます",
+      "たいべます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「食べる」は「たべる」と読む。",
+    "answer_sentence_ja": "あさごはんを食べます。",
+    "answer_sentence_es": "Como el desayuno."
+  },
+  {
+    "id": "vocab_n5_014",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "ともだちに【会います】。",
+    "choices": [
+      "あいます",
+      "かいます",
+      "あります",
+      "あわます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「会う」は「あう」と読む。「買う(かう)」と間違えないように。",
+    "answer_sentence_ja": "ともだちに会います。",
+    "answer_sentence_es": "Me encuentro con mi amigo."
+  },
+  {
+    "id": "vocab_n5_015",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "なまえを【言って】ください。",
+    "choices": [
+      "いって",
+      "ゆって",
+      "こって",
+      "げんって"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「言う」は「いう」と読む。",
+    "answer_sentence_ja": "なまえを言ってください。",
+    "answer_sentence_es": "Por favor diga su nombre."
+  },
+  {
+    "id": "vocab_n5_016",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "がっこうに【行きます】。",
+    "choices": [
+      "いきます",
+      "おこないます",
+      "こうきます",
+      "ぎょうきます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「行く」は「いく」と読む。同じ漢字でも「行う(おこなう)」は別の意味。",
+    "answer_sentence_ja": "がっこうに行きます。",
+    "answer_sentence_es": "Voy a la escuela."
+  },
+  {
+    "id": "vocab_n5_017",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "ほんを【買います】。",
+    "choices": [
+      "かいます",
+      "うります",
+      "かります",
+      "かえます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「買う」は「かう」と読む(comprar)。",
+    "answer_sentence_ja": "ほんを買います。",
+    "answer_sentence_es": "Compro un libro."
+  },
+  {
+    "id": "vocab_n5_018",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "てがみを【書きます】。",
+    "choices": [
+      "かきます",
+      "よみます",
+      "かえます",
+      "かします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「書く」は「かく」と読む(escribir)。",
+    "answer_sentence_ja": "てがみを書きます。",
+    "answer_sentence_es": "Escribo una carta."
+  },
+  {
+    "id": "vocab_n5_019",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "おんがくを【聞きます】。",
+    "choices": [
+      "ききます",
+      "きこえます",
+      "きえます",
+      "きかます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「聞く」は「きく」と読む(escuchar)。",
+    "answer_sentence_ja": "おんがくを聞きます。",
+    "answer_sentence_es": "Escucho música."
+  },
+  {
+    "id": "vocab_n5_020",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "いえを【出ます】。",
+    "choices": [
+      "でます",
+      "だします",
+      "ではます",
+      "しゅつます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「出る」は「でる」と読む(salir)。",
+    "answer_sentence_ja": "いえを出ます。",
+    "answer_sentence_es": "Salgo de casa."
+  },
+  {
+    "id": "vocab_n5_021",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "きょう、会社を【休みます】。",
+    "choices": [
+      "やすみます",
+      "やすいます",
+      "きゅうみます",
+      "はやみます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「休む」は「やすむ」と読む(descansar/faltar)。",
+    "answer_sentence_ja": "きょう、会社を休みます。",
+    "answer_sentence_es": "Hoy falto al trabajo."
+  },
+  {
+    "id": "vocab_n5_022",
+    "grammar_point": "ことばの意味",
+    "question_ja": "このへやは【あかるい】です。",
+    "choices": [
+      "luminoso",
+      "oscuro",
+      "pequeño",
+      "grande"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「あかるい」は「luminoso / alegre」という意味。",
+    "answer_sentence_ja": "このへやはあかるいです。",
+    "answer_sentence_es": "Esta habitación es luminosa."
+  },
+  {
+    "id": "vocab_n5_023",
+    "grammar_point": "ことばの意味",
+    "question_ja": "このりょうりは【おいしい】です。",
+    "choices": [
+      "sabroso",
+      "feo",
+      "caro",
+      "barato"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「おいしい」は「sabroso / rico」という意味。",
+    "answer_sentence_ja": "このりょうりはおいしいです。",
+    "answer_sentence_es": "Esta comida es sabrosa."
+  },
+  {
+    "id": "vocab_n5_024",
+    "grammar_point": "ことばの意味",
+    "question_ja": "てが【きたない】です。",
+    "choices": [
+      "sucio",
+      "limpio",
+      "mojado",
+      "seco"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「きたない」は「sucio」という意味。",
+    "answer_sentence_ja": "てがきたないです。",
+    "answer_sentence_es": "Tengo las manos sucias."
+  },
+  {
+    "id": "vocab_n5_025",
+    "grammar_point": "ことばの意味",
+    "question_ja": "きょうは【たのしかった】です。",
+    "choices": [
+      "divertido",
+      "aburrido",
+      "triste",
+      "difícil"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「たのしい」は「divertido」という意味。",
+    "answer_sentence_ja": "きょうはたのしかったです。",
+    "answer_sentence_es": "Hoy fue divertido."
+  },
+  {
+    "id": "vocab_n5_026",
+    "grammar_point": "ことばの意味",
+    "question_ja": "えきは【ちかい】です。",
+    "choices": [
+      "cerca",
+      "lejos",
+      "grande",
+      "pequeño"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「ちかい」は「cerca」という意味。",
+    "answer_sentence_ja": "えきはちかいです。",
+    "answer_sentence_es": "La estación está cerca."
+  },
+  {
+    "id": "vocab_n5_027",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かのじょは【わかい】です。",
+    "choices": [
+      "joven",
+      "viejo",
+      "alto",
+      "bajo"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「わかい」は「joven」という意味。",
+    "answer_sentence_ja": "かのじょはわかいです。",
+    "answer_sentence_es": "Ella es joven."
+  },
+  {
+    "id": "vocab_n5_028",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かれはうたが【じょうず】です。",
+    "choices": [
+      "hábil",
+      "malo",
+      "famoso",
+      "extraño"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「じょうずな」は「hábil」という意味。",
+    "answer_sentence_ja": "かれはうたがじょうずです。",
+    "answer_sentence_es": "Él es hábil cantando."
+  },
+  {
+    "id": "vocab_n5_029",
+    "grammar_point": "ことばの意味",
+    "question_ja": "このまちは【にぎやか】です。",
+    "choices": [
+      "animado",
+      "tranquilo",
+      "peligroso",
+      "sucio"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「にぎやかな」は「animado」という意味。",
+    "answer_sentence_ja": "このまちはにぎやかです。",
+    "answer_sentence_es": "Esta ciudad es animada."
+  },
+  {
+    "id": "vocab_n5_030",
+    "grammar_point": "ことばの意味",
+    "question_ja": "パスポートが【ひつよう】です。",
+    "choices": [
+      "necesario",
+      "innecesario",
+      "caro",
+      "barato"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「ひつような」は「necesario」という意味。",
+    "answer_sentence_ja": "パスポートがひつようです。",
+    "answer_sentence_es": "El pasaporte es necesario."
   }
 ]

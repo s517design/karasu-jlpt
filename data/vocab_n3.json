@@ -190,5 +190,293 @@
     "explanation_es": "「どうしても」は「definitivamente, no importa qué」という意味。",
     "answer_sentence_ja": "どうしてもいきたいです。",
     "answer_sentence_es": "Quiero ir sin falta, cueste lo que cueste."
+  },
+  {
+    "id": "vocab_n3_013",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "きゃくを【訪問します】。",
+    "choices": [
+      "ほうもんします",
+      "ほうぶんします",
+      "とうもんします",
+      "ほうかんします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「訪問する」は「ほうもんする」と読む(visitar)。",
+    "answer_sentence_ja": "きゃくを訪問します。",
+    "answer_sentence_es": "Visito al cliente."
+  },
+  {
+    "id": "vocab_n3_014",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "ごうかくのために【努力します】。",
+    "choices": [
+      "どりょくします",
+      "どりきします",
+      "のうりょくします",
+      "どうりょくします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「努力する」は「どりょくする」と読む(esforzarse)。「能力(のうりょく)」と間違えないように。",
+    "answer_sentence_ja": "ごうかくのために努力します。",
+    "answer_sentence_es": "Me esfuerzo para aprobar."
+  },
+  {
+    "id": "vocab_n3_015",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "じっけんに【失敗しました】。",
+    "choices": [
+      "しっぱいしました",
+      "しつばいしました",
+      "しっぱんしました",
+      "せいこうしました"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「失敗する」は「しっぱいする」と読む(fracasar)。「成功する(せいこうする)」は反対の意味。",
+    "answer_sentence_ja": "じっけんに失敗しました。",
+    "answer_sentence_es": "Fracasé en el experimento."
+  },
+  {
+    "id": "vocab_n3_016",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "らいねんのけいかくを【決定しました】。",
+    "choices": [
+      "けっていしました",
+      "けつじょうしました",
+      "けってしました",
+      "かくていしました"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「決定する」は「けっていする」と読む(decidir)。「確定する(かくていする)」と間違えないように。",
+    "answer_sentence_ja": "らいねんのけいかくを決定しました。",
+    "answer_sentence_es": "Decidimos el plan para el próximo año."
+  },
+  {
+    "id": "vocab_n3_017",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "きせつが【変化します】。",
+    "choices": [
+      "へんかします",
+      "へんげします",
+      "へんこうします",
+      "かわかします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「変化する」は「へんかする」と読む(cambiar)。「変更する(へんこうする)」と間違えないように。",
+    "answer_sentence_ja": "きせつが変化します。",
+    "answer_sentence_es": "Las estaciones cambian."
+  },
+  {
+    "id": "vocab_n3_018",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "きもちを【表現します】。",
+    "choices": [
+      "ひょうげんします",
+      "ひょうけんします",
+      "ひょうげいします",
+      "びょうげんします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「表現する」は「ひょうげんする」と読む(expresar)。",
+    "answer_sentence_ja": "きもちを表現します。",
+    "answer_sentence_es": "Expreso mis sentimientos."
+  },
+  {
+    "id": "vocab_n3_019",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "しごとで【疲れました】。",
+    "choices": [
+      "つかれました",
+      "ひかれました",
+      "つかいました",
+      "ひろれました"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「疲れる」は「つかれる」と読む(cansarse)。",
+    "answer_sentence_ja": "しごとで疲れました。",
+    "answer_sentence_es": "Me cansé por el trabajo."
+  },
+  {
+    "id": "vocab_n3_020",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "せいかくが【変わりました】。",
+    "choices": [
+      "かわりました",
+      "へんわりました",
+      "かえりました",
+      "かわきました"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「変わる」は「かわる」と読む(cambiar)。「帰る(かえる)」と間違えないように。",
+    "answer_sentence_ja": "せいかくが変わりました。",
+    "answer_sentence_es": "Su personalidad cambió."
+  },
+  {
+    "id": "vocab_n3_021",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "ねだんを【比べます】。",
+    "choices": [
+      "くらべます",
+      "ひかくべます",
+      "くらます",
+      "ひべます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「比べる」は「くらべる」と読む(comparar)。",
+    "answer_sentence_ja": "ねだんを比べます。",
+    "answer_sentence_es": "Comparo los precios."
+  },
+  {
+    "id": "vocab_n3_022",
+    "grammar_point": "ことばの意味",
+    "question_ja": "いたくても【がまんしました】。",
+    "choices": [
+      "aguantar",
+      "quejarse",
+      "llorar",
+      "gritar"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「がまんする」は「aguantar / soportar」という意味。",
+    "answer_sentence_ja": "いたくてもがまんしました。",
+    "answer_sentence_es": "Aunque me dolía, lo aguanté."
+  },
+  {
+    "id": "vocab_n3_023",
+    "grammar_point": "ことばの意味",
+    "question_ja": "ゆめを【あきらめません】。",
+    "choices": [
+      "rendirse",
+      "continuar",
+      "empezar",
+      "lograr"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「あきらめる」は「rendirse / abandonar」という意味。",
+    "answer_sentence_ja": "ゆめをあきらめません。",
+    "answer_sentence_es": "No me rindo con mi sueño."
+  },
+  {
+    "id": "vocab_n3_024",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かぞくに【たよって】います。",
+    "choices": [
+      "depender de",
+      "independizarse de",
+      "ayudar a",
+      "alejarse de"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「たよる」は「depender de / confiar en」という意味。",
+    "answer_sentence_ja": "かぞくにたよっています。",
+    "answer_sentence_es": "Dependo de mi familia."
+  },
+  {
+    "id": "vocab_n3_025",
+    "grammar_point": "ことばの意味",
+    "question_ja": "うわさが【広がりました】。",
+    "choices": [
+      "expandirse",
+      "desaparecer",
+      "reducirse",
+      "detenerse"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「広がる」は「expandirse」という意味。",
+    "answer_sentence_ja": "うわさが広がりました。",
+    "answer_sentence_es": "El rumor se expandió."
+  },
+  {
+    "id": "vocab_n3_026",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かれはれきしに【くわしい】です。",
+    "choices": [
+      "conocedor de algo",
+      "ignorante de algo",
+      "aburrido de algo",
+      "cansado de algo"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「くわしい」は「detallado / entendido en algo」という意味。",
+    "answer_sentence_ja": "かれはれきしにくわしいです。",
+    "answer_sentence_es": "Él es conocedor de historia."
+  },
+  {
+    "id": "vocab_n3_027",
+    "grammar_point": "ことばの意味",
+    "question_ja": "ひとりで【さびしい】です。",
+    "choices": [
+      "solitario",
+      "feliz",
+      "ocupado",
+      "tranquilo"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「さびしい」は「solitario / triste」という意味。",
+    "answer_sentence_ja": "ひとりでさびしいです。",
+    "answer_sentence_es": "Estoy solitario, estando solo."
+  },
+  {
+    "id": "vocab_n3_028",
+    "grammar_point": "ことばの意味",
+    "question_ja": "けんこうは【だいじ】です。",
+    "choices": [
+      "importante",
+      "inútil",
+      "caro",
+      "barato"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「だいじな」は「importante / valioso」という意味。",
+    "answer_sentence_ja": "けんこうはだいじです。",
+    "answer_sentence_es": "La salud es importante."
+  },
+  {
+    "id": "vocab_n3_029",
+    "grammar_point": "ことばの意味",
+    "question_ja": "このもんだいは【なかなか】むずかしい。",
+    "choices": [
+      "bastante",
+      "para nada",
+      "a veces",
+      "de repente"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「なかなか」は「bastante」という意味(肯定文の場合)。",
+    "answer_sentence_ja": "このもんだいはなかなかむずかしい。",
+    "answer_sentence_es": "Este problema es bastante difícil."
+  },
+  {
+    "id": "vocab_n3_030",
+    "grammar_point": "ことばの意味",
+    "question_ja": "【ようやく】しごとがおわりました。",
+    "choices": [
+      "finalmente",
+      "todavía",
+      "de repente",
+      "a veces"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「ようやく」は「finalmente / por fin」という意味。",
+    "answer_sentence_ja": "ようやくしごとがおわりました。",
+    "answer_sentence_es": "Finalmente terminé el trabajo."
   }
 ]
