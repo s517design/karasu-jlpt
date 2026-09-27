@@ -263,6 +263,12 @@ img {
   font-size: 0.92rem;
   margin-bottom: 1.2em;
 }
+.level-card .level-best {
+  color: var(--color-accent);
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 1em;
+}
 
 /* ----- セクション ----- */
 section {
@@ -510,7 +516,10 @@ section {
   padding-top: 26px;
   border-top: 1px solid var(--color-border);
 }
-.result-card .cta + .cta {
+/* hidden属性の要素を挟んでも正しく「2番目以降に表示されているcta」を
+   判定できるよう、+ (直前の要素) ではなく ~ (それより前にある要素) を使う。
+   diagnóstico・repasoモードのように一部のctaがhiddenになるケースがあるため。 */
+.result-card .cta:not([hidden]) ~ .cta:not([hidden]) {
   margin-top: 16px;
   padding-top: 16px;
   border-top: none;

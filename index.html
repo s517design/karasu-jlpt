@@ -118,26 +118,32 @@
     <p class="section-sub">
       Cada nivel tiene una mini-prueba de gramática con corrección
       inmediata y explicación en japonés y español.
+      ¿No estás seguro de cuál elegir?
+      <a href="/quiz?placement=1">Haz este diagnóstico rápido de 8 preguntas →</a>
     </p>
     <div class="level-grid">
       <div class="level-card">
         <span class="level-tag">N5</span>
         <p>Lo básico: verbos, adjetivos y frases simples.</p>
+        <p class="level-best" data-level-best="n5" hidden></p>
         <a class="btn btn-primary btn-block" href="/quiz?level=n5">Empezar</a>
       </div>
       <div class="level-card">
         <span class="level-tag">N4</span>
         <p>Conectores y formas un poco más elaboradas.</p>
+        <p class="level-best" data-level-best="n4" hidden></p>
         <a class="btn btn-primary btn-block" href="/quiz?level=n4">Empezar</a>
       </div>
       <div class="level-card">
         <span class="level-tag">N3</span>
         <p>Gramática intermedia, la más usada en la vida real.</p>
+        <p class="level-best" data-level-best="n3" hidden></p>
         <a class="btn btn-primary btn-block" href="/quiz?level=n3">Empezar</a>
       </div>
       <div class="level-card">
         <span class="level-tag">N2</span>
         <p>Gramática avanzada, la base para leer y trabajar en japonés.</p>
+        <p class="level-best" data-level-best="n2" hidden></p>
         <a class="btn btn-primary btn-block" href="/quiz?level=n2">Empezar</a>
       </div>
     </div>
@@ -334,6 +340,7 @@
 </footer>
 
 <script src="js/amazon-links.js"></script>
+<script src="js/progress.js"></script>
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
 </script>

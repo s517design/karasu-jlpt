@@ -93,12 +93,24 @@
 
 <main class="quiz-shell" id="result-shell" hidden>
   <div class="question-card result-card">
-    <h2>¡Terminaste el nivel <span data-level-label></span>!</h2>
+    <h2 id="result-title">¡Terminaste el nivel <span data-level-label></span>!</h2>
     <div class="result-score" id="result-score">0 / 12</div>
     <p class="result-rank" id="result-rank"></p>
     <p id="result-message"></p>
 
-    <div class="cta">
+    <div class="cta" id="review-box" hidden>
+      <p id="review-message"></p>
+      <button type="button" class="btn btn-outline" id="review-btn">
+        Repasar mis errores
+      </button>
+    </div>
+
+    <div class="cta" id="placement-result" hidden>
+      <p id="placement-message"></p>
+      <a class="btn btn-primary" id="placement-btn" href="#"></a>
+    </div>
+
+    <div class="cta" id="buy-cta">
       <p>
         Esto fue solo una muestra. El libro cubre el nivel
         <strong data-level-label></strong> completo: cada punto de
@@ -117,7 +129,7 @@
       <a class="btn btn-outline" id="next-level-btn" href="#"></a>
     </div>
 
-    <div class="cta">
+    <div class="cta" id="share-cta">
       <button type="button" class="btn btn-outline" id="share-btn">
         Compartir mi resultado
       </button>
@@ -141,6 +153,7 @@
 </footer>
 
 <script src="js/amazon-links.js"></script>
+<script src="js/progress.js"></script>
 <script src="js/quiz.js"></script>
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
