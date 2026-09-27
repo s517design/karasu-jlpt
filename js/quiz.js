@@ -91,14 +91,18 @@ class Quiz {
     this.els.nextBtn.disabled = true;
     this.answered = false;
 
+    // 選択肢の表示順をシャッフルする（元のJSONで正解が常に1番目に
+    // 書かれていても、見た目の順番はランダムになるようにするため）。
+    this.currentChoiceOrder = shuffle(q.choices.map((_, i) => i));
+
     this.els.choices.innerHTML = "";
-    q.choices.forEach((choiceText, i) => {
+    this.currentChoiceOrder.forEach((originalIndex, displayIndex) => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "choice-btn";
       btn.lang = "ja";
-      btn.textContent = `${i + 1}. ${choiceText}`;
-      btn.addEventListener("click", () => this.selectChoice(i, btn));
+      btn.textContent = `${displayIndex + 1}. ${q.choices[originalIndex]}`;
+      btn.addEventListener("click", () => this.selectChoice(originalIndex, btn));
       this.els.choices.appendChild(btn);
     });
   }
@@ -110,11 +114,12 @@ class Quiz {
     const q = this.currentQuestion();
     const isCorrect = chosenIndex === q.correct_index;
     const buttons = Array.from(this.els.choices.children);
-    buttons.forEach((btn, i) => {
+    buttons.forEach((btn, displayIndex) => {
       btn.disabled = true;
-      if (i === q.correct_index) {
+      const originalIndex = this.currentChoiceOrder[displayIndex];
+      if (originalIndex === q.correct_index) {
         btn.classList.add("is-correct");
-      } else if (i === chosenIndex) {
+      } else if (originalIndex === chosenIndex) {
         btn.classList.add("is-wrong");
       }
     });
