@@ -1,0 +1,194 @@
+[
+  {
+    "id": "vocab_n4_001",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "しょうらいについて【考えます】。",
+    "choices": [
+      "かんがえます",
+      "おもえます",
+      "かんじます",
+      "しらべます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「考える」は「かんがえる」と読む。",
+    "answer_sentence_ja": "しょうらいについて考えます。",
+    "answer_sentence_es": "Pienso sobre el futuro."
+  },
+  {
+    "id": "vocab_n4_002",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "けっかを【知らせます】。",
+    "choices": [
+      "しらせます",
+      "しりせます",
+      "ちらせます",
+      "しられます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「知らせる」は「しらせる」と読む(avisar)。",
+    "answer_sentence_ja": "けっかを知らせます。",
+    "answer_sentence_es": "Aviso el resultado."
+  },
+  {
+    "id": "vocab_n4_003",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "けいかくが【進んで】います。",
+    "choices": [
+      "すすんで",
+      "しんんで",
+      "すんで",
+      "すいんで"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「進む」は「すすむ」と読む(avanzar)。",
+    "answer_sentence_ja": "けいかくが進んでいます。",
+    "answer_sentence_es": "El plan está avanzando."
+  },
+  {
+    "id": "vocab_n4_004",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "つくえを【動かします】。",
+    "choices": [
+      "うごかします",
+      "どうかします",
+      "うごきます",
+      "どうきます"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「動かす」は「うごかす」と読む(mover algo)。",
+    "answer_sentence_ja": "つくえを動かします。",
+    "answer_sentence_es": "Muevo el escritorio."
+  },
+  {
+    "id": "vocab_n4_005",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "がっこうに【通って】います。",
+    "choices": [
+      "かよって",
+      "つうって",
+      "とおって",
+      "かって"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「通う」は「かよう」と読む(asistir con regularidad)。「とおる」(通る,pasar)と間違えないように。",
+    "answer_sentence_ja": "がっこうに通っています。",
+    "answer_sentence_es": "Asisto regularmente a la escuela."
+  },
+  {
+    "id": "vocab_n4_006",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "【急な】よていができました。",
+    "choices": [
+      "きゅうな",
+      "いそぎな",
+      "はやいな",
+      "すぐな"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「急な」は「きゅうな」と読む(repentino)。",
+    "answer_sentence_ja": "急なよていができました。",
+    "answer_sentence_es": "Surgió un plan repentino."
+  },
+  {
+    "id": "vocab_n4_007",
+    "grammar_point": "ことばの意味",
+    "question_ja": "こどものことを【しんぱいします】。",
+    "choices": [
+      "preocuparse",
+      "alegrarse",
+      "enojarse",
+      "reírse"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「しんぱいする」は「preocuparse」という意味。",
+    "answer_sentence_ja": "こどものことをしんぱいします。",
+    "answer_sentence_es": "Me preocupo por mi hijo."
+  },
+  {
+    "id": "vocab_n4_008",
+    "grammar_point": "ことばの意味",
+    "question_ja": "ともだちを【たすけます】。",
+    "choices": [
+      "ayudar",
+      "molestar",
+      "engañar",
+      "ignorar"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「たすける」は「ayudar」という意味。",
+    "answer_sentence_ja": "ともだちをたすけます。",
+    "answer_sentence_es": "Ayudo a mi amigo."
+  },
+  {
+    "id": "vocab_n4_009",
+    "grammar_point": "ことばの意味",
+    "question_ja": "このみちは【きけん】です。",
+    "choices": [
+      "peligroso",
+      "seguro",
+      "cómodo",
+      "conveniente"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「きけんな」は「peligroso」という意味。",
+    "answer_sentence_ja": "このみちはきけんです。",
+    "answer_sentence_es": "Este camino es peligroso."
+  },
+  {
+    "id": "vocab_n4_010",
+    "grammar_point": "ことばの意味",
+    "question_ja": "そとが【うるさい】です。",
+    "choices": [
+      "ruidoso",
+      "tranquilo",
+      "oscuro",
+      "claro"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「うるさい」は「ruidoso / molesto」という意味。",
+    "answer_sentence_ja": "そとがうるさいです。",
+    "answer_sentence_es": "Afuera hay mucho ruido."
+  },
+  {
+    "id": "vocab_n4_011",
+    "grammar_point": "ことばの意味",
+    "question_ja": "【すばらしい】けしきですね。",
+    "choices": [
+      "maravilloso",
+      "aburrido",
+      "normal",
+      "feo"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「すばらしい」は「maravilloso」という意味。",
+    "answer_sentence_ja": "すばらしいけしきですね。",
+    "answer_sentence_es": "Qué paisaje tan maravilloso, ¿no?"
+  },
+  {
+    "id": "vocab_n4_012",
+    "grammar_point": "ことばの意味",
+    "question_ja": "【なるべく】はやくきてください。",
+    "choices": [
+      "en la medida de lo posible",
+      "definitivamente no",
+      "de vez en cuando",
+      "por casualidad"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「なるべく」は「en la medida de lo posible」という意味。",
+    "answer_sentence_ja": "なるべくはやくきてください。",
+    "answer_sentence_es": "Por favor, venga lo antes posible."
+  }
+]

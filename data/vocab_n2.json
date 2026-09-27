@@ -1,0 +1,194 @@
+[
+  {
+    "id": "vocab_n2_001",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "いまの【状況】をせつめいしてください。",
+    "choices": [
+      "じょうきょう",
+      "じょうけい",
+      "じょうたい",
+      "じょうきん"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「状況」は「じょうきょう」と読む(situación)。",
+    "answer_sentence_ja": "いまの状況をせつめいしてください。",
+    "answer_sentence_es": "Por favor explique la situación actual."
+  },
+  {
+    "id": "vocab_n2_002",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "じぶんで【判断します】。",
+    "choices": [
+      "はんだんします",
+      "はんめいします",
+      "はんべつします",
+      "はんこくします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「判断する」は「はんだんする」と読む(juzgar/decidir)。",
+    "answer_sentence_ja": "じぶんで判断します。",
+    "answer_sentence_es": "Lo juzgo por mí mismo."
+  },
+  {
+    "id": "vocab_n2_003",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "このくすりは【効果】があります。",
+    "choices": [
+      "こうか",
+      "こうが",
+      "きょうか",
+      "ごうか"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「効果」は「こうか」と読む(efecto)。",
+    "answer_sentence_ja": "このくすりは効果があります。",
+    "answer_sentence_es": "Esta medicina tiene efecto."
+  },
+  {
+    "id": "vocab_n2_004",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "先生が【評価します】。",
+    "choices": [
+      "ひょうかします",
+      "へいかします",
+      "ひょうがします",
+      "びょうかします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「評価する」は「ひょうかする」と読む(evaluar)。",
+    "answer_sentence_ja": "先生が評価します。",
+    "answer_sentence_es": "El profesor lo evalúa."
+  },
+  {
+    "id": "vocab_n2_005",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "いい【印象】をもちました。",
+    "choices": [
+      "いんしょう",
+      "いんぞう",
+      "いんしょ",
+      "いんそう"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「印象」は「いんしょう」と読む(impresión)。",
+    "answer_sentence_ja": "いい印象をもちました。",
+    "answer_sentence_es": "Me llevé una buena impresión."
+  },
+  {
+    "id": "vocab_n2_006",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "【対策】をかんがえます。",
+    "choices": [
+      "たいさく",
+      "たいせき",
+      "だいさく",
+      "たいさつ"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「対策」は「たいさく」と読む(medida, contramedida)。",
+    "answer_sentence_ja": "対策をかんがえます。",
+    "answer_sentence_es": "Pienso en una medida (para solucionar algo)."
+  },
+  {
+    "id": "vocab_n2_007",
+    "grammar_point": "ことばの意味",
+    "question_ja": "さいきん、こういう【傾向】があります。",
+    "choices": [
+      "tendencia",
+      "decisión",
+      "accidente",
+      "costumbre"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「傾向」は「tendencia」という意味。",
+    "answer_sentence_ja": "さいきん、こういう傾向があります。",
+    "answer_sentence_es": "Últimamente hay esta tendencia."
+  },
+  {
+    "id": "vocab_n2_008",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かれは【積極的】にはっぴょうします。",
+    "choices": [
+      "de forma proactiva",
+      "de forma pasiva",
+      "de forma tranquila",
+      "de forma extraña"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「積極的な」は「proactivo」という意味。",
+    "answer_sentence_ja": "かれは積極的にはっぴょうします。",
+    "answer_sentence_es": "Él presenta de forma proactiva."
+  },
+  {
+    "id": "vocab_n2_009",
+    "grammar_point": "ことばの意味",
+    "question_ja": "【具体的】なれいをあげてください。",
+    "choices": [
+      "concreto",
+      "abstracto",
+      "simple",
+      "antiguo"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「具体的な」は「concreto」という意味。",
+    "answer_sentence_ja": "具体的なれいをあげてください。",
+    "answer_sentence_es": "Por favor dé un ejemplo concreto."
+  },
+  {
+    "id": "vocab_n2_010",
+    "grammar_point": "ことばの意味",
+    "question_ja": "てんきの【影響】で、けいざいがかわった。",
+    "choices": [
+      "la influencia",
+      "la oposición",
+      "la comparación",
+      "la relación"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「影響」は「la influencia」という意味。",
+    "answer_sentence_ja": "てんきの影響で、けいざいがかわった。",
+    "answer_sentence_es": "Debido a la influencia del clima, la economía cambió."
+  },
+  {
+    "id": "vocab_n2_011",
+    "grammar_point": "ことばの意味",
+    "question_ja": "その話は【抽象的】すぎます。",
+    "choices": [
+      "abstracto",
+      "concreto",
+      "específico",
+      "claro"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「抽象的な」は「abstracto」という意味。",
+    "answer_sentence_ja": "その話は抽象的すぎます。",
+    "answer_sentence_es": "Esa historia es demasiado abstracta."
+  },
+  {
+    "id": "vocab_n2_012",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かれはいつも【消極的】です。",
+    "choices": [
+      "pasivo",
+      "activo",
+      "alegre",
+      "serio"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「消極的な」は「pasivo」という意味。",
+    "answer_sentence_ja": "かれはいつも消極的です。",
+    "answer_sentence_es": "Él siempre es pasivo."
+  }
+]

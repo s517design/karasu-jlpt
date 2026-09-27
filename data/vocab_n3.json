@@ -1,0 +1,194 @@
+[
+  {
+    "id": "vocab_n3_001",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "先生に【相談します】。",
+    "choices": [
+      "そうだんします",
+      "そうろんします",
+      "あいだんします",
+      "そうたんします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「相談する」は「そうだんする」と読む(consultar)。",
+    "answer_sentence_ja": "先生に相談します。",
+    "answer_sentence_es": "Consulto con el profesor."
+  },
+  {
+    "id": "vocab_n3_002",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "よていを【確認します】。",
+    "choices": [
+      "かくにんします",
+      "かくじつします",
+      "こうにんします",
+      "かっきんします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「確認する」は「かくにんする」と読む(confirmar)。",
+    "answer_sentence_ja": "よていを確認します。",
+    "answer_sentence_es": "Confirmo el horario."
+  },
+  {
+    "id": "vocab_n3_003",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "会議に【参加します】。",
+    "choices": [
+      "さんかします",
+      "さんがします",
+      "さんにゅうします",
+      "さんせいします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「参加する」は「さんかする」と読む(participar)。「賛成する(さんせいする)」と間違えないように。",
+    "answer_sentence_ja": "会議に参加します。",
+    "answer_sentence_es": "Participo en la reunión."
+  },
+  {
+    "id": "vocab_n3_004",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "仕事が【完成しました】。",
+    "choices": [
+      "かんせいしました",
+      "かんぜんしました",
+      "かんじょうしました",
+      "がんせいしました"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「完成する」は「かんせいする」と読む(completarse)。「完全(かんぜん)」と間違えないように。",
+    "answer_sentence_ja": "仕事が完成しました。",
+    "answer_sentence_es": "El trabajo se completó."
+  },
+  {
+    "id": "vocab_n3_005",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "人口が【増えて】います。",
+    "choices": [
+      "ふえて",
+      "ましえて",
+      "まして",
+      "ぞうえて"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「増える」は「ふえる」と読む(aumentar)。",
+    "answer_sentence_ja": "人口が増えています。",
+    "answer_sentence_es": "La población está aumentando."
+  },
+  {
+    "id": "vocab_n3_006",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "来月【引っ越します】。",
+    "choices": [
+      "ひっこします",
+      "いんこします",
+      "ひきこします",
+      "ひっごします"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「引っ越す」は「ひっこす」と読む(mudarse)。",
+    "answer_sentence_ja": "来月引っ越します。",
+    "answer_sentence_es": "El próximo mes me mudo."
+  },
+  {
+    "id": "vocab_n3_007",
+    "grammar_point": "ことばの意味",
+    "question_ja": "さそいを【断りました】。",
+    "choices": [
+      "rechazar",
+      "aceptar",
+      "olvidar",
+      "recordar"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「断る」は「rechazar」という意味。",
+    "answer_sentence_ja": "さそいを断りました。",
+    "answer_sentence_es": "Rechacé la invitación."
+  },
+  {
+    "id": "vocab_n3_008",
+    "grammar_point": "ことばの意味",
+    "question_ja": "りゅうがくで【苦労しました】。",
+    "choices": [
+      "pasar dificultades",
+      "divertirse",
+      "descansar",
+      "ganar dinero"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「苦労する」は「pasar dificultades / esforzarse con penurias」という意味。",
+    "answer_sentence_ja": "りゅうがくで苦労しました。",
+    "answer_sentence_es": "Pasé dificultades durante mi estudio en el extranjero."
+  },
+  {
+    "id": "vocab_n3_009",
+    "grammar_point": "ことばの意味",
+    "question_ja": "かれは【おだやか】なひとです。",
+    "choices": [
+      "tranquilo, apacible",
+      "enojón",
+      "ruidoso",
+      "distraído"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「おだやかな」は「tranquilo / apacible」という意味。",
+    "answer_sentence_ja": "かれはおだやかなひとです。",
+    "answer_sentence_es": "Él es una persona tranquila y apacible."
+  },
+  {
+    "id": "vocab_n3_010",
+    "grammar_point": "ことばの意味",
+    "question_ja": "【まえむき】にかんがえましょう。",
+    "choices": [
+      "de forma positiva",
+      "de forma negativa",
+      "de forma extraña",
+      "de forma lenta"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「まえむきな」は「positivo / con actitud constructiva」という意味。",
+    "answer_sentence_ja": "まえむきにかんがえましょう。",
+    "answer_sentence_es": "Pensemos de forma positiva."
+  },
+  {
+    "id": "vocab_n3_011",
+    "grammar_point": "ことばの意味",
+    "question_ja": "くすりをのんだら、【かえって】ぐあいがわるくなった。",
+    "choices": [
+      "al contrario",
+      "por supuesto",
+      "poco a poco",
+      "finalmente"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「かえって」は「al contrario / más bien」という意味。予想と反対の結果を表す。",
+    "answer_sentence_ja": "くすりをのんだら、かえってぐあいがわるくなった。",
+    "answer_sentence_es": "Al tomar la medicina, al contrario, me sentí peor."
+  },
+  {
+    "id": "vocab_n3_012",
+    "grammar_point": "ことばの意味",
+    "question_ja": "【どうしても】いきたいです。",
+    "choices": [
+      "definitivamente",
+      "tal vez",
+      "casi nunca",
+      "de vez en cuando"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「どうしても」は「definitivamente, no importa qué」という意味。",
+    "answer_sentence_ja": "どうしてもいきたいです。",
+    "answer_sentence_es": "Quiero ir sin falta, cueste lo que cueste."
+  }
+]

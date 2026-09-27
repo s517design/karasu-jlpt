@@ -1,0 +1,194 @@
+[
+  {
+    "id": "vocab_n5_001",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "のどがかわいたので、水を【飲みました】。",
+    "choices": [
+      "のみました",
+      "のりました",
+      "よみました",
+      "たのみました"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「飲む」は「のむ」と読む。「乗る(のる)」や「読む(よむ)」と間違えないように。",
+    "answer_sentence_ja": "のどがかわいたので、水を飲みました。",
+    "answer_sentence_es": "Como tenía sed, bebí agua."
+  },
+  {
+    "id": "vocab_n5_002",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "駅まで【車】でいきます。",
+    "choices": [
+      "くるま",
+      "でんしゃ",
+      "じどうしゃ",
+      "じてんしゃ"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「車」の訓読みは「くるま」。",
+    "answer_sentence_ja": "駅まで車でいきます。",
+    "answer_sentence_es": "Voy a la estación en auto."
+  },
+  {
+    "id": "vocab_n5_003",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "これは【大きい】いえです。",
+    "choices": [
+      "おおきい",
+      "だいきい",
+      "おおいきい",
+      "たいきい"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「大きい」は「おおきい」と読む。",
+    "answer_sentence_ja": "これは大きいいえです。",
+    "answer_sentence_es": "Esta es una casa grande."
+  },
+  {
+    "id": "vocab_n5_004",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "【白い】ねこがいます。",
+    "choices": [
+      "しろい",
+      "はくい",
+      "しらい",
+      "びゃくい"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「白い」は「しろい」と読む。音読み「ハク」と間違えないように。",
+    "answer_sentence_ja": "白いねこがいます。",
+    "answer_sentence_es": "Hay un gato blanco."
+  },
+  {
+    "id": "vocab_n5_005",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "この山はとても【高い】です。",
+    "choices": [
+      "たかい",
+      "こうい",
+      "たけい",
+      "たかかい"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「高い」は「たかい」と読む。",
+    "answer_sentence_ja": "この山はとても高いです。",
+    "answer_sentence_es": "Esta montaña es muy alta."
+  },
+  {
+    "id": "vocab_n5_006",
+    "grammar_point": "漢字の読み方",
+    "question_ja": "これは【古い】本です。",
+    "choices": [
+      "ふるい",
+      "こい",
+      "ふうるい",
+      "こきゅうい"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「古い」は「ふるい」と読む。",
+    "answer_sentence_ja": "これは古い本です。",
+    "answer_sentence_es": "Este es un libro viejo."
+  },
+  {
+    "id": "vocab_n5_007",
+    "grammar_point": "ことばの意味",
+    "question_ja": "たばこを【すいます】。",
+    "choices": [
+      "fumar",
+      "beber",
+      "comer",
+      "cortar"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「すう」は「fumar / aspirar」という意味。",
+    "answer_sentence_ja": "たばこをすいます。",
+    "answer_sentence_es": "Fumo cigarrillos."
+  },
+  {
+    "id": "vocab_n5_008",
+    "grammar_point": "ことばの意味",
+    "question_ja": "車をここに【とめます】。",
+    "choices": [
+      "estacionar",
+      "conducir",
+      "lavar",
+      "comprar"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「とめる」は「detener / estacionar」という意味。",
+    "answer_sentence_ja": "車をここにとめます。",
+    "answer_sentence_es": "Estaciono el auto aquí."
+  },
+  {
+    "id": "vocab_n5_009",
+    "grammar_point": "ことばの意味",
+    "question_ja": "きょうは【いそがしい】です。",
+    "choices": [
+      "ocupado",
+      "libre",
+      "triste",
+      "feliz"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「いそがしい」は「ocupado」という意味。",
+    "answer_sentence_ja": "きょうはいそがしいです。",
+    "answer_sentence_es": "Hoy estoy ocupado."
+  },
+  {
+    "id": "vocab_n5_010",
+    "grammar_point": "ことばの意味",
+    "question_ja": "このへやは【しずか】です。",
+    "choices": [
+      "tranquilo",
+      "ruidoso",
+      "sucio",
+      "limpio"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「しずかな」は「tranquilo / silencioso」という意味。",
+    "answer_sentence_ja": "このへやはしずかです。",
+    "answer_sentence_es": "Esta habitación es tranquila."
+  },
+  {
+    "id": "vocab_n5_011",
+    "grammar_point": "ことばの意味",
+    "question_ja": "そこは【あぶない】ですよ。",
+    "choices": [
+      "peligroso",
+      "seguro",
+      "cómodo",
+      "aburrido"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「あぶない」は「peligroso」という意味。",
+    "answer_sentence_ja": "そこはあぶないですよ。",
+    "answer_sentence_es": "Eso es peligroso, ¿sabes?"
+  },
+  {
+    "id": "vocab_n5_012",
+    "grammar_point": "ことばの意味",
+    "question_ja": "このみせは【べんり】です。",
+    "choices": [
+      "conveniente",
+      "incómodo",
+      "caro",
+      "barato"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "「べんりな」は「conveniente」という意味。",
+    "answer_sentence_ja": "このみせはべんりです。",
+    "answer_sentence_es": "Esta tienda es conveniente."
+  }
+]

@@ -20,4 +20,20 @@
     <loc>https://karasu-jlpt.satoshi517b.workers.dev/quiz?level=n2</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://karasu-jlpt.satoshi517b.workers.dev/quiz?level=n5&amp;type=vocab</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karasu-jlpt.satoshi517b.workers.dev/quiz?level=n4&amp;type=vocab</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karasu-jlpt.satoshi517b.workers.dev/quiz?level=n3&amp;type=vocab</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karasu-jlpt.satoshi517b.workers.dev/quiz?level=n2&amp;type=vocab</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>

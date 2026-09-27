@@ -22,6 +22,12 @@ function getLevelFromUrl() {
   return LEVEL_LABELS[level] ? level : "n5";
 }
 
+// ?type=vocab なら語彙・漢字クイズ、それ以外（省略時含む）は文法クイズ。
+function getTypeFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("type") === "vocab" ? "vocab" : "grammar";
+}
+
 function isPlacementMode() {
   const params = new URLSearchParams(window.location.search);
   return params.get("placement") === "1";
@@ -39,6 +45,7 @@ function shuffle(array) {
 class Quiz {
   constructor(questions, level, options = {}) {
     this.level = level;
+    this.type = options.type || "grammar";
     this.isReview = Boolean(options.isReview);
     this.isPlacement = Boolean(options.isPlacement);
     this.questions = options.skipShuffle ? questions : shuffle(questions);
@@ -194,7 +201,10 @@ class Quiz {
       document.getElementById("next-level-box").hidden = true;
       document.getElementById("share-cta").hidden = true;
     } else {
-      titleEl.innerHTML = '¡Terminaste el nivel <span data-level-label></span>!';
+      titleEl.innerHTML =
+        this.type === "vocab"
+          ? '¡Terminaste el vocabulario de <span data-level-label></span>!'
+          : '¡Terminaste el nivel <span data-level-label></span>!';
       document.querySelectorAll("[data-level-label]").forEach((el) => {
         el.textContent = LEVEL_LABELS[this.level];
       });
@@ -215,6 +225,14 @@ class Quiz {
       rankEl.textContent = rank;
       document.getElementById("result-message").textContent = message;
 
+      document.getElementById("buy-cta-text").innerHTML =
+        this.type === "vocab"
+          ? 'Esto fue solo una muestra. El libro cubre el nivel <strong data-level-label></strong> completo: vocabulario, kanji y gramática explicados a fondo, con 3 simulacros de examen incluidos.'
+          : 'Esto fue solo una muestra. El libro cubre el nivel <strong data-level-label></strong> completo: cada punto de gramática explicado a fondo, en formal e informal, con 3 simulacros de examen incluidos.';
+      document.querySelectorAll("[data-level-label]").forEach((el) => {
+        el.textContent = LEVEL_LABELS[this.level];
+      });
+
       const buyBtn = document.getElementById("result-buy-btn");
       buyBtn.setAttribute("data-book", this.level);
       wireUpBookLinks(this.els.resultShell);
@@ -222,7 +240,7 @@ class Quiz {
 
       this.setUpNextLevel();
       this.setUpShareButton(total);
-      saveBestScore(this.level, this.score, total);
+      saveBestScore(this.progressKey(), this.score, total);
     }
 
     this.setUpReviewBox();
@@ -282,12 +300,17 @@ class Quiz {
     placementResult.hidden = false;
   }
 
+  progressKey() {
+    return this.type === "vocab" ? `${this.level}-vocab` : this.level;
+  }
+
   setUpNextLevel() {
     const nextLevelBox = document.getElementById("next-level-box");
     const nextLevelBtn = document.getElementById("next-level-btn");
     const nextLevel = NEXT_LEVEL[this.level];
+    const typeParam = this.type === "vocab" ? "&type=vocab" : "";
     if (nextLevel) {
-      nextLevelBtn.href = `/quiz?level=${nextLevel}`;
+      nextLevelBtn.href = `/quiz?level=${nextLevel}${typeParam}`;
       nextLevelBtn.textContent = `Probar el nivel ${LEVEL_LABELS[nextLevel]} →`;
       nextLevelBox.hidden = false;
     } else {
@@ -297,7 +320,8 @@ class Quiz {
 
   setUpShareButton(total) {
     const shareBtn = document.getElementById("share-btn");
-    const shareText = `Hice ${this.score}/${total} en la práctica de JLPT ${LEVEL_LABELS[this.level]} de Karasu. ¡Pruébalo tú también!`;
+    const topic = this.type === "vocab" ? "vocabulario" : "gramática";
+    const shareText = `Hice ${this.score}/${total} en la práctica de ${topic} JLPT ${LEVEL_LABELS[this.level]} de Karasu. ¡Pruébalo tú también!`;
     const shareUrl = window.location.href;
 
     shareBtn.onclick = async () => {
@@ -322,8 +346,9 @@ class Quiz {
   }
 }
 
-async function fetchLevelQuestions(level) {
-  const response = await fetch(`data/questions_${level}.json`);
+async function fetchLevelQuestions(level, type = "grammar") {
+  const fileName = type === "vocab" ? `vocab_${level}` : `questions_${level}`;
+  const response = await fetch(`data/${fileName}.json`);
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
   }
@@ -350,14 +375,18 @@ async function initPlacementQuiz() {
 
 async function initLevelQuiz() {
   const level = getLevelFromUrl();
+  const type = getTypeFromUrl();
   document.querySelectorAll("[data-level-label]").forEach((el) => {
     el.textContent = LEVEL_LABELS[level];
   });
-  document.title = `Práctica JLPT ${LEVEL_LABELS[level]} — Karasu`;
+  document.title =
+    type === "vocab"
+      ? `Vocabulario y Kanji ${LEVEL_LABELS[level]} — Karasu`
+      : `Práctica JLPT ${LEVEL_LABELS[level]} — Karasu`;
 
-  const pool = await fetchLevelQuestions(level);
+  const pool = await fetchLevelQuestions(level, type);
   const questions = shuffle(pool).slice(0, QUESTIONS_PER_QUIZ);
-  new Quiz(questions, level, { skipShuffle: true });
+  new Quiz(questions, level, { skipShuffle: true, type });
 }
 
 async function initQuiz() {
