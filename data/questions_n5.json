@@ -190,5 +190,293 @@
     "explanation_es": "〜はどうですか propone algo y pregunta la opinión del otro.",
     "answer_sentence_ja": "たんじょうびのプレゼントに、この花はどうですか。",
     "answer_sentence_es": "Para el regalo de cumpleaños, ¿qué te parecen estas flores?"
+  },
+  {
+    "id": "orig_n5_013",
+    "grammar_point": "〜てはいけません",
+    "question_ja": "としょかんで　おおきい　こえで（　　）はいけません。",
+    "choices": [
+      "はなして",
+      "はなします",
+      "はなしたい",
+      "はなす"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "て形＋はいけません＝prohibición. 'はなします'(hablar)→'はなして'。",
+    "answer_sentence_ja": "としょかんでおおきいこえではなしてはいけません。",
+    "answer_sentence_es": "No se puede hablar en voz alta en la biblioteca."
+  },
+  {
+    "id": "orig_n5_014",
+    "grammar_point": "〜たいです",
+    "question_ja": "つかれたので、はやく（　　）です。",
+    "choices": [
+      "休みたい",
+      "休みます",
+      "休んで",
+      "休む"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "ます形の語幹＋たいです＝expresar deseo。'休みます'→'休みたい'。",
+    "answer_sentence_ja": "つかれたので、はやく休みたいです。",
+    "answer_sentence_es": "Como estoy cansado, quiero descansar pronto."
+  },
+  {
+    "id": "orig_n5_015",
+    "grammar_point": "〜ないでください",
+    "question_ja": "この　へやで　しゃしんを（　　）ください。",
+    "choices": [
+      "とらないで",
+      "とって",
+      "とります",
+      "とらなくて"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "ない形＋でください＝petición negativa (pedir que no se haga algo)。",
+    "answer_sentence_ja": "このへやでしゃしんをとらないでください。",
+    "answer_sentence_es": "Por favor, no tomes fotos en esta habitación."
+  },
+  {
+    "id": "orig_n5_016",
+    "grammar_point": "〜ましょう",
+    "question_ja": "つぎの　駅で（　　）。",
+    "choices": [
+      "おりましょう",
+      "おります",
+      "おりて",
+      "おりた"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "ます形の語幹＋ましょう＝invitación/sugerencia (vamos a...)。",
+    "answer_sentence_ja": "つぎの駅でおりましょう。",
+    "answer_sentence_es": "Bajemos en la próxima estación."
+  },
+  {
+    "id": "orig_n5_017",
+    "grammar_point": "〜も（同類・並立）",
+    "question_ja": "たなかさん（　　）、やまださんも　きました。",
+    "choices": [
+      "も",
+      "は",
+      "が",
+      "を"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "も＝'también', se usa para indicar otro elemento similar。",
+    "answer_sentence_ja": "たなかさんも、やまださんもきました。",
+    "answer_sentence_es": "Tanto el señor Tanaka como el señor Yamada vinieron."
+  },
+  {
+    "id": "orig_n5_018",
+    "grammar_point": "〜が（逆接）",
+    "question_ja": "この店はやすいです（　　）、あまりおいしくないです。",
+    "choices": [
+      "が",
+      "し",
+      "て",
+      "と"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "が＝'pero', conjunción de contraste entre dos oraciones。",
+    "answer_sentence_ja": "この店はやすいですが、あまりおいしくないです。",
+    "answer_sentence_es": "Esta tienda es barata, pero no es muy sabrosa."
+  },
+  {
+    "id": "orig_n5_019",
+    "grammar_point": "〜しか〜ない",
+    "question_ja": "さいふに　ひゃくえん（　　）ありません。",
+    "choices": [
+      "しか",
+      "だけ",
+      "も",
+      "ぐらい"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "しか＋forma negativa＝'solo/nada más que', enfatiza que es poca cantidad。",
+    "answer_sentence_ja": "さいふにひゃくえんしかありません。",
+    "answer_sentence_es": "Solo tengo cien yenes en la cartera."
+  },
+  {
+    "id": "orig_n5_020",
+    "grammar_point": "〜まえ",
+    "question_ja": "ごはんを　たべる（　　）、てを　あらいます。",
+    "choices": [
+      "まえに",
+      "あとで",
+      "とき",
+      "ながら"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "動詞の辞書形＋まえに＝'antes de hacer algo'。",
+    "answer_sentence_ja": "ごはんをたべるまえに、てをあらいます。",
+    "answer_sentence_es": "Antes de comer, me lavo las manos."
+  },
+  {
+    "id": "orig_n5_021",
+    "grammar_point": "けれども",
+    "question_ja": "たかいです（　　）、かいます。",
+    "choices": [
+      "けれども",
+      "から",
+      "ので",
+      "し"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "けれども＝'aunque/pero' (forma un poco más formal que が)。",
+    "answer_sentence_ja": "たかいですけれども、かいます。",
+    "answer_sentence_es": "Aunque es caro, lo voy a comprar."
+  },
+  {
+    "id": "orig_n5_022",
+    "grammar_point": "それで",
+    "question_ja": "あめが　ふりました。（　　）、うちに　いました。",
+    "choices": [
+      "それで",
+      "それから",
+      "でも",
+      "しかし"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "それで＝'por eso', conecta causa y resultado entre dos oraciones。",
+    "answer_sentence_ja": "あめがふりました。それで、うちにいました。",
+    "answer_sentence_es": "Llovió. Por eso, me quedé en casa."
+  },
+  {
+    "id": "orig_n5_023",
+    "grammar_point": "〜たち",
+    "question_ja": "こども（　　）は　こうえんで　あそんでいます。",
+    "choices": [
+      "たち",
+      "ら",
+      "がた",
+      "かた"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "名詞＋たち＝marca plural, especialmente con personas。",
+    "answer_sentence_ja": "こどもたちはこうえんであそんでいます。",
+    "answer_sentence_es": "Los niños están jugando en el parque."
+  },
+  {
+    "id": "orig_n5_024",
+    "grammar_point": "〜てください",
+    "question_ja": "すみませんが、まどを（　　）ください。",
+    "choices": [
+      "あけて",
+      "あけます",
+      "あける",
+      "あけた"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "て形＋ください＝petición cortés (por favor haz algo)。",
+    "answer_sentence_ja": "すみませんが、まどをあけてください。",
+    "answer_sentence_es": "Disculpe, por favor abra la ventana."
+  },
+  {
+    "id": "orig_n5_025",
+    "grammar_point": "〜でしょう",
+    "question_ja": "あした　あめが（　　）でしょう。",
+    "choices": [
+      "ふる",
+      "ふります",
+      "ふって",
+      "ふった"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "普通形＋でしょう＝expresar una predicción o suposición。",
+    "answer_sentence_ja": "あしたあめがふるでしょう。",
+    "answer_sentence_es": "Probablemente mañana llueva."
+  },
+  {
+    "id": "orig_n5_026",
+    "grammar_point": "〜から（原因）",
+    "question_ja": "さむい（　　）、まどを　しめました。",
+    "choices": [
+      "から",
+      "とき",
+      "なら",
+      "ながら"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "普通形＋から＝'porque', indica la razón de la acción siguiente。",
+    "answer_sentence_ja": "さむいから、まどをしめました。",
+    "answer_sentence_es": "Como hacía frío, cerré la ventana."
+  },
+  {
+    "id": "orig_n5_027",
+    "grammar_point": "〜ながら",
+    "question_ja": "おんがくを　（　　）、べんきょうします。",
+    "choices": [
+      "ききながら",
+      "きいて",
+      "きいたり",
+      "きけば"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "ます形の語幹＋ながら＝hacer dos acciones al mismo tiempo。",
+    "answer_sentence_ja": "おんがくをききながら、べんきょうします。",
+    "answer_sentence_es": "Estudio mientras escucho música."
+  },
+  {
+    "id": "orig_n5_028",
+    "grammar_point": "〜たり〜たりする",
+    "question_ja": "しゅうまつは　ほんを　よんだり　えいがを　（　　）します。",
+    "choices": [
+      "みたり",
+      "みる",
+      "みて",
+      "みた"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "た形＋り＋た形＋り＋する＝enumerar acciones representativas。",
+    "answer_sentence_ja": "しゅうまつはほんをよんだりえいがをみたりします。",
+    "answer_sentence_es": "Los fines de semana, leo libros, veo películas, entre otras cosas."
+  },
+  {
+    "id": "orig_n5_029",
+    "grammar_point": "〜なければならない",
+    "question_ja": "あした　テストが　あるので、べんきょうし（　　）。",
+    "choices": [
+      "なければなりません",
+      "たいです",
+      "てください",
+      "ながら"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "ない形（なければ）＋なりません＝obligación (hay que hacer algo)。",
+    "answer_sentence_ja": "あしたテストがあるので、べんきょうしなければなりません。",
+    "answer_sentence_es": "Como mañana tengo un examen, tengo que estudiar."
+  },
+  {
+    "id": "orig_n5_030",
+    "grammar_point": "〜んです・〜のです",
+    "question_ja": "A：どうして　がっこうを　やすんだんですか。B：あたまが　いたかった（　　）。",
+    "choices": [
+      "んです",
+      "です",
+      "ですね",
+      "でしょう"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "普通形＋んです＝dar una explicación o razón (respuesta natural a por qué)。",
+    "answer_sentence_ja": "あたまがいたかったんです。",
+    "answer_sentence_es": "Es que me dolía la cabeza."
   }
 ]

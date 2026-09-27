@@ -190,5 +190,293 @@
     "explanation_es": "動詞のます形+づらい significa que algo es incómodo o difícil de hacer.",
     "answer_sentence_ja": "この字は小さくて読みづらい。",
     "answer_sentence_es": "Esta letra es tan pequeña que es difícil de leer."
+  },
+  {
+    "id": "orig_n3_013",
+    "grammar_point": "〜がたい",
+    "question_ja": "その　うわさは　しんじ（　　）はなしだ。",
+    "choices": [
+      "がたい",
+      "やすい",
+      "にくい",
+      "すぎた"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "動詞ます形＋がたい＝'difícil de aceptar/creer' (matiz emocional)。信じがたい es una colocación fija muy común。",
+    "answer_sentence_ja": "そのうわさはしんじがたいはなしだ。",
+    "answer_sentence_es": "Ese rumor es una historia difícil de creer."
+  },
+  {
+    "id": "orig_n3_014",
+    "grammar_point": "〜きる",
+    "question_ja": "この　しごとは　きょうじゅうに　やり（　　）つもりだ。",
+    "choices": [
+      "きる",
+      "すぎる",
+      "きれる",
+      "だす"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "ます形の語幹＋きる＝'terminar completamente de hacer algo'。",
+    "answer_sentence_ja": "このしごとはきょうじゅうにやりきるつもりだ。",
+    "answer_sentence_es": "Tengo la intención de terminar completamente este trabajo hoy."
+  },
+  {
+    "id": "orig_n3_015",
+    "grammar_point": "〜ことにする",
+    "question_ja": "らいねんから、まいあさ　はしる（　　）にした。",
+    "choices": [
+      "こと",
+      "もの",
+      "はず",
+      "ため"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "辞書形＋ことにする＝decisión personal ('decidí hacer...')。",
+    "answer_sentence_ja": "らいねんから、まいあさはしることにした。",
+    "answer_sentence_es": "Decidí que desde el próximo año correré todas las mañanas."
+  },
+  {
+    "id": "orig_n3_016",
+    "grammar_point": "〜わけではない",
+    "question_ja": "にほんごが　じょうずだが、かんじが　ぜんぶ　わかる（　　）。",
+    "choices": [
+      "わけではない",
+      "わけにはいかない",
+      "ものではない",
+      "はずではない"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "普通形＋わけではない＝'no significa que...' (negar una conclusión general parcialmente)。",
+    "answer_sentence_ja": "にほんごがじょうずだが、かんじがぜんぶわかるわけではない。",
+    "answer_sentence_es": "Es bueno en japonés, pero eso no significa que entienda todos los kanji."
+  },
+  {
+    "id": "orig_n3_017",
+    "grammar_point": "〜わけにはいかない",
+    "question_ja": "あした　だいじな　しけんが　あるから、あそびに　いく（　　）。",
+    "choices": [
+      "わけにはいかない",
+      "わけではない",
+      "ことはない",
+      "ものではない"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "辞書形＋わけにはいかない＝'no puedo permitirme hacer algo' (por razones sociales/morales)。",
+    "answer_sentence_ja": "あしただいじなしけんがあるから、あそびにいくわけにはいかない。",
+    "answer_sentence_es": "Como mañana tengo un examen importante, no puedo permitirme ir a divertirme."
+  },
+  {
+    "id": "orig_n3_018",
+    "grammar_point": "〜とおり",
+    "question_ja": "せんせいに　いわれた（　　）に、もんだいを　といた。",
+    "choices": [
+      "とおり",
+      "まま",
+      "ように",
+      "はず"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "た形＋とおりに＝'tal como/exactamente como' se indicó。",
+    "answer_sentence_ja": "せんせいにいわれたとおりに、もんだいをといた。",
+    "answer_sentence_es": "Resolví los problemas tal como me dijo el profesor."
+  },
+  {
+    "id": "orig_n3_019",
+    "grammar_point": "〜おかげで",
+    "question_ja": "あなたが　てつだって　くれた（　　）、はやく　おわった。",
+    "choices": [
+      "おかげで",
+      "せいで",
+      "ために",
+      "からには"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "た形＋おかげで＝'gracias a que...' (resultado positivo)。",
+    "answer_sentence_ja": "あなたがてつだってくれたおかげで、はやくおわった。",
+    "answer_sentence_es": "Gracias a que me ayudaste, terminé rápido."
+  },
+  {
+    "id": "orig_n3_020",
+    "grammar_point": "〜ほど〜ない（最高）",
+    "question_ja": "この　まちほど　すみやすい　ところは（　　）。",
+    "choices": [
+      "ない",
+      "おおい",
+      "すくない",
+      "ある"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "名詞＋ほど〜ない＝'no hay nada tan... como' (expresar el grado máximo)。",
+    "answer_sentence_ja": "このまちほどすみやすいところはない。",
+    "answer_sentence_es": "No hay ningún lugar tan cómodo para vivir como esta ciudad."
+  },
+  {
+    "id": "orig_n3_021",
+    "grammar_point": "〜ば〜ほど",
+    "question_ja": "この　ことばは　つかえ（　　）つかうほど、なれてくる。",
+    "choices": [
+      "ば",
+      "たら",
+      "なら",
+      "と"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "ば形＋ほど＝'cuanto más... más...' (relación proporcional)。",
+    "answer_sentence_ja": "このことばはつかえばつかうほど、なれてくる。",
+    "answer_sentence_es": "Cuanto más uso esta palabra, más me acostumbro a ella."
+  },
+  {
+    "id": "orig_n3_022",
+    "grammar_point": "〜だけでなく",
+    "question_ja": "かのじょは　えいごだけでなく、ちゅうごくご（　　）はなせる。",
+    "choices": [
+      "も",
+      "が",
+      "を",
+      "は"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "名詞＋だけでなく〜も＝'no solo... sino también...'。",
+    "answer_sentence_ja": "かのじょはえいごだけでなく、ちゅうごくごもはなせる。",
+    "answer_sentence_es": "Ella habla no solo inglés, sino también chino."
+  },
+  {
+    "id": "orig_n3_023",
+    "grammar_point": "たとえ〜ても",
+    "question_ja": "たとえ　あめが（　　）、しあいは　ちゅうしに　なりません。",
+    "choices": [
+      "ふっても",
+      "ふるので",
+      "ふれば",
+      "ふるなら"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "たとえ＋て形＋も＝'aunque suceda X' (concesión hipotética fuerte)。",
+    "answer_sentence_ja": "たとえあめがふっても、しあいはちゅうしになりません。",
+    "answer_sentence_es": "Aunque llueva, el partido no se cancelará."
+  },
+  {
+    "id": "orig_n3_024",
+    "grammar_point": "〜べき",
+    "question_ja": "がくせいは　もっと　べんきょうする（　　）だ。",
+    "choices": [
+      "べき",
+      "はず",
+      "つもり",
+      "もの"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "辞書形＋べき＝expresar una obligación moral/deber ('debería...')。",
+    "answer_sentence_ja": "がくせいはもっとべんきょうするべきだ。",
+    "answer_sentence_es": "Los estudiantes deberían estudiar más."
+  },
+  {
+    "id": "orig_n3_025",
+    "grammar_point": "〜てしようがない",
+    "question_ja": "しけんの　けっかが　きになって（　　）。",
+    "choices": [
+      "しようがない",
+      "しかたがある",
+      "しなくてもいい",
+      "するつもりだ"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "て形＋しようがない＝'no puedo evitar sentir/hacer algo' (sentimiento incontrolable)。",
+    "answer_sentence_ja": "しけんのけっかがきになってしようがない。",
+    "answer_sentence_es": "No puedo evitar estar preocupado por el resultado del examen."
+  },
+  {
+    "id": "orig_n3_026",
+    "grammar_point": "〜てよかった",
+    "question_ja": "あの　えいがを　みて（　　）。とても　かんどうした。",
+    "choices": [
+      "よかった",
+      "いい",
+      "よさそう",
+      "よくない"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "て形＋よかった＝'qué bueno que hice/pasó algo' (alivio o satisfacción)。",
+    "answer_sentence_ja": "あのえいがをみてよかった。とてもかんどうした。",
+    "answer_sentence_es": "Qué bueno que vi esa película. Me emocionó mucho."
+  },
+  {
+    "id": "orig_n3_027",
+    "grammar_point": "〜として",
+    "question_ja": "かのじょは　いしゃ（　　）はたらいている。",
+    "choices": [
+      "として",
+      "にとって",
+      "にたいして",
+      "について"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "名詞＋として＝'en calidad de/como' (rol o posición)。",
+    "answer_sentence_ja": "かのじょはいしゃとしてはたらいている。",
+    "answer_sentence_es": "Ella trabaja como médica."
+  },
+  {
+    "id": "orig_n3_028",
+    "grammar_point": "〜に対して",
+    "question_ja": "きゃくの　しつもん（　　）、ていねいに　こたえた。",
+    "choices": [
+      "に対して",
+      "について",
+      "にとって",
+      "によって"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "名詞＋に対して＝indica la dirección de una reacción/actitud hacia algo (distinto de について, que marca el tema)。",
+    "answer_sentence_ja": "きゃくのしつもんに対して、ていねいにこたえた。",
+    "answer_sentence_es": "Respondí cortésmente a la pregunta del cliente."
+  },
+  {
+    "id": "orig_n3_029",
+    "grammar_point": "〜によって・〜により",
+    "question_ja": "てんきに（　　）、けいかくが　かわることが　ある。",
+    "choices": [
+      "よって",
+      "ついて",
+      "対して",
+      "とって"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "名詞＋によって＝'dependiendo de/debido a' (causa o factor variable)。",
+    "answer_sentence_ja": "てんきによって、けいかくがかわることがある。",
+    "answer_sentence_es": "Dependiendo del clima, a veces cambian los planes."
+  },
+  {
+    "id": "orig_n3_030",
+    "grammar_point": "〜につれて",
+    "question_ja": "きせつが　すすむ（　　）、さむく　なってきた。",
+    "choices": [
+      "につれて",
+      "にとって",
+      "によって",
+      "に対して"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "辞書形＋につれて＝'a medida que...' (cambio gradual y paralelo)。",
+    "answer_sentence_ja": "きせつがすすむにつれて、さむくなってきた。",
+    "answer_sentence_es": "A medida que avanza la estación, ha ido haciendo más frío."
   }
 ]

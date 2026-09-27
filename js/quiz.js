@@ -12,6 +12,9 @@ const LEVEL_LABELS = { n5: "N5", n4: "N4", n3: "N3", n2: "N2" };
 const NEXT_LEVEL = { n5: "n4", n4: "n3", n3: "n2", n2: null };
 const PLACEMENT_LEVELS = ["n5", "n4", "n3", "n2"];
 const PLACEMENT_QUESTIONS_PER_LEVEL = 2;
+// 各レベルの問題プールは30問。毎回ランダムに12問だけ出題することで、
+// 同じ問題を覚えてしまっても再挑戦する価値があるようにする。
+const QUESTIONS_PER_QUIZ = 12;
 
 function getLevelFromUrl() {
   const params = new URLSearchParams(window.location.search);
@@ -352,8 +355,9 @@ async function initLevelQuiz() {
   });
   document.title = `Práctica JLPT ${LEVEL_LABELS[level]} — Karasu`;
 
-  const questions = await fetchLevelQuestions(level);
-  new Quiz(questions, level);
+  const pool = await fetchLevelQuestions(level);
+  const questions = shuffle(pool).slice(0, QUESTIONS_PER_QUIZ);
+  new Quiz(questions, level, { skipShuffle: true });
 }
 
 async function initQuiz() {
