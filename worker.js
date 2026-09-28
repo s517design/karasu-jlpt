@@ -27,6 +27,9 @@ export default {
 
     const headers = new Headers(response.headers);
     headers.delete("content-length");
+    // 訪問者の国によって内容が変わるページなので、Cloudflareや
+    // ブラウザのキャッシュに保存されて他の訪問者に使い回されないようにする。
+    headers.set("cache-control", "private, no-store");
 
     return new Response(injected, {
       status: response.status,
