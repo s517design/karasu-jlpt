@@ -1,11 +1,13 @@
 /*
  * Amazon Kindleは国ごとにストア（ドメイン）が分かれていますが、同じ本なら
- * ASIN（商品番号）はどのストアでも共通です。訪問者のブラウザの言語設定を見て、
- * 一番合いそうなAmazonストアのリンクを自動的に作ります。
+ * ASIN（商品番号）はどのストアでも共通です。訪問者に一番合いそうな
+ * Amazonストアのリンクを自動的に作ります。
  *
- * 100%正確ではありません（ブラウザの言語設定と実際にいる国は必ずしも一致
- * しないため）。あくまで「一番当てはまりそうな場所に案内する」という目的の
- * 簡易的な仕組みです。
+ * 判定は2段階：
+ * 1. まずCloudflare（worker.js）が判定した「実際にいる国」を見る
+ *    （window.CF_COUNTRY。ローカルでの確認時など、この値が無い場合もある）
+ * 2. それが無い/使えない場合は、ブラウザの言語設定で判定する
+ *    （こちらは「言語設定と実際の国が違う」というズレが起こり得る簡易的な仕組み）
  */
 
 // このサイトで紹介する全ての本。ASINはAmazonの商品ページURLの
@@ -93,7 +95,53 @@ const LANGUAGE_FALLBACK_DOMAIN = {
 
 const DEFAULT_DOMAIN = "amazon.com";
 
+// 訪問者がいる国（ISO国コード）→ 一番合いそうなAmazonストア。
+// スペイン語圏のほとんどの国には専用のAmazonストアが無いため、
+// メキシコ以外は基本的にamazon.esに案内する。
+// プエルトリコはアメリカの通貨・配送網を使うため例外的にamazon.com。
+const COUNTRY_TO_DOMAIN = {
+  ES: "amazon.es",
+  MX: "amazon.com.mx",
+  AR: "amazon.es",
+  BO: "amazon.es",
+  CL: "amazon.es",
+  CO: "amazon.es",
+  CR: "amazon.es",
+  CU: "amazon.es",
+  DO: "amazon.es",
+  EC: "amazon.es",
+  SV: "amazon.es",
+  GT: "amazon.es",
+  HN: "amazon.es",
+  NI: "amazon.es",
+  PA: "amazon.es",
+  PY: "amazon.es",
+  PE: "amazon.es",
+  UY: "amazon.es",
+  VE: "amazon.es",
+  PR: "amazon.com",
+  US: "amazon.com",
+  GB: "amazon.co.uk",
+  CA: "amazon.ca",
+  AU: "amazon.com.au",
+  DE: "amazon.de",
+  FR: "amazon.fr",
+  IT: "amazon.it",
+  BR: "amazon.com.br",
+  PT: "amazon.com.br",
+  JP: "amazon.co.jp",
+};
+
 function detectAmazonDomain() {
+  try {
+    const country = typeof window !== "undefined" ? window.CF_COUNTRY : null;
+    if (country && COUNTRY_TO_DOMAIN[country]) {
+      return COUNTRY_TO_DOMAIN[country];
+    }
+  } catch (err) {
+    // window.CF_COUNTRYが無い/使えない環境でも壊れないようにする
+  }
+
   try {
     const languages = navigator.languages && navigator.languages.length
       ? navigator.languages
