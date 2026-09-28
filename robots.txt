@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://karasu-jlpt.satoshi517b.workers.dev/sitemap.xml
+Sitemap: https://karasu.page/sitemap.xml
