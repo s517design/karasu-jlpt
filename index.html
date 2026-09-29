@@ -11,7 +11,9 @@
 <meta name="description" content="Practica gratis para el JLPT N5, N4, N3 y N2 en español, con explicaciones bilingües japonés-español, y descubre los libros de gramática de BABEROU." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" />
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+<noscript><link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" /></noscript>
 <link rel="stylesheet" href="css/style.css" />
 <link rel="canonical" href="https://karasu.page/" />
 
@@ -65,7 +67,10 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">
-      <img src="assets/logo.png" alt="" class="brand-logo" width="1420" height="968" />
+      <picture>
+        <source srcset="assets/logo-display.webp" type="image/webp" />
+        <img src="assets/logo-display.png" alt="" class="brand-logo" width="616" height="420" />
+      </picture>
       Karasu
     </a>
     <nav class="site-nav">
@@ -76,6 +81,7 @@
   </div>
 </header>
 
+<main>
 <section class="hero">
   <div class="wrap hero-grid">
     <div class="hero-text">
@@ -91,7 +97,10 @@
       </div>
     </div>
     <div class="hero-art">
-      <img src="assets/logo.png" alt="Karasu" class="hero-logo" width="1420" height="968" />
+      <picture>
+        <source srcset="assets/logo-display.webp" type="image/webp" />
+        <img src="assets/logo-display.png" alt="Karasu" class="hero-logo" width="616" height="420" />
+      </picture>
     </div>
   </div>
 </section>
@@ -123,25 +132,25 @@
         <span class="level-tag">N5</span>
         <p>Lo básico: verbos, adjetivos y frases simples.</p>
         <p class="level-best" data-level-best="n5" hidden></p>
-        <a class="btn btn-primary btn-block" href="/quiz?level=n5">Empezar</a>
+        <a class="btn btn-primary btn-block" href="/quiz?level=n5" aria-label="Empezar el nivel N5 de gramática">Empezar</a>
       </div>
       <div class="level-card">
         <span class="level-tag">N4</span>
         <p>Conectores y formas un poco más elaboradas.</p>
         <p class="level-best" data-level-best="n4" hidden></p>
-        <a class="btn btn-primary btn-block" href="/quiz?level=n4">Empezar</a>
+        <a class="btn btn-primary btn-block" href="/quiz?level=n4" aria-label="Empezar el nivel N4 de gramática">Empezar</a>
       </div>
       <div class="level-card">
         <span class="level-tag">N3</span>
         <p>Gramática intermedia, la más usada en la vida real.</p>
         <p class="level-best" data-level-best="n3" hidden></p>
-        <a class="btn btn-primary btn-block" href="/quiz?level=n3">Empezar</a>
+        <a class="btn btn-primary btn-block" href="/quiz?level=n3" aria-label="Empezar el nivel N3 de gramática">Empezar</a>
       </div>
       <div class="level-card">
         <span class="level-tag">N2</span>
         <p>Gramática avanzada, la base para leer y trabajar en japonés.</p>
         <p class="level-best" data-level-best="n2" hidden></p>
-        <a class="btn btn-primary btn-block" href="/quiz?level=n2">Empezar</a>
+        <a class="btn btn-primary btn-block" href="/quiz?level=n2" aria-label="Empezar el nivel N2 de gramática">Empezar</a>
       </div>
     </div>
 
@@ -155,25 +164,25 @@
         <span class="level-tag">N5</span>
         <p>Palabras y kanji básicos del día a día.</p>
         <p class="level-best" data-level-best="n5-vocab" hidden></p>
-        <a class="btn btn-outline btn-block" href="/quiz?level=n5&type=vocab">Empezar</a>
+        <a class="btn btn-outline btn-block" href="/quiz?level=n5&type=vocab" aria-label="Empezar el nivel N5 de vocabulario y kanji">Empezar</a>
       </div>
       <div class="level-card">
         <span class="level-tag">N4</span>
         <p>Verbos y adjetivos algo más variados.</p>
         <p class="level-best" data-level-best="n4-vocab" hidden></p>
-        <a class="btn btn-outline btn-block" href="/quiz?level=n4&type=vocab">Empezar</a>
+        <a class="btn btn-outline btn-block" href="/quiz?level=n4&type=vocab" aria-label="Empezar el nivel N4 de vocabulario y kanji">Empezar</a>
       </div>
       <div class="level-card">
         <span class="level-tag">N3</span>
         <p>Vocabulario intermedio, más cercano al uso cotidiano real.</p>
         <p class="level-best" data-level-best="n3-vocab" hidden></p>
-        <a class="btn btn-outline btn-block" href="/quiz?level=n3&type=vocab">Empezar</a>
+        <a class="btn btn-outline btn-block" href="/quiz?level=n3&type=vocab" aria-label="Empezar el nivel N3 de vocabulario y kanji">Empezar</a>
       </div>
       <div class="level-card">
         <span class="level-tag">N2</span>
         <p>Vocabulario más abstracto, típico de noticias y ensayos.</p>
         <p class="level-best" data-level-best="n2-vocab" hidden></p>
-        <a class="btn btn-outline btn-block" href="/quiz?level=n2&type=vocab">Empezar</a>
+        <a class="btn btn-outline btn-block" href="/quiz?level=n2&type=vocab" aria-label="Empezar el nivel N2 de vocabulario y kanji">Empezar</a>
       </div>
     </div>
   </div>
@@ -198,7 +207,13 @@
       <div class="book-grid">
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/n5.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/n5.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/n5.jpg" alt="" />
+
+          </picture>
           <span class="book-level">JLPT N5</span>
           <h3 data-book-title="n5"></h3>
           <p>Explicaciones, simulacros y vocabulario para el nivel inicial.</p>
@@ -206,7 +221,13 @@
         </article>
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/n4.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/n4.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/n4.jpg" alt="" />
+
+          </picture>
           <span class="book-level">JLPT N4</span>
           <h3 data-book-title="n4"></h3>
           <p>Explicaciones, simulacros y vocabulario para el segundo nivel.</p>
@@ -214,7 +235,13 @@
         </article>
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/n3.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/n3.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/n3.jpg" alt="" />
+
+          </picture>
           <span class="book-level">JLPT N3</span>
           <h3 data-book-title="n3"></h3>
           <p>Explicaciones, simulacros y vocabulario para el nivel intermedio.</p>
@@ -222,7 +249,13 @@
         </article>
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/n2.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/n2.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/n2.jpg" alt="" />
+
+          </picture>
           <span class="book-level">JLPT N2</span>
           <h3 data-book-title="n2"></h3>
           <p>Explicaciones, simulacros y vocabulario para el nivel avanzado.</p>
@@ -242,7 +275,13 @@
       <div class="book-grid">
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/curso1.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/curso1.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/curso1.jpg" alt="" />
+
+          </picture>
           <span class="book-level">N5 · N4</span>
           <h3 data-book-title="curso1"></h3>
           <p>Japonés tal&nbsp;como se habla de&nbsp;verdad, para los primeros niveles.</p>
@@ -250,7 +289,13 @@
         </article>
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/curso2.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/curso2.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/curso2.jpg" alt="" />
+
+          </picture>
           <span class="book-level">N5 · N4</span>
           <h3 data-book-title="curso2"></h3>
           <p>La continuación del japonés real, con más situaciones cotidianas.</p>
@@ -258,7 +303,13 @@
         </article>
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/curso3.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/curso3.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/curso3.jpg" alt="" />
+
+          </picture>
           <span class="book-level">N4 · N3</span>
           <h3 data-book-title="curso3"></h3>
           <p><span lang="ja">敬語, 尊敬語, 謙譲語, 丁寧語</span> — el lenguaje formal explicado con calma.</p>
@@ -266,7 +317,13 @@
         </article>
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/ejercicios_n3.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/ejercicios_n3.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/ejercicios_n3.jpg" alt="" />
+
+          </picture>
           <span class="book-level">JLPT N3</span>
           <h3 data-book-title="ejercicios_n3"></h3>
           <p>Gramática y comprensión de lectura, práctica extra al estilo del examen.</p>
@@ -285,7 +342,13 @@
       <div class="book-grid">
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/cuentos.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/cuentos.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/cuentos.jpg" alt="" />
+
+          </picture>
           <span class="book-level">N4 · N3</span>
           <h3 data-book-title="cuentos"></h3>
           <p>Relato original en japonés para practicar lectura con historia.</p>
@@ -293,7 +356,13 @@
         </article>
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/culinaria.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/culinaria.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/culinaria.jpg" alt="" />
+
+          </picture>
           <span class="book-level">Cultura</span>
           <h3 data-book-title="culinaria"></h3>
           <p>Sabores tradicionales que perduran más&nbsp;allá&nbsp;de las modas.</p>
@@ -301,7 +370,13 @@
         </article>
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/viaja1.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/viaja1.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/viaja1.jpg" alt="" />
+
+          </picture>
           <span class="book-level">Viajes</span>
           <h3 data-book-title="viaja1"></h3>
           <p>Todo lo que necesitas saber para divertirte en tu viaje.</p>
@@ -309,7 +384,13 @@
         </article>
 
         <article class="book-card">
-          <img class="book-cover" loading="lazy" src="assets/covers/viaja2.jpg" alt="" />
+          <picture>
+
+            <source srcset="assets/covers/viaja2.webp" type="image/webp" />
+
+            <img class="book-cover" loading="lazy" src="assets/covers/viaja2.jpg" alt="" />
+
+          </picture>
           <span class="book-level">Viajes</span>
           <h3 data-book-title="viaja2"></h3>
           <p>La segunda parte de la guía de viaje a Japón.</p>
@@ -324,7 +405,10 @@
 
 <section id="baberou" style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
   <div class="wrap" style="max-width: 680px;">
-    <img src="assets/logo.png" alt="" width="1420" height="968" style="height: 56px; width: auto; margin-bottom: 18px;" />
+    <picture>
+      <source srcset="assets/logo-display.webp" type="image/webp" />
+      <img src="assets/logo-display.png" alt="" width="616" height="420" style="height: 56px; width: auto; margin-bottom: 18px;" />
+    </picture>
     <h2 class="section-title">Sobre Karasu</h2>
     <p>
       El nombre viene del yatagarasu (<span lang="ja">八咫烏</span>), el cuervo de tres patas de
@@ -357,6 +441,7 @@
     </p>
   </div>
 </section>
+</main>
 
 <footer class="site-footer">
   <div class="wrap">

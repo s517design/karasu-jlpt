@@ -11,7 +11,9 @@
 <meta name="description" content="Practica gramática del JLPT gratis, con explicaciones bilingües japonés-español." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" />
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+<noscript><link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" /></noscript>
 <link rel="stylesheet" href="css/style.css" />
 <link rel="canonical" href="https://karasu.page/quiz" />
 
@@ -38,7 +40,10 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">
-      <img src="assets/logo.png" alt="" class="brand-logo" width="1420" height="968" />
+      <picture>
+        <source srcset="assets/logo-display.webp" type="image/webp" />
+        <img src="assets/logo-display.png" alt="" class="brand-logo" width="616" height="420" />
+      </picture>
       Karasu
     </a>
     <nav class="site-nav">
