@@ -373,6 +373,31 @@ async function initPlacementQuiz() {
   new Quiz(combined, "placement", { isPlacement: true, skipShuffle: true });
 }
 
+// このクイズページを「Course（講座）」として構造化データで伝える。
+// 表示しているレベル・種類（文法／語彙）と完全に同じ情報を使うので、
+// 別の場所で手書きしてズレる心配がない。
+function injectCourseStructuredData(level, type) {
+  const topic = type === "vocab" ? "Vocabulario y Kanji" : "Práctica de gramática";
+  const url = `https://karasu.page/quiz?level=${level}${type === "vocab" ? "&type=vocab" : ""}`;
+  const script = document.createElement("script");
+  script.type = "application/ld+json";
+  script.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: `${topic} JLPT ${LEVEL_LABELS[level]}`,
+    description: `Cuestionario gratuito de ${topic.toLowerCase()} para el nivel ${LEVEL_LABELS[level]} del JLPT, con explicaciones bilingües en japonés y español.`,
+    provider: {
+      "@type": "Organization",
+      name: "Karasu",
+      sameAs: "https://karasu.page/",
+    },
+    url,
+    inLanguage: "es",
+    isAccessibleForFree: true,
+  });
+  document.head.appendChild(script);
+}
+
 async function initLevelQuiz() {
   const level = getLevelFromUrl();
   const type = getTypeFromUrl();
@@ -383,6 +408,7 @@ async function initLevelQuiz() {
     type === "vocab"
       ? `Vocabulario y Kanji ${LEVEL_LABELS[level]} — Karasu`
       : `Práctica JLPT ${LEVEL_LABELS[level]} — Karasu`;
+  injectCourseStructuredData(level, type);
 
   const pool = await fetchLevelQuestions(level, type);
   const questions = shuffle(pool).slice(0, QUESTIONS_PER_QUIZ);

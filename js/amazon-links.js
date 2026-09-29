@@ -219,7 +219,43 @@ function wireUpBookTitles(root) {
   });
 }
 
+// 表示している本の一覧をGoogleにも分かりやすくするための構造化データ（JSON-LD）。
+// タイトルの出どころは上のBOOKSオブジェクトだけ（画面表示と完全に同じ
+// データソース）なので、ここだけ書き換えて情報がずれる心配がない。
+function injectBookStructuredData() {
+  const titleEls = document.querySelectorAll("[data-book-title]");
+  if (titleEls.length === 0) return;
+
+  const seen = new Set();
+  const books = [];
+  titleEls.forEach((el) => {
+    const key = el.getAttribute("data-book-title");
+    const book = BOOKS[key];
+    if (book && !seen.has(key)) {
+      seen.add(key);
+      books.push({
+        "@type": "Book",
+        "name": book.title,
+        "author": { "@type": "Person", "name": "BABEROU" },
+        "publisher": { "@type": "Organization", "name": "BABEROU" },
+        "bookFormat": "https://schema.org/EBook",
+        "inLanguage": "es",
+      });
+    }
+  });
+  if (books.length === 0) return;
+
+  const script = document.createElement("script");
+  script.type = "application/ld+json";
+  script.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": books,
+  });
+  document.head.appendChild(script);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   wireUpBookLinks();
   wireUpBookTitles();
+  injectBookStructuredData();
 });
