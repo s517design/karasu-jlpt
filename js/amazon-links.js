@@ -163,13 +163,22 @@ function detectAmazonDomain() {
   return DEFAULT_DOMAIN;
 }
 
+// Amazonアソシエイトのトラッキングタグ。マーケットプレイス（ドメイン）ごとに
+// 別々のプログラム・別々のIDなので、登録済みのドメインにだけ付与する。
+// 未登録のドメインにはタグを付けない（付けても無効、または規約違反になるため）。
+const DOMAIN_TO_ASSOCIATE_TAG = {
+  "amazon.es": "karasu06a-21",
+};
+
 function amazonLinkFor(bookKey) {
   const book = BOOKS[bookKey];
   if (!book) {
     return null;
   }
   const domain = detectAmazonDomain();
-  return `https://www.${domain}/dp/${book.asin}`;
+  const url = `https://www.${domain}/dp/${book.asin}`;
+  const tag = DOMAIN_TO_ASSOCIATE_TAG[domain];
+  return tag ? `${url}?tag=${tag}` : url;
 }
 
 // ページ内の <a data-book="n2"> のようなリンクに、自動的に
