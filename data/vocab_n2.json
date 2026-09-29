@@ -2,7 +2,7 @@
   {
     "id": "vocab_n2_001",
     "grammar_point": "漢字の読み方",
-    "question_ja": "いまの【状況】をせつめいしてください。",
+    "question_ja": "いまの【状況】を説明してください。",
     "choices": [
       "じょうきょう",
       "じょうけい",
@@ -12,13 +12,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「状況」は「じょうきょう」と読む(situación)。",
-    "answer_sentence_ja": "いまの状況をせつめいしてください。",
+    "answer_sentence_ja": "いまの状況を説明してください。",
     "answer_sentence_es": "Por favor explique la situación actual."
   },
   {
     "id": "vocab_n2_002",
     "grammar_point": "漢字の読み方",
-    "question_ja": "じぶんで【判断します】。",
+    "question_ja": "自分で【判断します】。",
     "choices": [
       "はんだんします",
       "はんめいします",
@@ -28,13 +28,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「判断する」は「はんだんする」と読む(juzgar/decidir)。",
-    "answer_sentence_ja": "じぶんで判断します。",
+    "answer_sentence_ja": "自分で判断します。",
     "answer_sentence_es": "Lo juzgo por mí mismo."
   },
   {
     "id": "vocab_n2_003",
     "grammar_point": "漢字の読み方",
-    "question_ja": "このくすりは【効果】があります。",
+    "question_ja": "この薬は【効果】があります。",
     "choices": [
       "こうか",
       "こうが",
@@ -44,7 +44,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「効果」は「こうか」と読む(efecto)。",
-    "answer_sentence_ja": "このくすりは効果があります。",
+    "answer_sentence_ja": "この薬は効果があります。",
     "answer_sentence_es": "Esta medicina tiene efecto."
   },
   {
@@ -82,7 +82,7 @@
   {
     "id": "vocab_n2_006",
     "grammar_point": "漢字の読み方",
-    "question_ja": "【対策】をかんがえます。",
+    "question_ja": "【対策】を考えます。",
     "choices": [
       "たいさく",
       "たいせき",
@@ -92,7 +92,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「対策」は「たいさく」と読む(medida, contramedida)。",
-    "answer_sentence_ja": "対策をかんがえます。",
+    "answer_sentence_ja": "対策を考えます。",
     "answer_sentence_es": "Pienso en una medida (para solucionar algo)."
   },
   {
@@ -114,7 +114,7 @@
   {
     "id": "vocab_n2_008",
     "grammar_point": "ことばの意味",
-    "question_ja": "かれは【積極的】にはっぴょうします。",
+    "question_ja": "かれは【積極的】に発表します。",
     "choices": [
       "de forma proactiva",
       "de forma pasiva",
@@ -124,13 +124,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「積極的な」は「proactivo」という意味。",
-    "answer_sentence_ja": "かれは積極的にはっぴょうします。",
+    "answer_sentence_ja": "かれは積極的に発表します。",
     "answer_sentence_es": "Él presenta de forma proactiva."
   },
   {
     "id": "vocab_n2_009",
     "grammar_point": "ことばの意味",
-    "question_ja": "【具体的】なれいをあげてください。",
+    "question_ja": "【具体的】な例をあげてください。",
     "choices": [
       "concreto",
       "abstracto",
@@ -140,13 +140,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「具体的な」は「concreto」という意味。",
-    "answer_sentence_ja": "具体的なれいをあげてください。",
+    "answer_sentence_ja": "具体的な例をあげてください。",
     "answer_sentence_es": "Por favor dé un ejemplo concreto."
   },
   {
     "id": "vocab_n2_010",
     "grammar_point": "ことばの意味",
-    "question_ja": "てんきの【影響】で、けいざいがかわった。",
+    "question_ja": "天気の【影響】で、経済が変わった。",
     "choices": [
       "la influencia",
       "la oposición",
@@ -156,7 +156,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「影響」は「la influencia」という意味。",
-    "answer_sentence_ja": "てんきの影響で、けいざいがかわった。",
+    "answer_sentence_ja": "天気の影響で、経済が変わった。",
     "answer_sentence_es": "Debido a la influencia del clima, la economía cambió."
   },
   {
@@ -194,7 +194,7 @@
   {
     "id": "vocab_n2_013",
     "grammar_point": "漢字の読み方",
-    "question_ja": "あたらしいせいどを【実施します】。",
+    "question_ja": "新しい制度を【実施します】。",
     "choices": [
       "じっしします",
       "じつしします",
@@ -204,13 +204,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「実施する」は「じっしする」と読む(implementar)。",
-    "answer_sentence_ja": "あたらしいせいどを実施します。",
+    "answer_sentence_ja": "新しい制度を実施します。",
     "answer_sentence_es": "Implementamos el nuevo sistema."
   },
   {
     "id": "vocab_n2_014",
     "grammar_point": "漢字の読み方",
-    "question_ja": "けいかくを【検討します】。",
+    "question_ja": "計画を【検討します】。",
     "choices": [
       "けんとうします",
       "けんどうします",
@@ -220,13 +220,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「検討する」は「けんとうする」と読む(examinar/considerar)。「研究する(けんきゅうする)」と間違えないように。",
-    "answer_sentence_ja": "けいかくを検討します。",
+    "answer_sentence_ja": "計画を検討します。",
     "answer_sentence_es": "Examinamos el plan."
   },
   {
     "id": "vocab_n2_015",
     "grammar_point": "漢字の読み方",
-    "question_ja": "あたらしいアイデアを【提案します】。",
+    "question_ja": "新しいアイデアを【提案します】。",
     "choices": [
       "ていあんします",
       "ていげんします",
@@ -236,7 +236,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「提案する」は「ていあんする」と読む(proponer)。「提出する(ていしゅつする)」と間違えないように。",
-    "answer_sentence_ja": "あたらしいアイデアを提案します。",
+    "answer_sentence_ja": "新しいアイデアを提案します。",
     "answer_sentence_es": "Propongo una nueva idea."
   },
   {
@@ -306,7 +306,7 @@
   {
     "id": "vocab_n2_020",
     "grammar_point": "漢字の読み方",
-    "question_ja": "じぶんのいけんを【主張します】。",
+    "question_ja": "自分の意見を【主張します】。",
     "choices": [
       "しゅちょうします",
       "しゅうちょうします",
@@ -316,7 +316,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「主張する」は「しゅちょうする」と読む(sostener una opinión)。",
-    "answer_sentence_ja": "じぶんのいけんを主張します。",
+    "answer_sentence_ja": "自分の意見を主張します。",
     "answer_sentence_es": "Sostengo mi propia opinión."
   },
   {
@@ -338,7 +338,7 @@
   {
     "id": "vocab_n2_022",
     "grammar_point": "ことばの意味",
-    "question_ja": "じょうきょうが【徐々に】かいぜんしている。",
+    "question_ja": "状況が【徐々に】改善している。",
     "choices": [
       "gradualmente",
       "repentinamente",
@@ -348,7 +348,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「徐々に」は「gradualmente」という意味。",
-    "answer_sentence_ja": "じょうきょうが徐々にかいぜんしている。",
+    "answer_sentence_ja": "状況が徐々に改善している。",
     "answer_sentence_es": "La situación está mejorando gradualmente."
   },
   {
@@ -370,7 +370,7 @@
   {
     "id": "vocab_n2_024",
     "grammar_point": "ことばの意味",
-    "question_ja": "かかくが【大幅に】あがった。",
+    "question_ja": "価格が【大幅に】上がった。",
     "choices": [
       "significativamente",
       "ligeramente",
@@ -380,13 +380,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「大幅に」は「significativamente / ampliamente」という意味。",
-    "answer_sentence_ja": "かかくが大幅にあがった。",
+    "answer_sentence_ja": "価格が大幅に上がった。",
     "answer_sentence_es": "El precio subió significativamente."
   },
   {
     "id": "vocab_n2_025",
     "grammar_point": "ことばの意味",
-    "question_ja": "げんいんは【明らか】だ。",
+    "question_ja": "原因は【明らか】だ。",
     "choices": [
       "evidente",
       "confuso",
@@ -396,7 +396,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「明らかな」は「evidente」という意味。",
-    "answer_sentence_ja": "げんいんは明らかだ。",
+    "answer_sentence_ja": "原因は明らかだ。",
     "answer_sentence_es": "La causa es evidente."
   },
   {
@@ -418,7 +418,7 @@
   {
     "id": "vocab_n2_027",
     "grammar_point": "ことばの意味",
-    "question_ja": "これは【貴重な】けいけんでした。",
+    "question_ja": "これは【貴重な】経験でした。",
     "choices": [
       "valioso",
       "inútil",
@@ -428,7 +428,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「貴重な」は「valioso」という意味。",
-    "answer_sentence_ja": "これは貴重なけいけんでした。",
+    "answer_sentence_ja": "これは貴重な経験でした。",
     "answer_sentence_es": "Esta fue una experiencia valiosa."
   },
   {
@@ -450,7 +450,7 @@
   {
     "id": "vocab_n2_029",
     "grammar_point": "ことばの意味",
-    "question_ja": "かれのたいどは【一貫して】いる。",
+    "question_ja": "かれの態度は【一貫して】いる。",
     "choices": [
       "consistente",
       "inconsistente",
@@ -460,13 +460,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「一貫した」は「consistente」という意味。",
-    "answer_sentence_ja": "かれのたいどは一貫している。",
+    "answer_sentence_ja": "かれの態度は一貫している。",
     "answer_sentence_es": "Su actitud es consistente."
   },
   {
     "id": "vocab_n2_030",
     "grammar_point": "ことばの意味",
-    "question_ja": "【潜在的な】きけんがある。",
+    "question_ja": "【潜在的な】危険がある。",
     "choices": [
       "potencial",
       "evidente",
@@ -476,7 +476,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「潜在的な」は「potencial」という意味。",
-    "answer_sentence_ja": "潜在的なきけんがある。",
+    "answer_sentence_ja": "潜在的な危険がある。",
     "answer_sentence_es": "Hay un peligro potencial."
   }
 ]

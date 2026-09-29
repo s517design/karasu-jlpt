@@ -114,7 +114,7 @@
   {
     "id": "vocab_n3_008",
     "grammar_point": "ことばの意味",
-    "question_ja": "りゅうがくで【苦労しました】。",
+    "question_ja": "留学で【苦労しました】。",
     "choices": [
       "pasar dificultades",
       "divertirse",
@@ -124,7 +124,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「苦労する」は「pasar dificultades / esforzarse con penurias」という意味。",
-    "answer_sentence_ja": "りゅうがくで苦労しました。",
+    "answer_sentence_ja": "留学で苦労しました。",
     "answer_sentence_es": "Pasé dificultades durante mi estudio en el extranjero."
   },
   {
@@ -210,7 +210,7 @@
   {
     "id": "vocab_n3_014",
     "grammar_point": "漢字の読み方",
-    "question_ja": "ごうかくのために【努力します】。",
+    "question_ja": "合格のために【努力します】。",
     "choices": [
       "どりょくします",
       "どりきします",
@@ -220,13 +220,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「努力する」は「どりょくする」と読む(esforzarse)。「能力(のうりょく)」と間違えないように。",
-    "answer_sentence_ja": "ごうかくのために努力します。",
+    "answer_sentence_ja": "合格のために努力します。",
     "answer_sentence_es": "Me esfuerzo para aprobar."
   },
   {
     "id": "vocab_n3_015",
     "grammar_point": "漢字の読み方",
-    "question_ja": "じっけんに【失敗しました】。",
+    "question_ja": "実験に【失敗しました】。",
     "choices": [
       "しっぱいしました",
       "しつばいしました",
@@ -236,13 +236,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「失敗する」は「しっぱいする」と読む(fracasar)。「成功する(せいこうする)」は反対の意味。",
-    "answer_sentence_ja": "じっけんに失敗しました。",
+    "answer_sentence_ja": "実験に失敗しました。",
     "answer_sentence_es": "Fracasé en el experimento."
   },
   {
     "id": "vocab_n3_016",
     "grammar_point": "漢字の読み方",
-    "question_ja": "らいねんのけいかくを【決定しました】。",
+    "question_ja": "来年の計画を【決定しました】。",
     "choices": [
       "けっていしました",
       "けつじょうしました",
@@ -252,7 +252,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「決定する」は「けっていする」と読む(decidir)。「確定する(かくていする)」と間違えないように。",
-    "answer_sentence_ja": "らいねんのけいかくを決定しました。",
+    "answer_sentence_ja": "来年の計画を決定しました。",
     "answer_sentence_es": "Decidimos el plan para el próximo año."
   },
   {
@@ -274,7 +274,7 @@
   {
     "id": "vocab_n3_018",
     "grammar_point": "漢字の読み方",
-    "question_ja": "きもちを【表現します】。",
+    "question_ja": "気持ちを【表現します】。",
     "choices": [
       "ひょうげんします",
       "ひょうけんします",
@@ -284,13 +284,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「表現する」は「ひょうげんする」と読む(expresar)。",
-    "answer_sentence_ja": "きもちを表現します。",
+    "answer_sentence_ja": "気持ちを表現します。",
     "answer_sentence_es": "Expreso mis sentimientos."
   },
   {
     "id": "vocab_n3_019",
     "grammar_point": "漢字の読み方",
-    "question_ja": "しごとで【疲れました】。",
+    "question_ja": "仕事で【疲れました】。",
     "choices": [
       "つかれました",
       "ひかれました",
@@ -300,7 +300,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「疲れる」は「つかれる」と読む(cansarse)。",
-    "answer_sentence_ja": "しごとで疲れました。",
+    "answer_sentence_ja": "仕事で疲れました。",
     "answer_sentence_es": "Me cansé por el trabajo."
   },
   {
@@ -322,7 +322,7 @@
   {
     "id": "vocab_n3_021",
     "grammar_point": "漢字の読み方",
-    "question_ja": "ねだんを【比べます】。",
+    "question_ja": "値段を【比べます】。",
     "choices": [
       "くらべます",
       "ひかくべます",
@@ -332,13 +332,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「比べる」は「くらべる」と読む(comparar)。",
-    "answer_sentence_ja": "ねだんを比べます。",
+    "answer_sentence_ja": "値段を比べます。",
     "answer_sentence_es": "Comparo los precios."
   },
   {
     "id": "vocab_n3_022",
     "grammar_point": "ことばの意味",
-    "question_ja": "いたくても【がまんしました】。",
+    "question_ja": "痛くても【がまんしました】。",
     "choices": [
       "aguantar",
       "quejarse",
@@ -348,13 +348,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「がまんする」は「aguantar / soportar」という意味。",
-    "answer_sentence_ja": "いたくてもがまんしました。",
+    "answer_sentence_ja": "痛くてもがまんしました。",
     "answer_sentence_es": "Aunque me dolía, lo aguanté."
   },
   {
     "id": "vocab_n3_023",
     "grammar_point": "ことばの意味",
-    "question_ja": "ゆめを【あきらめません】。",
+    "question_ja": "夢を【あきらめません】。",
     "choices": [
       "rendirse",
       "continuar",
@@ -364,13 +364,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「あきらめる」は「rendirse / abandonar」という意味。",
-    "answer_sentence_ja": "ゆめをあきらめません。",
+    "answer_sentence_ja": "夢をあきらめません。",
     "answer_sentence_es": "No me rindo con mi sueño."
   },
   {
     "id": "vocab_n3_024",
     "grammar_point": "ことばの意味",
-    "question_ja": "かぞくに【たよって】います。",
+    "question_ja": "家族に【たよって】います。",
     "choices": [
       "depender de",
       "independizarse de",
@@ -380,7 +380,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「たよる」は「depender de / confiar en」という意味。",
-    "answer_sentence_ja": "かぞくにたよっています。",
+    "answer_sentence_ja": "家族にたよっています。",
     "answer_sentence_es": "Dependo de mi familia."
   },
   {
@@ -418,7 +418,7 @@
   {
     "id": "vocab_n3_027",
     "grammar_point": "ことばの意味",
-    "question_ja": "ひとりで【さびしい】です。",
+    "question_ja": "一人で【さびしい】です。",
     "choices": [
       "solitario",
       "feliz",
@@ -428,7 +428,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「さびしい」は「solitario / triste」という意味。",
-    "answer_sentence_ja": "ひとりでさびしいです。",
+    "answer_sentence_ja": "一人でさびしいです。",
     "answer_sentence_es": "Estoy solitario, estando solo."
   },
   {
@@ -450,7 +450,7 @@
   {
     "id": "vocab_n3_029",
     "grammar_point": "ことばの意味",
-    "question_ja": "このもんだいは【なかなか】むずかしい。",
+    "question_ja": "この問題は【なかなか】むずかしい。",
     "choices": [
       "bastante",
       "para nada",
@@ -460,13 +460,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「なかなか」は「bastante」という意味(肯定文の場合)。",
-    "answer_sentence_ja": "このもんだいはなかなかむずかしい。",
+    "answer_sentence_ja": "この問題はなかなかむずかしい。",
     "answer_sentence_es": "Este problema es bastante difícil."
   },
   {
     "id": "vocab_n3_030",
     "grammar_point": "ことばの意味",
-    "question_ja": "【ようやく】しごとがおわりました。",
+    "question_ja": "【ようやく】仕事が終わりました。",
     "choices": [
       "finalmente",
       "todavía",
@@ -476,7 +476,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「ようやく」は「finalmente / por fin」という意味。",
-    "answer_sentence_ja": "ようやくしごとがおわりました。",
+    "answer_sentence_ja": "ようやく仕事が終わりました。",
     "answer_sentence_es": "Finalmente terminé el trabajo."
   }
 ]

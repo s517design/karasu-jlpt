@@ -194,7 +194,7 @@
   {
     "id": "orig_n4_013",
     "grammar_point": "〜そうだ（様態）",
-    "question_ja": "この　りょうりは　とても　おいし（　　）。",
+    "question_ja": "この　料理は　とても　おいし（　　）。",
     "choices": [
       "そうです",
       "です",
@@ -204,13 +204,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "い形容詞の語幹＋そうだ＝apariencia ('parece que...'), basado en lo que se ve。",
-    "answer_sentence_ja": "このりょうりはとてもおいしそうです。",
+    "answer_sentence_ja": "この料理はとてもおいしそうです。",
     "answer_sentence_es": "Esta comida parece muy sabrosa."
   },
   {
     "id": "orig_n4_014",
     "grammar_point": "〜ようだ（比喩）",
-    "question_ja": "きょうは　なつ（　　）あついです。",
+    "question_ja": "今日は　夏（　　）あついです。",
     "choices": [
       "のように",
       "のようだ",
@@ -220,13 +220,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "名詞＋のように＝forma adverbial de 'como si fuera...', modifica al adjetivo/verbo siguiente。",
-    "answer_sentence_ja": "きょうはなつのようにあついです。",
+    "answer_sentence_ja": "今日は夏のようにあついです。",
     "answer_sentence_es": "Hoy hace calor como en verano."
   },
   {
     "id": "orig_n4_015",
     "grammar_point": "〜ように（目的）",
-    "question_ja": "みんなに　きこえる（　　）、おおきい　こえで　はなしました。",
+    "question_ja": "みんなに　きこえる（　　）、おおきい　声で　はなしました。",
     "choices": [
       "ように",
       "ために",
@@ -236,7 +236,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "可能形＋ように＝expresar un objetivo o propósito ('para que...')。",
-    "answer_sentence_ja": "みんなにきこえるように、おおきいこえではなしました。",
+    "answer_sentence_ja": "みんなにきこえるように、おおきい声ではなしました。",
     "answer_sentence_es": "Hablé en voz alta para que todos pudieran oír."
   },
   {
@@ -258,7 +258,7 @@
   {
     "id": "orig_n4_017",
     "grammar_point": "〜らしい（推測）",
-    "question_ja": "となりのへやからこえがする。だれかいる（　　）。",
+    "question_ja": "となりのへやから声がする。だれかいる（　　）。",
     "choices": [
       "らしい",
       "らしかった",
@@ -268,13 +268,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形＋らしい＝expresar una inferencia basada en información externa (se dice que.../parece que...)。",
-    "answer_sentence_ja": "となりのへやからこえがする。だれかいるらしい。",
+    "answer_sentence_ja": "となりのへやから声がする。だれかいるらしい。",
     "answer_sentence_es": "Se oye un ruido en la habitación de al lado. Parece que hay alguien."
   },
   {
     "id": "orig_n4_018",
     "grammar_point": "〜てしまう・〜ちゃう",
-    "question_ja": "たいせつな　しゃしんを　なくして（　　）。",
+    "question_ja": "大切な　しゃしんを　なくして（　　）。",
     "choices": [
       "しまいました",
       "おきました",
@@ -284,13 +284,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "て形＋しまう＝indica que algo pasó por completo o lamentablemente (arrepentimiento)。",
-    "answer_sentence_ja": "たいせつなしゃしんをなくしてしまいました。",
+    "answer_sentence_ja": "大切なしゃしんをなくしてしまいました。",
     "answer_sentence_es": "Lamentablemente perdí una foto importante."
   },
   {
     "id": "orig_n4_019",
     "grammar_point": "〜てみる",
-    "question_ja": "あたらしい　みせの　りょうりを　たべて（　　）。",
+    "question_ja": "あたらしい　店の　料理を　たべて（　　）。",
     "choices": [
       "みました",
       "いきました",
@@ -300,13 +300,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "て形＋みる＝'intentar hacer algo' (probar a hacer)。",
-    "answer_sentence_ja": "あたらしいみせのりょうりをたべてみました。",
+    "answer_sentence_ja": "あたらしい店の料理をたべてみました。",
     "answer_sentence_es": "Probé a comer la comida del restaurante nuevo."
   },
   {
     "id": "orig_n4_020",
     "grammar_point": "〜てあげる",
-    "question_ja": "ともだちに　にほんごを　おしえて（　　）。",
+    "question_ja": "友だちに　日本語を　おしえて（　　）。",
     "choices": [
       "あげました",
       "もらいました",
@@ -316,7 +316,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "て形＋あげる＝hacer algo en beneficio de otra persona (yo→otra persona)。",
-    "answer_sentence_ja": "ともだちににほんごをおしえてあげました。",
+    "answer_sentence_ja": "友だちに日本語をおしえてあげました。",
     "answer_sentence_es": "Le enseñé japonés a mi amigo (como favor)."
   },
   {
@@ -354,7 +354,7 @@
   {
     "id": "orig_n4_023",
     "grammar_point": "〜にくい",
-    "question_ja": "この　かんじは　むずかしくて（　　）です。",
+    "question_ja": "この　漢字は　むずかしくて（　　）です。",
     "choices": [
       "おぼえにくい",
       "おぼえやすい",
@@ -364,13 +364,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "ます形の語幹＋にくい＝'difícil de hacer algo'。",
-    "answer_sentence_ja": "このかんじはむずかしくておぼえにくいです。",
+    "answer_sentence_ja": "この漢字はむずかしくておぼえにくいです。",
     "answer_sentence_es": "Este kanji es difícil y cuesta memorizarlo."
   },
   {
     "id": "orig_n4_024",
     "grammar_point": "もし〜たら",
-    "question_ja": "もし　あした　ひまだった（　　）、いっしょに　でかけませんか。",
+    "question_ja": "もし　あした　ひまだった（　　）、いっしょに　出かけませんか。",
     "choices": [
       "ら",
       "なら",
@@ -380,13 +380,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "もし＋普通形（た形）＋ら＝planteamiento hipotético ('si pasara que...')。",
-    "answer_sentence_ja": "もしあしたひまだったら、いっしょにでかけませんか。",
+    "answer_sentence_ja": "もしあしたひまだったら、いっしょに出かけませんか。",
     "answer_sentence_es": "Si mañana estás libre, ¿salimos juntos?"
   },
   {
     "id": "orig_n4_025",
     "grammar_point": "〜まま",
-    "question_ja": "くつを　はいた（　　）、いえに　はいらないでください。",
+    "question_ja": "くつを　はいた（　　）、家に　はいらないでください。",
     "choices": [
       "まま",
       "とき",
@@ -396,13 +396,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "た形＋まま＝'tal como está', un estado que se mantiene sin cambiar。",
-    "answer_sentence_ja": "くつをはいたまま、いえにはいらないでください。",
+    "answer_sentence_ja": "くつをはいたまま、家にはいらないでください。",
     "answer_sentence_es": "Por favor, no entres a la casa con los zapatos puestos."
   },
   {
     "id": "orig_n4_026",
     "grammar_point": "〜はず",
-    "question_ja": "かれは　にほんに　じゅうねん　すんでいたから、にほんごが　じょうずな（　　）だ。",
+    "question_ja": "かれは　日本に　十年　住んでいたから、日本語が　じょうずな（　　）だ。",
     "choices": [
       "はず",
       "つもり",
@@ -412,7 +412,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形＋はず＝expresar una expectativa lógica ('debería ser que...')。",
-    "answer_sentence_ja": "かれはにほんにじゅうねんすんでいたから、にほんごがじょうずなはずだ。",
+    "answer_sentence_ja": "かれは日本に十年住んでいたから、日本語がじょうずなはずだ。",
     "answer_sentence_es": "Como vivió diez años en Japón, debería hablar bien japonés."
   },
   {
@@ -434,7 +434,7 @@
   {
     "id": "orig_n4_028",
     "grammar_point": "〜までに",
-    "question_ja": "らいしゅうの　げつようび（　　）、レポートを　だしてください。",
+    "question_ja": "らいしゅうの　月曜日（　　）、レポートを　出してください。",
     "choices": [
       "までに",
       "まで",
@@ -444,13 +444,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "時間＋までに＝'antes de/para cierto plazo' (fecha límite)。",
-    "answer_sentence_ja": "らいしゅうのげつようびまでに、レポートをだしてください。",
+    "answer_sentence_ja": "らいしゅうの月曜日までに、レポートを出してください。",
     "answer_sentence_es": "Por favor entrega el informe antes del próximo lunes."
   },
   {
     "id": "orig_n4_029",
     "grammar_point": "〜と（仮定・条件）",
-    "question_ja": "はるに　なる（　　）、さくらが　さきます。",
+    "question_ja": "春に　なる（　　）、さくらが　さきます。",
     "choices": [
       "と",
       "なら",
@@ -460,13 +460,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "辞書形＋と＝condición que siempre lleva al mismo resultado natural。",
-    "answer_sentence_ja": "はるになると、さくらがさきます。",
+    "answer_sentence_ja": "春になると、さくらがさきます。",
     "answer_sentence_es": "Cuando llega la primavera, florecen los cerezos."
   },
   {
     "id": "orig_n4_030",
     "grammar_point": "〜かもしれない・〜かも",
-    "question_ja": "そらが　くらいから、あめが　ふる（　　）。",
+    "question_ja": "空が　暗いから、あめが　ふる（　　）。",
     "choices": [
       "かもしれません",
       "はずです",
@@ -476,7 +476,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形＋かもしれません＝expresar una posibilidad incierta ('quizás')。",
-    "answer_sentence_ja": "そらがくらいから、あめがふるかもしれません。",
+    "answer_sentence_ja": "空が暗いから、あめがふるかもしれません。",
     "answer_sentence_es": "Como el cielo está oscuro, quizás llueva."
   }
 ]

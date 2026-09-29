@@ -194,7 +194,7 @@
   {
     "id": "orig_n2_013",
     "grammar_point": "〜末に（すえに）",
-    "question_ja": "ながい　あいだ　なやんだ（　　）、りゅうがくを　きめた。",
+    "question_ja": "長い　あいだ　悩んだ（　　）、りゅうがくを　きめた。",
     "choices": [
       "末に",
       "あげく",
@@ -204,13 +204,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "た形＋末に＝'después de mucho... finalmente' (proceso largo antes de un resultado, tono neutro, a diferencia de あげく que implica un resultado negativo)。",
-    "answer_sentence_ja": "ながいあいだなやんだ末に、りゅうがくをきめた。",
+    "answer_sentence_ja": "長いあいだ悩んだ末に、りゅうがくをきめた。",
     "answer_sentence_es": "Después de mucho tiempo de duda, finalmente decidí estudiar en el extranjero."
   },
   {
     "id": "orig_n2_014",
     "grammar_point": "〜ないことには",
-    "question_ja": "じっさいに　やってみ（　　）、けっかは　わからない。",
+    "question_ja": "実際に　やってみ（　　）、結果は　わからない。",
     "choices": [
       "ないことには",
       "なくても",
@@ -220,13 +220,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "ない形＋ことには＝'si no se hace X, no se puede Y' (condición necesaria negativa)。",
-    "answer_sentence_ja": "じっさいにやってみないことには、けっかはわからない。",
+    "answer_sentence_ja": "実際にやってみないことには、結果はわからない。",
     "answer_sentence_es": "Si no lo intentas de verdad, no sabrás el resultado."
   },
   {
     "id": "orig_n2_015",
     "grammar_point": "〜にもかかわらず",
-    "question_ja": "たいふうが　ちかづいている（　　）、かれは　しゅっぱつした。",
+    "question_ja": "台風が　近づいている（　　）、かれは　出発した。",
     "choices": [
       "にもかかわらず",
       "をとわず",
@@ -236,13 +236,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形＋にもかかわらず＝'a pesar de que...' (contraste fuerte con lo esperado)。",
-    "answer_sentence_ja": "たいふうがちかづいているにもかかわらず、かれはしゅっぱつした。",
+    "answer_sentence_ja": "台風が近づいているにもかかわらず、かれは出発した。",
     "answer_sentence_es": "A pesar de que se acercaba un tifón, él partió de todas formas."
   },
   {
     "id": "orig_n2_016",
     "grammar_point": "〜ものの",
-    "question_ja": "けいかくは　たてた（　　）、じっこうする　じかんが　ない。",
+    "question_ja": "計画は　立てた（　　）、実行する　時間が　ない。",
     "choices": [
       "ものの",
       "ものなら",
@@ -252,7 +252,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形＋ものの＝'aunque..., pero...' (reconocer un hecho y luego contrastarlo)。",
-    "answer_sentence_ja": "けいかくはたてたものの、じっこうするじかんがない。",
+    "answer_sentence_ja": "計画は立てたものの、実行する時間がない。",
     "answer_sentence_es": "Aunque hice el plan, no tengo tiempo para llevarlo a cabo."
   },
   {
@@ -274,7 +274,7 @@
   {
     "id": "orig_n2_018",
     "grammar_point": "〜だけに",
-    "question_ja": "ながい　じかん　じゅんびした（　　）、しっぱいは　ゆるされない。",
+    "question_ja": "長い　じかん　準備した（　　）、失敗は　許されない。",
     "choices": [
       "だけに",
       "だけでなく",
@@ -284,13 +284,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形＋だけに＝'precisamente porque...' (enfatiza que la razón hace la consecuencia más intensa; se usa más con consecuencias serias, a diferencia de だけあって que suele acompañar una evaluación positiva)。",
-    "answer_sentence_ja": "ながいじかんじゅんびしただけに、しっぱいはゆるされない。",
+    "answer_sentence_ja": "長いじかん準備しただけに、失敗は許されない。",
     "answer_sentence_es": "Precisamente porque me preparé durante mucho tiempo, no se permite fallar."
   },
   {
     "id": "orig_n2_019",
     "grammar_point": "〜にすぎない",
-    "question_ja": "かれの　いけんは　いち　いけん（　　）。",
+    "question_ja": "かれの　意見は　一　意見（　　）。",
     "choices": [
       "にすぎない",
       "にほかならない",
@@ -300,13 +300,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "名詞＋にすぎない＝'no es más que...' (minimizar la importancia de algo)。",
-    "answer_sentence_ja": "かれのいけんはいちいけんにすぎない。",
+    "answer_sentence_ja": "かれの意見はいちいけんにすぎない。",
     "answer_sentence_es": "Su opinión no es más que una opinión entre otras."
   },
   {
     "id": "orig_n2_020",
     "grammar_point": "〜にほかならない",
-    "question_ja": "この　せいこうは　どりょくの　けっか（　　）。",
+    "question_ja": "この　成功は　努力の　結果（　　）。",
     "choices": [
       "にほかならない",
       "にすぎない",
@@ -316,13 +316,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "名詞＋にほかならない＝'no es otra cosa que...' (afirmar con fuerza la única razón/causa)。",
-    "answer_sentence_ja": "このせいこうはどりょくのけっかにほかならない。",
+    "answer_sentence_ja": "この成功は努力のけっかにほかならない。",
     "answer_sentence_es": "Este éxito no es otra cosa que el resultado del esfuerzo."
   },
   {
     "id": "orig_n2_021",
     "grammar_point": "〜かねない",
-    "question_ja": "そんな　むりな　うんてんは　じこを　おこし（　　）。",
+    "question_ja": "そんな　無理な　運転は　事故を　起こし（　　）。",
     "choices": [
       "かねない",
       "かねる",
@@ -332,13 +332,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "ます形の語幹＋かねない＝'podría llegar a pasar algo malo' (posibilidad negativa)。",
-    "answer_sentence_ja": "そんなむりなうんてんはじこをおこしかねない。",
+    "answer_sentence_ja": "そんな無理な運転は事故を起こしかねない。",
     "answer_sentence_es": "Conducir de forma tan imprudente podría causar un accidente."
   },
   {
     "id": "orig_n2_022",
     "grammar_point": "〜たびに",
-    "question_ja": "かのじょに　あう（　　）、げんきを　もらう。",
+    "question_ja": "かのじょに　あう（　　）、元気を　もらう。",
     "choices": [
       "たびに",
       "につけ",
@@ -348,13 +348,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "辞書形＋たびに＝'cada vez que...' (repetición constante)。",
-    "answer_sentence_ja": "かのじょにあうたびに、げんきをもらう。",
+    "answer_sentence_ja": "かのじょにあうたびに、元気をもらう。",
     "answer_sentence_es": "Cada vez que la veo, me da energía."
   },
   {
     "id": "orig_n2_023",
     "grammar_point": "〜っぱなし",
-    "question_ja": "まどを　あけ（　　）で　でかけて　しまった。",
+    "question_ja": "窓を　あけ（　　）で　出かけて　しまった。",
     "choices": [
       "っぱなし",
       "ながら",
@@ -364,13 +364,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "ます形の語幹＋っぱなし＝dejar algo en un estado sin atenderlo (a menudo con matiz negativo de descuido)。",
-    "answer_sentence_ja": "まどをあけっぱなしででかけてしまった。",
+    "answer_sentence_ja": "窓をあけっぱなしで出かけてしまった。",
     "answer_sentence_es": "Salí dejando la ventana abierta (sin cerrarla)."
   },
   {
     "id": "orig_n2_024",
     "grammar_point": "〜を問わず",
-    "question_ja": "この　しごとは　けいけんの　ゆうむ（　　）、おうぼできる。",
+    "question_ja": "この　仕事は　経験の　有無（　　）、応募できる。",
     "choices": [
       "を問わず",
       "にかかわらず",
@@ -380,13 +380,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "名詞（の有無／男女等）＋を問わず＝'sin importar/independientemente de' (se usa típicamente con pares como 有無, 男女, 年齢)。",
-    "answer_sentence_ja": "このしごとはけいけんのゆうむを問わず、おうぼできる。",
+    "answer_sentence_ja": "この仕事は経験の有無を問わず、応募できる。",
     "answer_sentence_es": "A este trabajo se puede postular sin importar si se tiene experiencia o no."
   },
   {
     "id": "orig_n2_025",
     "grammar_point": "〜ながらも",
-    "question_ja": "からだが　ちいさい（　　）、ちからは　とても　つよい。",
+    "question_ja": "体が　小さい（　　）、力は　とても　強い。",
     "choices": [
       "ながらも",
       "ものの",
@@ -396,13 +396,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形（ながら特有の接続）＋ながらも＝'a pesar de ser/estar...' (concesión sobre un mismo sujeto/estado)。",
-    "answer_sentence_ja": "からだがちいさいながらも、ちからはとてもつよい。",
+    "answer_sentence_ja": "体が小さいながらも、力はとても強い。",
     "answer_sentence_es": "A pesar de tener un cuerpo pequeño, tiene mucha fuerza."
   },
   {
     "id": "orig_n2_026",
     "grammar_point": "〜べく",
-    "question_ja": "ゆめを　じつげんす（　　）、まいにち　どりょくしている。",
+    "question_ja": "ゆめを　実現す（　　）、毎日　努力している。",
     "choices": [
       "べく",
       "べき",
@@ -412,13 +412,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "辞書形＋べく＝'con el fin de/para' (propósito, estilo formal escrito)。",
-    "answer_sentence_ja": "ゆめをじつげんすべく、まいにちどりょくしている。",
+    "answer_sentence_ja": "ゆめを実現すべく、毎日努力している。",
     "answer_sentence_es": "Con el fin de realizar su sueño, se esfuerza todos los días."
   },
   {
     "id": "orig_n2_027",
     "grammar_point": "〜さえ",
-    "question_ja": "いそがしくて、ねる　じかん（　　）ない。",
+    "question_ja": "いそがしくて、寝る　時間（　　）ない。",
     "choices": [
       "さえ",
       "でも",
@@ -434,7 +434,7 @@
   {
     "id": "orig_n2_028",
     "grammar_point": "〜とはいえ",
-    "question_ja": "べんりに　なった（　　）、きけんが　なくなった　わけではない。",
+    "question_ja": "便利に　なった（　　）、危険が　なくなった　わけではない。",
     "choices": [
       "とはいえ",
       "といっても",
@@ -444,13 +444,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形＋とはいえ＝'aunque se diga que...' (concesión formal, más literaria que といっても)。",
-    "answer_sentence_ja": "べんりになったとはいえ、きけんがなくなったわけではない。",
+    "answer_sentence_ja": "便利になったとはいえ、危険がなくなったわけではない。",
     "answer_sentence_es": "Aunque se ha vuelto más conveniente, eso no significa que el peligro haya desaparecido."
   },
   {
     "id": "orig_n2_029",
     "grammar_point": "〜にひきかえ",
-    "question_ja": "あにが　まじめな（　　）、おとうとは　あそんでばかりいる。",
+    "question_ja": "兄が　まじめな（　　）、弟は　遊んでばかりいる。",
     "choices": [
       "のにひきかえ",
       "にかわって",
@@ -460,13 +460,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "名詞＋にひきかえ＝'en contraste con...' (comparar dos cosas opuestas)。",
-    "answer_sentence_ja": "あにがまじめなのにひきかえ、おとうとはあそんでばかりいる。",
+    "answer_sentence_ja": "兄がまじめなのにひきかえ、弟は遊んでばかりいる。",
     "answer_sentence_es": "En contraste con que el hermano mayor es serio, el hermano menor solo juega."
   },
   {
     "id": "orig_n2_030",
     "grammar_point": "〜からといって",
-    "question_ja": "にほんに　すんでいる（　　）、みんなが　にほんごを　じょうずに　はなせるわけではない。",
+    "question_ja": "日本に　住んでいる（　　）、みんなが　日本語を　上手に　話せるわけではない。",
     "choices": [
       "からといって",
       "からこそ",
@@ -476,7 +476,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形＋からといって＝'no porque... (necesariamente)' (negar una conclusión automática a partir de una razón)。",
-    "answer_sentence_ja": "にほんにすんでいるからといって、みんながにほんごをじょうずにはなせるわけではない。",
+    "answer_sentence_ja": "日本に住んでいるからといって、みんなが日本語を上手に話せるわけではない。",
     "answer_sentence_es": "No porque uno viva en Japón, todos hablan japonés bien necesariamente."
   }
 ]

@@ -130,7 +130,7 @@
   {
     "id": "vocab_n5_009",
     "grammar_point": "ことばの意味",
-    "question_ja": "きょうは【いそがしい】です。",
+    "question_ja": "今日は【いそがしい】です。",
     "choices": [
       "ocupado",
       "libre",
@@ -140,7 +140,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「いそがしい」は「ocupado」という意味。",
-    "answer_sentence_ja": "きょうはいそがしいです。",
+    "answer_sentence_ja": "今日はいそがしいです。",
     "answer_sentence_es": "Hoy estoy ocupado."
   },
   {
@@ -226,7 +226,7 @@
   {
     "id": "vocab_n5_015",
     "grammar_point": "漢字の読み方",
-    "question_ja": "なまえを【言って】ください。",
+    "question_ja": "名前を【言って】ください。",
     "choices": [
       "いって",
       "ゆって",
@@ -236,13 +236,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「言う」は「いう」と読む。",
-    "answer_sentence_ja": "なまえを言ってください。",
+    "answer_sentence_ja": "名前を言ってください。",
     "answer_sentence_es": "Por favor diga su nombre."
   },
   {
     "id": "vocab_n5_016",
     "grammar_point": "漢字の読み方",
-    "question_ja": "がっこうに【行きます】。",
+    "question_ja": "学校に【行きます】。",
     "choices": [
       "いきます",
       "おこないます",
@@ -252,13 +252,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「行く」は「いく」と読む。同じ漢字でも「行う(おこなう)」は別の意味。",
-    "answer_sentence_ja": "がっこうに行きます。",
+    "answer_sentence_ja": "学校に行きます。",
     "answer_sentence_es": "Voy a la escuela."
   },
   {
     "id": "vocab_n5_017",
     "grammar_point": "漢字の読み方",
-    "question_ja": "ほんを【買います】。",
+    "question_ja": "本を【買います】。",
     "choices": [
       "かいます",
       "うります",
@@ -268,7 +268,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「買う」は「かう」と読む(comprar)。",
-    "answer_sentence_ja": "ほんを買います。",
+    "answer_sentence_ja": "本を買います。",
     "answer_sentence_es": "Compro un libro."
   },
   {
@@ -322,7 +322,7 @@
   {
     "id": "vocab_n5_021",
     "grammar_point": "漢字の読み方",
-    "question_ja": "きょう、会社を【休みます】。",
+    "question_ja": "今日、会社を【休みます】。",
     "choices": [
       "やすみます",
       "やすいます",
@@ -332,7 +332,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「休む」は「やすむ」と読む(descansar/faltar)。",
-    "answer_sentence_ja": "きょう、会社を休みます。",
+    "answer_sentence_ja": "今日、会社を休みます。",
     "answer_sentence_es": "Hoy falto al trabajo."
   },
   {
@@ -386,7 +386,7 @@
   {
     "id": "vocab_n5_025",
     "grammar_point": "ことばの意味",
-    "question_ja": "きょうは【たのしかった】です。",
+    "question_ja": "今日は【たのしかった】です。",
     "choices": [
       "divertido",
       "aburrido",
@@ -396,7 +396,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「たのしい」は「divertido」という意味。",
-    "answer_sentence_ja": "きょうはたのしかったです。",
+    "answer_sentence_ja": "今日はたのしかったです。",
     "answer_sentence_es": "Hoy fue divertido."
   },
   {

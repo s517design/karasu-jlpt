@@ -34,7 +34,7 @@
   {
     "id": "vocab_n4_003",
     "grammar_point": "漢字の読み方",
-    "question_ja": "けいかくが【進んで】います。",
+    "question_ja": "計画が【進んで】います。",
     "choices": [
       "すすんで",
       "しんんで",
@@ -44,7 +44,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「進む」は「すすむ」と読む(avanzar)。",
-    "answer_sentence_ja": "けいかくが進んでいます。",
+    "answer_sentence_ja": "計画が進んでいます。",
     "answer_sentence_es": "El plan está avanzando."
   },
   {
@@ -66,7 +66,7 @@
   {
     "id": "vocab_n4_005",
     "grammar_point": "漢字の読み方",
-    "question_ja": "がっこうに【通って】います。",
+    "question_ja": "学校に【通って】います。",
     "choices": [
       "かよって",
       "つうって",
@@ -76,7 +76,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「通う」は「かよう」と読む(asistir con regularidad)。「とおる」(通る,pasar)と間違えないように。",
-    "answer_sentence_ja": "がっこうに通っています。",
+    "answer_sentence_ja": "学校に通っています。",
     "answer_sentence_es": "Asisto regularmente a la escuela."
   },
   {
@@ -98,7 +98,7 @@
   {
     "id": "vocab_n4_007",
     "grammar_point": "ことばの意味",
-    "question_ja": "こどものことを【しんぱいします】。",
+    "question_ja": "子どものことを【しんぱいします】。",
     "choices": [
       "preocuparse",
       "alegrarse",
@@ -108,13 +108,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「しんぱいする」は「preocuparse」という意味。",
-    "answer_sentence_ja": "こどものことをしんぱいします。",
+    "answer_sentence_ja": "子どものことをしんぱいします。",
     "answer_sentence_es": "Me preocupo por mi hijo."
   },
   {
     "id": "vocab_n4_008",
     "grammar_point": "ことばの意味",
-    "question_ja": "ともだちを【たすけます】。",
+    "question_ja": "友だちを【たすけます】。",
     "choices": [
       "ayudar",
       "molestar",
@@ -124,13 +124,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「たすける」は「ayudar」という意味。",
-    "answer_sentence_ja": "ともだちをたすけます。",
+    "answer_sentence_ja": "友だちをたすけます。",
     "answer_sentence_es": "Ayudo a mi amigo."
   },
   {
     "id": "vocab_n4_009",
     "grammar_point": "ことばの意味",
-    "question_ja": "このみちは【きけん】です。",
+    "question_ja": "この道は【きけん】です。",
     "choices": [
       "peligroso",
       "seguro",
@@ -140,7 +140,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「きけんな」は「peligroso」という意味。",
-    "answer_sentence_ja": "このみちはきけんです。",
+    "answer_sentence_ja": "この道はきけんです。",
     "answer_sentence_es": "Este camino es peligroso."
   },
   {
@@ -178,7 +178,7 @@
   {
     "id": "vocab_n4_012",
     "grammar_point": "ことばの意味",
-    "question_ja": "【なるべく】はやくきてください。",
+    "question_ja": "【なるべく】早くきてください。",
     "choices": [
       "en la medida de lo posible",
       "definitivamente no",
@@ -188,7 +188,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「なるべく」は「en la medida de lo posible」という意味。",
-    "answer_sentence_ja": "なるべくはやくきてください。",
+    "answer_sentence_ja": "なるべく早くきてください。",
     "answer_sentence_es": "Por favor, venga lo antes posible."
   },
   {
@@ -226,7 +226,7 @@
   {
     "id": "vocab_n4_015",
     "grammar_point": "漢字の読み方",
-    "question_ja": "しつもんに【答えます】。",
+    "question_ja": "質問に【答えます】。",
     "choices": [
       "こたえます",
       "といます",
@@ -236,13 +236,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「答える」は「こたえる」と読む(responder)。",
-    "answer_sentence_ja": "しつもんに答えます。",
+    "answer_sentence_ja": "質問に答えます。",
     "answer_sentence_es": "Respondo a la pregunta."
   },
   {
     "id": "vocab_n4_016",
     "grammar_point": "漢字の読み方",
-    "question_ja": "みちで【転びました】。",
+    "question_ja": "道で【転びました】。",
     "choices": [
       "ころびました",
       "てんびました",
@@ -252,7 +252,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「転ぶ」は「ころぶ」と読む(caerse)。",
-    "answer_sentence_ja": "みちで転びました。",
+    "answer_sentence_ja": "道で転びました。",
     "answer_sentence_es": "Me caí en el camino."
   },
   {
@@ -274,7 +274,7 @@
   {
     "id": "vocab_n4_018",
     "grammar_point": "漢字の読み方",
-    "question_ja": "たいせつな【事】をわすれないで。",
+    "question_ja": "大切な【事】をわすれないで。",
     "choices": [
       "こと",
       "じ",
@@ -284,13 +284,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「事」は「こと」と読む(cosa, asunto)。",
-    "answer_sentence_ja": "たいせつな事をわすれないで。",
+    "answer_sentence_ja": "大切な事をわすれないで。",
     "answer_sentence_es": "No olvides algo importante."
   },
   {
     "id": "vocab_n4_019",
     "grammar_point": "ことばの意味",
-    "question_ja": "ともだちにプレゼントを【あげます】。",
+    "question_ja": "友だちにプレゼントを【あげます】。",
     "choices": [
       "dar (a alguien)",
       "recibir",
@@ -300,7 +300,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「あげる」は「dar (a alguien)」という意味。",
-    "answer_sentence_ja": "ともだちにプレゼントをあげます。",
+    "answer_sentence_ja": "友だちにプレゼントをあげます。",
     "answer_sentence_es": "Le doy un regalo a mi amigo."
   },
   {
@@ -322,7 +322,7 @@
   {
     "id": "vocab_n4_021",
     "grammar_point": "ことばの意味",
-    "question_ja": "ともだちがほんを【くれました】。",
+    "question_ja": "友だちが本を【くれました】。",
     "choices": [
       "dar (a mí)",
       "recibir",
@@ -332,7 +332,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「くれる」は「dar (a mí)」という意味。",
-    "answer_sentence_ja": "ともだちがほんをくれました。",
+    "answer_sentence_ja": "友だちが本をくれました。",
     "answer_sentence_es": "Mi amigo me dio un libro."
   },
   {
@@ -354,7 +354,7 @@
   {
     "id": "vocab_n4_023",
     "grammar_point": "ことばの意味",
-    "question_ja": "らいねん【けっこんします】。",
+    "question_ja": "来年【けっこんします】。",
     "choices": [
       "casarse",
       "divorciarse",
@@ -364,7 +364,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「けっこんする」は「casarse」という意味。",
-    "answer_sentence_ja": "らいねんけっこんします。",
+    "answer_sentence_ja": "来年けっこんします。",
     "answer_sentence_es": "El próximo año me caso."
   },
   {
@@ -434,7 +434,7 @@
   {
     "id": "vocab_n4_028",
     "grammar_point": "ことばの意味",
-    "question_ja": "あのせんせいは【きびしい】です。",
+    "question_ja": "あの先生は【きびしい】です。",
     "choices": [
       "estricto",
       "amable",
@@ -444,13 +444,13 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「きびしい」は「estricto」という意味。",
-    "answer_sentence_ja": "あのせんせいはきびしいです。",
+    "answer_sentence_ja": "あの先生はきびしいです。",
     "answer_sentence_es": "Ese profesor es estricto."
   },
   {
     "id": "vocab_n4_029",
     "grammar_point": "ことばの意味",
-    "question_ja": "このえいがは【たいくつ】です。",
+    "question_ja": "この映画は【たいくつ】です。",
     "choices": [
       "aburrido",
       "interesante",
@@ -460,7 +460,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "「たいくつな」は「aburrido」という意味。",
-    "answer_sentence_ja": "このえいがはたいくつです。",
+    "answer_sentence_ja": "この映画はたいくつです。",
     "answer_sentence_es": "Esta película es aburrida."
   },
   {

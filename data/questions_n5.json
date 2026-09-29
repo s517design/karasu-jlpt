@@ -98,7 +98,7 @@
   {
     "id": "orig_n5_007",
     "grammar_point": "少し",
-    "question_ja": "きょうは少し（　　）ですね。",
+    "question_ja": "今日は少し（　　）ですね。",
     "choices": [
       "さむい",
       "さむく",
@@ -108,7 +108,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "少し modifica al adjetivo en su forma simple (さむい) antes de です. さむく necesitaría otra estructura.",
-    "answer_sentence_ja": "きょうは少しさむいですね。",
+    "answer_sentence_ja": "今日は少しさむいですね。",
     "answer_sentence_es": "Hoy hace un poco de frío, ¿verdad?"
   },
   {
@@ -204,7 +204,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "て形＋はいけません＝prohibición. 'はなします'(hablar)→'はなして'。",
-    "answer_sentence_ja": "としょかんでおおきいこえではなしてはいけません。",
+    "answer_sentence_ja": "としょかんでおおきいこえで話してはいけません。",
     "answer_sentence_es": "No se puede hablar en voz alta en la biblioteca."
   },
   {
@@ -338,7 +338,7 @@
   {
     "id": "orig_n5_022",
     "grammar_point": "それで",
-    "question_ja": "あめが　ふりました。（　　）、うちに　いました。",
+    "question_ja": "雨が　ふりました。（　　）、うちに　いました。",
     "choices": [
       "それで",
       "それから",
@@ -348,7 +348,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "それで＝'por eso', conecta causa y resultado entre dos oraciones。",
-    "answer_sentence_ja": "あめがふりました。それで、うちにいました。",
+    "answer_sentence_ja": "雨がふりました。それで、うちにいました。",
     "answer_sentence_es": "Llovió. Por eso, me quedé en casa."
   },
   {
@@ -386,7 +386,7 @@
   {
     "id": "orig_n5_025",
     "grammar_point": "〜でしょう",
-    "question_ja": "あした　あめが（　　）でしょう。",
+    "question_ja": "あした　雨が（　　）でしょう。",
     "choices": [
       "ふる",
       "ふります",
@@ -396,7 +396,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "普通形＋でしょう＝expresar una predicción o suposición。",
-    "answer_sentence_ja": "あしたあめがふるでしょう。",
+    "answer_sentence_ja": "あした雨がふるでしょう。",
     "answer_sentence_es": "Probablemente mañana llueva."
   },
   {
@@ -434,7 +434,7 @@
   {
     "id": "orig_n5_028",
     "grammar_point": "〜たり〜たりする",
-    "question_ja": "しゅうまつは　ほんを　よんだり　えいがを　（　　）します。",
+    "question_ja": "しゅうまつは　本を　読んだり　えいがを　（　　）します。",
     "choices": [
       "みたり",
       "みる",
@@ -444,7 +444,7 @@
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "た形＋り＋た形＋り＋する＝enumerar acciones representativas。",
-    "answer_sentence_ja": "しゅうまつはほんをよんだりえいがをみたりします。",
+    "answer_sentence_ja": "しゅうまつは本を読んだりえいがをみたりします。",
     "answer_sentence_es": "Los fines de semana, leo libros, veo películas, entre otras cosas."
   },
   {
@@ -466,7 +466,7 @@
   {
     "id": "orig_n5_030",
     "grammar_point": "〜んです・〜のです",
-    "question_ja": "A：どうして　がっこうを　やすんだんですか。B：あたまが　いたかった（　　）。",
+    "question_ja": "A：どうして　学校を　やすんだんですか。B：あたまが　いたかった（　　）。",
     "choices": [
       "んです",
       "です",
