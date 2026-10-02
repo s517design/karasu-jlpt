@@ -3,7 +3,12 @@
     "id": "bonus_n4_001",
     "grammar_point": "受身形（される）",
     "question_ja": "このパソコンは中国で（　　）います。",
-    "choices": ["作って", "作られて", "作らせて", "作る"],
+    "choices": [
+      "作って",
+      "作られて",
+      "作らせて",
+      "作る"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "La forma pasiva (〜られる) se usa aquí porque la computadora «es fabricada» (recibe la acción).",
@@ -14,7 +19,12 @@
     "id": "bonus_n4_002",
     "grammar_point": "使役形（させる）",
     "question_ja": "先生は学生に本を（　　）ました。",
-    "choices": ["読んで", "読まれ", "読ませ", "読め"],
+    "choices": [
+      "読んで",
+      "読まれ",
+      "読ませ",
+      "読め"
+    ],
     "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "La forma causativa (〜させる) se usa cuando alguien hace/deja que otra persona haga algo.",
@@ -25,7 +35,12 @@
     "id": "bonus_n4_003",
     "grammar_point": "可能形（られる）",
     "question_ja": "わたしは漢字を百（　　）ます。",
-    "choices": ["読んで", "読まれ", "読め", "読ませ"],
+    "choices": [
+      "読んで",
+      "読まれ",
+      "読め",
+      "読ませ"
+    ],
     "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "La forma potencial (〜える/られる) expresa la capacidad de hacer algo, de forma más corta que 〜ことができる.",
@@ -35,19 +50,29 @@
   {
     "id": "bonus_n4_004",
     "grammar_point": "〜ば",
-    "question_ja": "時間が（　　）、手伝ってください。",
-    "choices": ["ある", "あって", "あれば", "あった"],
+    "question_ja": "時間が（　　）、てつだってください。",
+    "choices": [
+      "ある",
+      "あって",
+      "あれば",
+      "あった"
+    ],
     "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "〜ば (si) es una de las formas condicionales del japonés: あります → あれば.",
-    "answer_sentence_ja": "時間があれば、手伝ってください。",
+    "answer_sentence_ja": "時間があれば、てつだってください。",
     "answer_sentence_es": "Si tienes tiempo, ayúdame, por favor."
   },
   {
     "id": "bonus_n4_005",
     "grammar_point": "〜なら",
     "question_ja": "日本語を勉強する（　　）、この本がいいですよ。",
-    "choices": ["なら", "ば", "と", "たら"],
+    "choices": [
+      "なら",
+      "ば",
+      "と",
+      "たら"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜なら se usa para dar un consejo basado en lo que la otra persona acaba de decir o en un tema concreto.",
@@ -57,19 +82,29 @@
   {
     "id": "bonus_n4_006",
     "grammar_point": "〜について",
-    "question_ja": "先生は日本の歴史（　　）話しました。",
-    "choices": ["に", "について", "とって", "として"],
+    "question_ja": "先生は日本のれきし（　　）話しました。",
+    "choices": [
+      "に",
+      "について",
+      "とって",
+      "として"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜について significa «sobre, acerca de» un tema.",
-    "answer_sentence_ja": "先生は日本の歴史について話しました。",
+    "answer_sentence_ja": "先生は日本のれきしについて話しました。",
     "answer_sentence_es": "El profesor habló sobre la historia de Japón."
   },
   {
     "id": "bonus_n4_007",
     "grammar_point": "〜にとって",
     "question_ja": "わたしたち（　　）、日本語はむずかしいです。",
-    "choices": ["にとって", "について", "として", "に対して"],
+    "choices": [
+      "にとって",
+      "について",
+      "として",
+      "にたいして"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜にとって expresa el punto de vista de alguien: «para nosotros».",
@@ -80,7 +115,12 @@
     "id": "bonus_n4_008",
     "grammar_point": "〜ために",
     "question_ja": "お金をためる（　　）、アルバイトをしています。",
-    "choices": ["ために", "のに", "ように", "けど"],
+    "choices": [
+      "ために",
+      "のに",
+      "ように",
+      "けど"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜ために expresa el propósito de una acción: «para ahorrar dinero, trabajo a tiempo parcial».",
@@ -91,7 +131,12 @@
     "id": "bonus_n4_009",
     "grammar_point": "〜ことがある",
     "question_ja": "日曜日はうちで料理を（　　）ことがあります。",
-    "choices": ["する", "して", "した", "します"],
+    "choices": [
+      "する",
+      "して",
+      "した",
+      "します"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜ことがあります (a veces hago algo) usa la forma de diccionario del verbo.",
@@ -101,19 +146,29 @@
   {
     "id": "bonus_n4_010",
     "grammar_point": "〜ことになる",
-    "question_ja": "来月、大阪に（　　）ことになりました。",
-    "choices": ["行く", "行って", "行った", "行きます"],
+    "question_ja": "来月、おおさかに（　　）ことになりました。",
+    "choices": [
+      "行く",
+      "行って",
+      "行った",
+      "行きます"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜ことになる expresa una decisión o resultado, a menudo tomado por otros o por las circunstancias.",
-    "answer_sentence_ja": "来月、大阪に行くことになりました。",
+    "answer_sentence_ja": "来月、おおさかに行くことになりました。",
     "answer_sentence_es": "Se decidió que el próximo mes iré a Osaka."
   },
   {
     "id": "bonus_n4_011",
     "grammar_point": "〜たばかり",
     "question_ja": "この本はさっき（　　）ばかりです。",
-    "choices": ["買う", "買って", "買った", "買います"],
+    "choices": [
+      "買う",
+      "買って",
+      "買った",
+      "買います"
+    ],
     "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "〜たばかり (acabar de hacer algo) usa la forma -ta del verbo.",
@@ -124,7 +179,12 @@
     "id": "bonus_n4_012",
     "grammar_point": "〜はじめる",
     "question_ja": "赤ちゃんが（　　）はじめました。",
-    "choices": ["歩く", "歩き", "歩いて", "歩いた"],
+    "choices": [
+      "歩く",
+      "歩き",
+      "歩いて",
+      "歩いた"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜はじめる (empezar a hacer algo) se une a la raíz -masu del verbo.",
@@ -135,7 +195,12 @@
     "id": "bonus_n4_013",
     "grammar_point": "〜おわる",
     "question_ja": "レポートを（　　）おわりました。",
-    "choices": ["書く", "書き", "書いて", "書いた"],
+    "choices": [
+      "書く",
+      "書き",
+      "書いて",
+      "書いた"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜おわる (terminar de hacer algo) se une a la raíz -masu del verbo.",
@@ -145,19 +210,29 @@
   {
     "id": "bonus_n4_014",
     "grammar_point": "〜つづける",
-    "question_ja": "彼は10年間、日本語を（　　）つづけています。",
-    "choices": ["勉強する", "勉強し", "勉強して", "勉強した"],
+    "question_ja": "かれは10年間、日本語を（　　）つづけています。",
+    "choices": [
+      "勉強する",
+      "勉強し",
+      "勉強して",
+      "勉強した"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜つづける (seguir haciendo algo) se une a la raíz -masu del verbo.",
-    "answer_sentence_ja": "彼は10年間、日本語を勉強しつづけています。",
+    "answer_sentence_ja": "かれは10年間、日本語を勉強しつづけています。",
     "answer_sentence_es": "Él ha seguido estudiando japonés durante 10 años."
   },
   {
     "id": "bonus_n4_015",
     "grammar_point": "〜させてください",
     "question_ja": "すみません、ここで少し（　　）させてください。",
-    "choices": ["休んで", "休ま", "休める", "休んだ"],
+    "choices": [
+      "休んで",
+      "休ま",
+      "休める",
+      "休んだ"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜させてください (déjeme hacer algo, por favor) usa la raíz causativa del verbo: 休ま + せてください.",
@@ -168,7 +243,12 @@
     "id": "bonus_n4_016",
     "grammar_point": "〜なくてはいけない",
     "question_ja": "あしたまでにレポートを（　　）はいけません。",
-    "choices": ["出して", "出さなくて", "出さないで", "出した"],
+    "choices": [
+      "出して",
+      "出さなくて",
+      "出さないで",
+      "出した"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜なくてはいけません (tener que hacer algo) usa la forma -nai del verbo sin い, más くては.",
@@ -179,7 +259,12 @@
     "id": "bonus_n4_017",
     "grammar_point": "〜ように言う",
     "question_ja": "医者はわたしに、たばこをやめる（　　）言いました。",
-    "choices": ["ように", "そうに", "らしく", "みたいに"],
+    "choices": [
+      "ように",
+      "そうに",
+      "らしく",
+      "みたいに"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜ように言う (decirle a alguien que haga algo) se usa para transmitir una orden o consejo indirectamente.",
@@ -190,7 +275,12 @@
     "id": "bonus_n4_018",
     "grammar_point": "〜に違いない",
     "question_ja": "かれはいつも高い車に乗っているから、お金持ち（　　）。",
-    "choices": ["にちがいない", "というより", "にとって", "について"],
+    "choices": [
+      "にちがいない",
+      "というより",
+      "にとって",
+      "について"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜に違いない expresa una fuerte convicción: «debe de ser, seguramente es».",

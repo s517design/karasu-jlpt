@@ -2,19 +2,29 @@
   {
     "id": "bonus_n2_001",
     "grammar_point": "〜極まりない",
-    "question_ja": "彼の態度は失礼（　　）。",
-    "choices": ["極まりない", "にすぎない", "にほかならない", "にひきかえ"],
+    "question_ja": "彼のたいどは失礼（　　）。",
+    "choices": [
+      "極まりない",
+      "にすぎない",
+      "にほかならない",
+      "にひきかえ"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜極まりない (extremadamente) se une a un sustantivo de tipo な-adjetivo para enfatizar algo negativo al máximo.",
-    "answer_sentence_ja": "彼の態度は失礼極まりない。",
+    "answer_sentence_ja": "彼のたいどは失礼極まりない。",
     "answer_sentence_es": "Su actitud es extremadamente grosera."
   },
   {
     "id": "bonus_n2_002",
     "grammar_point": "〜てやまない",
     "question_ja": "ご多幸を願っ（　　）。",
-    "choices": ["てやまない", "てはいられない", "てしかたない", "てばかりいる"],
+    "choices": [
+      "てやまない",
+      "てはいられない",
+      "てしかたない",
+      "てばかりいる"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜てやまない (no dejar de..., de todo corazón) expresa un sentimiento fuerte y sincero, usado en contextos formales.",
@@ -24,19 +34,29 @@
   {
     "id": "bonus_n2_003",
     "grammar_point": "〜なくはない",
-    "question_ja": "彼の言うこともわから（　　）が、やはり納得できない。",
-    "choices": ["なくはない", "ではすまない", "ないかぎり", "どころではない"],
+    "question_ja": "彼の言うこともわから（　　）が、やはりなっとくできない。",
+    "choices": [
+      "なくはない",
+      "ではすまない",
+      "ないかぎり",
+      "どころではない"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜なくはない (no es que no..., hasta cierto punto sí) es una doble negación que suaviza una afirmación.",
-    "answer_sentence_ja": "彼の言うこともわからなくはないが、やはり納得できない。",
+    "answer_sentence_ja": "彼の言うこともわからなくはないが、やはりなっとくできない。",
     "answer_sentence_es": "No es que no entienda lo que dice, pero aun así no puedo aceptarlo."
   },
   {
     "id": "bonus_n2_004",
     "grammar_point": "〜ないまでも",
     "question_ja": "毎日とは言わ（　　）、週に一度は運動したほうがいい。",
-    "choices": ["ないまでも", "ないかぎり", "ないことには", "ないながらも"],
+    "choices": [
+      "ないまでも",
+      "ないかぎり",
+      "ないことには",
+      "ないながらも"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜ないまでも (aunque no sea hasta el punto de..., si bien no) suaviza una exigencia proponiendo un nivel menor.",
@@ -46,30 +66,45 @@
   {
     "id": "bonus_n2_005",
     "grammar_point": "〜ことなしに",
-    "question_ja": "努力する（　　）、成功はありえない。",
-    "choices": ["ことなしに", "ことから", "ことだし", "ことのないよう"],
+    "question_ja": "努力する（　　）、せいこうはありえない。",
+    "choices": [
+      "ことなしに",
+      "ことから",
+      "ことだし",
+      "ことのないよう"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜ことなしに (sin hacer algo) es una forma literaria de 〜ないで/〜ずに.",
-    "answer_sentence_ja": "努力することなしに、成功はありえない。",
+    "answer_sentence_ja": "努力することなしに、せいこうはありえない。",
     "answer_sentence_es": "No puede haber éxito sin esfuerzo."
   },
   {
     "id": "bonus_n2_006",
     "grammar_point": "〜べからず",
-    "question_ja": "芝生に入る（　　）。",
-    "choices": ["べからず", "べきではない", "はずがない", "わけがない"],
+    "question_ja": "しばふに入る（　　）。",
+    "choices": [
+      "べからず",
+      "べきではない",
+      "はずがない",
+      "わけがない"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜べからず (no se debe / prohibido) es una forma muy formal y escrita, típica de carteles y avisos.",
-    "answer_sentence_ja": "芝生に入るべからず。",
+    "answer_sentence_ja": "しばふに入るべからず。",
     "answer_sentence_es": "Prohibido pisar el césped."
   },
   {
     "id": "bonus_n2_007",
     "grammar_point": "〜限りだ",
     "question_ja": "一人で海外に留学するなんて、うらやましい（　　）。",
-    "choices": ["限りだ", "ほかない", "かぎりではない", "にすぎない"],
+    "choices": [
+      "限りだ",
+      "ほかない",
+      "かぎりではない",
+      "にすぎない"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜限りだ (extremadamente, no puedo estar más...) expresa un sentimiento personal muy fuerte.",
@@ -80,7 +115,12 @@
     "id": "bonus_n2_008",
     "grammar_point": "〜（よ）うにも〜ない",
     "question_ja": "足が痛くて、歩こう（　　）歩けない。",
-    "choices": ["にも", "としても", "ものなら", "どころか"],
+    "choices": [
+      "にも",
+      "としても",
+      "ものなら",
+      "どころか"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜（よ）うにも〜ない (aunque quiera..., no puedo) expresa que, incluso con la intención de hacer algo, es físicamente imposible.",
@@ -91,7 +131,12 @@
     "id": "bonus_n2_009",
     "grammar_point": "〜始末だ",
     "question_ja": "何度も注意したのに、彼はまた遅刻する（　　）。",
-    "choices": ["始末だ", "かぎりだ", "ところだ", "しまつに"],
+    "choices": [
+      "始末だ",
+      "かぎりだ",
+      "ところだ",
+      "しまつに"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜始末だ (terminar en la mala situación de...) se usa para criticar un resultado negativo tras una serie de hechos.",
@@ -102,7 +147,12 @@
     "id": "bonus_n2_010",
     "grammar_point": "〜てからというもの",
     "question_ja": "子供が生まれ（　　）、生活が大きく変わった。",
-    "choices": ["てからというもの", "てからでないと", "てからでも", "てからすぐ"],
+    "choices": [
+      "てからというもの",
+      "てからでないと",
+      "てからでも",
+      "てからすぐ"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜てからというもの (desde que..., a partir de ese momento) enfatiza un cambio duradero tras un hecho.",
@@ -113,7 +163,12 @@
     "id": "bonus_n2_011",
     "grammar_point": "〜ずじまい",
     "question_ja": "結局、彼には会わ（　　）、旅行が終わった。",
-    "choices": ["ずじまいで", "ないかぎり", "ないことには", "ずにはいられず"],
+    "choices": [
+      "ずじまいで",
+      "ないかぎり",
+      "ないことには",
+      "ずにはいられず"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜ずじまい (terminar sin haber hecho algo que se quería hacer) expresa un resultado frustrante.",
@@ -124,7 +179,12 @@
     "id": "bonus_n2_012",
     "grammar_point": "〜にたえない",
     "question_ja": "その話は聞く（　　）ひどいものだった。",
-    "choices": ["にたえない", "てやまない", "にかたくない", "にすぎない"],
+    "choices": [
+      "にたえない",
+      "てやまない",
+      "にかたくない",
+      "にすぎない"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜にたえない (no poder soportar..., deplorable) se usa con sustantivos como 聞く/見る para expresar que algo es demasiado malo.",
@@ -135,7 +195,12 @@
     "id": "bonus_n2_013",
     "grammar_point": "〜なりに",
     "question_ja": "子供は子供（　　）、いろいろ考えているものだ。",
-    "choices": ["なりに", "ながらに", "だけに", "なくして"],
+    "choices": [
+      "なりに",
+      "ながらに",
+      "だけに",
+      "なくして"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜なりに (a su manera, dentro de sus posibilidades) indica que alguien hace algo según su propia capacidad o situación.",
@@ -146,7 +211,12 @@
     "id": "bonus_n2_014",
     "grammar_point": "〜もさることながら",
     "question_ja": "この店は味（　　）、サービスの良さでも有名だ。",
-    "choices": ["もさることながら", "はもちろん", "はおろか", "にひきかえ"],
+    "choices": [
+      "もさることながら",
+      "はもちろん",
+      "はおろか",
+      "にひきかえ"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜もさることながら (no solo... sino también) indica que, además de lo primero (ya notable), lo segundo también destaca.",
@@ -157,7 +227,12 @@
     "id": "bonus_n2_015",
     "grammar_point": "〜いかんでは",
     "question_ja": "天気（　　）、試合は中止になるかもしれない。",
-    "choices": ["いかんでは", "にかけては", "にあって", "とあって"],
+    "choices": [
+      "いかんでは",
+      "にかけては",
+      "にあって",
+      "とあって"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜いかんでは (dependiendo de cómo sea...) indica que el resultado depende de cierta condición.",
@@ -168,7 +243,12 @@
     "id": "bonus_n2_016",
     "grammar_point": "〜に足る",
     "question_ja": "彼は信頼する（　　）人物だ。",
-    "choices": ["に足る", "にたえる", "にかたくない", "にひきかえ"],
+    "choices": [
+      "に足る",
+      "にたえる",
+      "にかたくない",
+      "にひきかえ"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜に足る (digno de..., suficiente para) indica que algo/alguien merece cierta acción o evaluación.",
@@ -178,19 +258,29 @@
   {
     "id": "bonus_n2_017",
     "grammar_point": "〜てまで",
-    "question_ja": "お金のために、友達を裏切っ（　　）成功したくない。",
-    "choices": ["てまで", "てからでないと", "ているうちに", "てからというもの"],
+    "question_ja": "お金のために、友達を裏切っ（　　）せいこうしたくない。",
+    "choices": [
+      "てまで",
+      "てからでないと",
+      "ているうちに",
+      "てからというもの"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜てまで (incluso hasta el punto de hacer algo) muestra que algo es un sacrificio excesivo.",
-    "answer_sentence_ja": "お金のために、友達を裏切ってまで成功したくない。",
+    "answer_sentence_ja": "お金のために、友達を裏切ってまでせいこうしたくない。",
     "answer_sentence_es": "No quiero tener éxito hasta el punto de traicionar a un amigo por dinero."
   },
   {
     "id": "bonus_n2_018",
     "grammar_point": "〜ぐるみ",
     "question_ja": "この町では、家族（　　）で祭りを楽しんでいる。",
-    "choices": ["ぐるみ", "かたがた", "ながらに", "ずくめ"],
+    "choices": [
+      "ぐるみ",
+      "かたがた",
+      "ながらに",
+      "ずくめ"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜ぐるみ (incluyendo todo/todos, en conjunto) indica que algo involucra a un grupo entero, no solo a una parte.",

@@ -3,7 +3,12 @@
     "id": "bonus_n5_001",
     "grammar_point": "〜ことができます",
     "question_ja": "わたしはピアノを（　　）ことができます。",
-    "choices": ["ひきます", "ひく", "ひいて", "ひいた"],
+    "choices": [
+      "ひきます",
+      "ひく",
+      "ひいて",
+      "ひいた"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "「ことができます」(poder hacer algo) va después del verbo en forma de diccionario (ひく), no en la forma -masu.",
@@ -13,19 +18,29 @@
   {
     "id": "bonus_n5_002",
     "grammar_point": "〜と思います",
-    "question_ja": "あしたは雨が（　　）と思います。",
-    "choices": ["ふります", "ふる", "ふって", "ふった"],
+    "question_ja": "あしたは雨が（　　）とおもいます。",
+    "choices": [
+      "ふります",
+      "ふる",
+      "ふって",
+      "ふった"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "Antes de と思います (creo que) se usa la forma simple del verbo (ふる), no la forma -masu.",
-    "answer_sentence_ja": "あしたは雨がふると思います。",
+    "answer_sentence_ja": "あしたは雨がふるとおもいます。",
     "answer_sentence_es": "Creo que mañana lloverá."
   },
   {
     "id": "bonus_n5_003",
     "grammar_point": "〜ので",
     "question_ja": "あめがふっている（　　）、出かけません。",
-    "choices": ["ので", "のに", "けど", "でも"],
+    "choices": [
+      "ので",
+      "のに",
+      "けど",
+      "でも"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "ので expresa una razón de forma un poco más suave y objetiva que から.",
@@ -35,52 +50,77 @@
   {
     "id": "bonus_n5_004",
     "grammar_point": "〜のに",
-    "question_ja": "たくさん勉強した（　　）、テストができませんでした。",
-    "choices": ["のに", "ので", "から", "と"],
+    "question_ja": "たくさんべんきょうした（　　）、テストができませんでした。",
+    "choices": [
+      "のに",
+      "ので",
+      "から",
+      "と"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "のに expresa un resultado contrario a lo esperado: estudié mucho, pero aun así no me fue bien.",
-    "answer_sentence_ja": "たくさん勉強したのに、テストができませんでした。",
+    "answer_sentence_ja": "たくさんべんきょうしたのに、テストができませんでした。",
     "answer_sentence_es": "Aunque estudié mucho, no me fue bien en el examen."
   },
   {
     "id": "bonus_n5_005",
     "grammar_point": "〜すぎる",
-    "question_ja": "ゆうべ（　　）すぎて、頭がいたいです。",
-    "choices": ["飲んで", "飲み", "飲む", "飲んだ"],
+    "question_ja": "ゆうべ（　　）すぎて、あたまがいたいです。",
+    "choices": [
+      "飲んで",
+      "飲み",
+      "飲む",
+      "飲んだ"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "すぎる (demasiado) se une a la raíz -masu del verbo: 飲み + すぎる.",
-    "answer_sentence_ja": "ゆうべ飲みすぎて、頭がいたいです。",
+    "answer_sentence_ja": "ゆうべ飲みすぎて、あたまがいたいです。",
     "answer_sentence_es": "Anoche bebí demasiado y me duele la cabeza."
   },
   {
     "id": "bonus_n5_006",
     "grammar_point": "〜方（かた）",
-    "question_ja": "すみません、この漢字の（　　）がわかりません。",
-    "choices": ["読む方", "読み方", "読んで方", "読んだ方"],
+    "question_ja": "すみません、このかんじの（　　）がわかりません。",
+    "choices": [
+      "読むかた",
+      "読みかた",
+      "読んでかた",
+      "読んだかた"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜方 (cómo se hace algo) se une a la raíz -masu del verbo: 読み + 方 = cómo se lee.",
-    "answer_sentence_ja": "すみません、この漢字の読み方がわかりません。",
+    "answer_sentence_ja": "すみません、このかんじの読みかたがわかりません。",
     "answer_sentence_es": "Disculpe, no sé cómo se lee este kanji."
   },
   {
     "id": "bonus_n5_007",
     "grammar_point": "〜くなります",
-    "question_ja": "冬になると、（　　）なります。",
-    "choices": ["寒い", "寒く", "寒くて", "寒かった"],
+    "question_ja": "ふゆになると、（　　）なります。",
+    "choices": [
+      "さむい",
+      "さむく",
+      "さむくて",
+      "さむかった"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "Los adjetivos -i cambian い por く antes de なります: 寒い → 寒く.",
-    "answer_sentence_ja": "冬になると、寒くなります。",
+    "answer_sentence_ja": "ふゆになると、さむくなります。",
     "answer_sentence_es": "Cuando llega el invierno, hace frío."
   },
   {
     "id": "bonus_n5_008",
     "grammar_point": "〜つもりです",
     "question_ja": "来年、日本へ（　　）つもりです。",
-    "choices": ["行きます", "行く", "行って", "行った"],
+    "choices": [
+      "行きます",
+      "行く",
+      "行って",
+      "行った"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "つもりです (tener la intención de) va después del verbo en forma de diccionario.",
@@ -90,30 +130,45 @@
   {
     "id": "bonus_n5_009",
     "grammar_point": "〜たことがあります",
-    "question_ja": "わたしは富士山に（　　）ことがあります。",
-    "choices": ["のぼる", "のぼって", "のぼった", "のぼります"],
+    "question_ja": "わたしは山に（　　）ことがあります。",
+    "choices": [
+      "のぼる",
+      "のぼって",
+      "のぼった",
+      "のぼります"
+    ],
     "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "〜たことがあります (haber hecho algo alguna vez) usa la forma -ta del verbo.",
-    "answer_sentence_ja": "わたしは富士山にのぼったことがあります。",
-    "answer_sentence_es": "He subido al monte Fuji alguna vez."
+    "answer_sentence_ja": "わたしは山にのぼったことがあります。",
+    "answer_sentence_es": "He subido una montaña alguna vez."
   },
   {
     "id": "bonus_n5_010",
     "grammar_point": "〜てみます",
-    "question_ja": "この服を（　　）みてもいいですか。",
-    "choices": ["着て", "着る", "着た", "着ます"],
+    "question_ja": "このふくを（　　）みてもいいですか。",
+    "choices": [
+      "きて",
+      "きる",
+      "きた",
+      "きます"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜てみます (probar a hacer algo) usa la forma -te del verbo.",
-    "answer_sentence_ja": "この服を着てみてもいいですか。",
+    "answer_sentence_ja": "このふくをきてみてもいいですか。",
     "answer_sentence_es": "¿Puedo probarme esta ropa?"
   },
   {
     "id": "bonus_n5_011",
     "grammar_point": "〜ておきます",
     "question_ja": "パーティーの前に、へやを（　　）おきます。",
-    "choices": ["そうじする", "そうじして", "そうじした", "そうじします"],
+    "choices": [
+      "そうじする",
+      "そうじして",
+      "そうじした",
+      "そうじします"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜ておきます (hacer algo de antemano) usa la forma -te del verbo + おきます.",
@@ -123,19 +178,29 @@
   {
     "id": "bonus_n5_012",
     "grammar_point": "〜てしまいます",
-    "question_ja": "大切なさいふを（　　）しまいました。",
-    "choices": ["なくす", "なくして", "なくした", "なくします"],
+    "question_ja": "たいせつなさいふを（　　）しまいました。",
+    "choices": [
+      "なくす",
+      "なくして",
+      "なくした",
+      "なくします"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜てしまいます (acabar haciendo algo, a menudo con matiz de pesar) usa la forma -te del verbo.",
-    "answer_sentence_ja": "大切なさいふをなくしてしまいました。",
+    "answer_sentence_ja": "たいせつなさいふをなくしてしまいました。",
     "answer_sentence_es": "Se me perdió mi billetera importante."
   },
   {
     "id": "bonus_n5_013",
     "grammar_point": "〜やすいです",
     "question_ja": "この本はじがおおきくて、とても（　　）です。",
-    "choices": ["読むやすい", "読みやすい", "読んでやすい", "読んだやすい"],
+    "choices": [
+      "読むやすい",
+      "読みやすい",
+      "読んでやすい",
+      "読んだやすい"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜やすい (fácil de hacer) se une a la raíz -masu del verbo: 読み + やすい.",
@@ -145,19 +210,29 @@
   {
     "id": "bonus_n5_014",
     "grammar_point": "〜という",
-    "question_ja": "「さくら」（　　）花を知っていますか。",
-    "choices": ["という", "との", "とは", "とも"],
+    "question_ja": "「さくら」（　　）花をしっていますか。",
+    "choices": [
+      "という",
+      "との",
+      "とは",
+      "とも"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜という (llamado/que se llama) se usa para presentar el nombre de algo.",
-    "answer_sentence_ja": "「さくら」という花を知っていますか。",
+    "answer_sentence_ja": "「さくら」という花をしっていますか。",
     "answer_sentence_es": "¿Conoces la flor llamada «sakura»?"
   },
   {
     "id": "bonus_n5_015",
     "grammar_point": "〜かもしれません",
     "question_ja": "あしたは雨が（　　）かもしれません。",
-    "choices": ["ふります", "ふる", "ふって", "ふった"],
+    "choices": [
+      "ふります",
+      "ふる",
+      "ふって",
+      "ふった"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "かもしれません (podría ser que) va después de la forma simple del verbo.",
@@ -168,7 +243,12 @@
     "id": "bonus_n5_016",
     "grammar_point": "あげます",
     "question_ja": "わたしは友だちにプレゼントを（　　）。",
-    "choices": ["あげました", "もらいました", "くれました", "くれます"],
+    "choices": [
+      "あげました",
+      "もらいました",
+      "くれました",
+      "くれます"
+    ],
     "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "あげます se usa cuando YO le doy algo a otra persona.",
@@ -179,7 +259,12 @@
     "id": "bonus_n5_017",
     "grammar_point": "〜ほうがいいです",
     "question_ja": "かぜをひいたときは、はやく（　　）ほうがいいです。",
-    "choices": ["ねる", "ねて", "ねた", "ねます"],
+    "choices": [
+      "ねる",
+      "ねて",
+      "ねた",
+      "ねます"
+    ],
     "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "〜ほうがいいです (es mejor hacer algo) normalmente usa la forma -ta del verbo.",
@@ -189,12 +274,17 @@
   {
     "id": "bonus_n5_018",
     "grammar_point": "〜とき",
-    "question_ja": "日本へ（　　）とき、カメラを持っていきます。",
-    "choices": ["行きます", "行く", "行って", "行った"],
+    "question_ja": "日本へ（　　）とき、カメラをもっていきます。",
+    "choices": [
+      "行きます",
+      "行く",
+      "行って",
+      "行った"
+    ],
     "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "とき (cuando) va después de la forma de diccionario si la acción todavía no ha pasado en ese momento.",
-    "answer_sentence_ja": "日本へ行くとき、カメラを持っていきます。",
+    "answer_sentence_ja": "日本へ行くとき、カメラをもっていきます。",
     "answer_sentence_es": "Cuando vaya a Japón, llevaré la cámara."
   }
 ]
