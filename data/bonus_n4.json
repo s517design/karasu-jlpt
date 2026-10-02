@@ -5,11 +5,11 @@
     "question_ja": "このパソコンは中国で（　　）います。",
     "choices": [
       "作って",
-      "作られて",
       "作らせて",
-      "作る"
+      "作る",
+      "作られて"
     ],
-    "correct_index": 1,
+    "correct_index": 3,
     "explanation_ja": "",
     "explanation_es": "La forma pasiva (〜られる) se usa aquí porque la computadora «es fabricada» (recibe la acción).",
     "answer_sentence_ja": "このパソコンは中国で作られています。",
@@ -20,10 +20,10 @@
     "grammar_point": "使役形（させる）",
     "question_ja": "先生は学生に本を（　　）ました。",
     "choices": [
-      "読んで",
       "読まれ",
+      "読め",
       "読ませ",
-      "読め"
+      "読んで"
     ],
     "correct_index": 2,
     "explanation_ja": "",
@@ -36,12 +36,12 @@
     "grammar_point": "可能形（られる）",
     "question_ja": "わたしは漢字を百（　　）ます。",
     "choices": [
-      "読んで",
-      "読まれ",
+      "読ませ",
       "読め",
-      "読ませ"
+      "読まれ",
+      "読んで"
     ],
-    "correct_index": 2,
+    "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "La forma potencial (〜える/られる) expresa la capacidad de hacer algo, de forma más corta que 〜ことができる.",
     "answer_sentence_ja": "わたしは漢字を百読めます。",
@@ -52,12 +52,12 @@
     "grammar_point": "〜ば",
     "question_ja": "時間が（　　）、てつだってください。",
     "choices": [
+      "あった",
       "ある",
       "あって",
-      "あれば",
-      "あった"
+      "あれば"
     ],
-    "correct_index": 2,
+    "correct_index": 3,
     "explanation_ja": "",
     "explanation_es": "〜ば (si) es una de las formas condicionales del japonés: あります → あれば.",
     "answer_sentence_ja": "時間があれば、てつだってください。",
@@ -68,12 +68,12 @@
     "grammar_point": "〜なら",
     "question_ja": "日本語を勉強する（　　）、この本がいいですよ。",
     "choices": [
+      "と",
       "なら",
       "ば",
-      "と",
       "たら"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜なら se usa para dar un consejo basado en lo que la otra persona acaba de decir o en un tema concreto.",
     "answer_sentence_ja": "日本語を勉強するなら、この本がいいですよ。",
@@ -84,12 +84,12 @@
     "grammar_point": "〜について",
     "question_ja": "先生は日本のれきし（　　）話しました。",
     "choices": [
-      "に",
       "について",
+      "に",
       "とって",
       "として"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation_ja": "",
     "explanation_es": "〜について significa «sobre, acerca de» un tema.",
     "answer_sentence_ja": "先生は日本のれきしについて話しました。",
@@ -100,12 +100,12 @@
     "grammar_point": "〜にとって",
     "question_ja": "わたしたち（　　）、日本語はむずかしいです。",
     "choices": [
+      "として",
       "にとって",
       "について",
-      "として",
       "にたいして"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜にとって expresa el punto de vista de alguien: «para nosotros».",
     "answer_sentence_ja": "わたしたちにとって、日本語はむずかしいです。",
@@ -117,9 +117,9 @@
     "question_ja": "お金をためる（　　）、アルバイトをしています。",
     "choices": [
       "ために",
-      "のに",
       "ように",
-      "けど"
+      "けど",
+      "のに"
     ],
     "correct_index": 0,
     "explanation_ja": "",
@@ -132,12 +132,12 @@
     "grammar_point": "〜ことがある",
     "question_ja": "日曜日はうちで料理を（　　）ことがあります。",
     "choices": [
+      "します",
       "する",
-      "して",
       "した",
-      "します"
+      "して"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜ことがあります (a veces hago algo) usa la forma de diccionario del verbo.",
     "answer_sentence_ja": "日曜日はうちで料理をすることがあります。",
@@ -149,9 +149,9 @@
     "question_ja": "来月、おおさかに（　　）ことになりました。",
     "choices": [
       "行く",
-      "行って",
       "行った",
-      "行きます"
+      "行きます",
+      "行って"
     ],
     "correct_index": 0,
     "explanation_ja": "",
@@ -164,8 +164,8 @@
     "grammar_point": "〜たばかり",
     "question_ja": "この本はさっき（　　）ばかりです。",
     "choices": [
-      "買う",
       "買って",
+      "買う",
       "買った",
       "買います"
     ],
@@ -181,11 +181,11 @@
     "question_ja": "赤ちゃんが（　　）はじめました。",
     "choices": [
       "歩く",
+      "歩いた",
       "歩き",
-      "歩いて",
-      "歩いた"
+      "歩いて"
     ],
-    "correct_index": 1,
+    "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "〜はじめる (empezar a hacer algo) se une a la raíz -masu del verbo.",
     "answer_sentence_ja": "赤ちゃんが歩きはじめました。",
@@ -197,11 +197,11 @@
     "question_ja": "レポートを（　　）おわりました。",
     "choices": [
       "書く",
-      "書き",
       "書いて",
-      "書いた"
+      "書いた",
+      "書き"
     ],
-    "correct_index": 1,
+    "correct_index": 3,
     "explanation_ja": "",
     "explanation_es": "〜おわる (terminar de hacer algo) se une a la raíz -masu del verbo.",
     "answer_sentence_ja": "レポートを書きおわりました。",
@@ -212,12 +212,12 @@
     "grammar_point": "〜つづける",
     "question_ja": "かれは10年間、日本語を（　　）つづけています。",
     "choices": [
-      "勉強する",
-      "勉強し",
+      "勉強した",
       "勉強して",
-      "勉強した"
+      "勉強し",
+      "勉強する"
     ],
-    "correct_index": 1,
+    "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "〜つづける (seguir haciendo algo) se une a la raíz -masu del verbo.",
     "answer_sentence_ja": "かれは10年間、日本語を勉強しつづけています。",
@@ -244,12 +244,12 @@
     "grammar_point": "〜なくてはいけない",
     "question_ja": "あしたまでにレポートを（　　）はいけません。",
     "choices": [
-      "出して",
-      "出さなくて",
       "出さないで",
-      "出した"
+      "出して",
+      "出した",
+      "出さなくて"
     ],
-    "correct_index": 1,
+    "correct_index": 3,
     "explanation_ja": "",
     "explanation_es": "〜なくてはいけません (tener que hacer algo) usa la forma -nai del verbo sin い, más くては.",
     "answer_sentence_ja": "あしたまでにレポートを出さなくてはいけません。",
@@ -261,9 +261,9 @@
     "question_ja": "医者はわたしに、たばこをやめる（　　）言いました。",
     "choices": [
       "ように",
-      "そうに",
+      "みたいに",
       "らしく",
-      "みたいに"
+      "そうに"
     ],
     "correct_index": 0,
     "explanation_ja": "",
@@ -277,8 +277,8 @@
     "question_ja": "かれはいつも高い車に乗っているから、お金持ち（　　）。",
     "choices": [
       "にちがいない",
-      "というより",
       "にとって",
+      "というより",
       "について"
     ],
     "correct_index": 0,

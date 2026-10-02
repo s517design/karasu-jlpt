@@ -4,12 +4,12 @@
     "grammar_point": "〜において",
     "question_ja": "この問題については、会議（　　）話し合う予定だ。",
     "choices": [
-      "において",
       "にとって",
-      "について",
-      "として"
+      "において",
+      "として",
+      "について"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜において (en, durante - formal) indica el lugar o la situación donde ocurre algo; es más formal que で.",
     "answer_sentence_ja": "この問題については、会議において話し合う予定だ。",
@@ -21,9 +21,9 @@
     "question_ja": "かんきょう問題（　　）、さまざまな意見がある。",
     "choices": [
       "に関して",
-      "に対して",
+      "において",
       "にとって",
-      "において"
+      "に対して"
     ],
     "correct_index": 0,
     "explanation_ja": "",
@@ -36,12 +36,12 @@
     "grammar_point": "〜に基づいて",
     "question_ja": "この映画は実話（　　）作られた。",
     "choices": [
-      "にもとづいて",
       "によって",
-      "について",
-      "に対して"
+      "にもとづいて",
+      "に対して",
+      "について"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜に基づいて (basado en) indica el fundamento u origen de algo.",
     "answer_sentence_ja": "この映画は実話にもとづいて作られた。",
@@ -52,12 +52,12 @@
     "grammar_point": "〜反面",
     "question_ja": "この仕事は給料がいい（　　）、とても忙しい。",
     "choices": [
+      "うえに",
       "反面",
       "おかげで",
-      "せいで",
-      "うえに"
+      "せいで"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜反面 (por otro lado) muestra dos aspectos contrastantes de una misma cosa.",
     "answer_sentence_ja": "この仕事は給料がいい反面、とても忙しい。",
@@ -68,12 +68,12 @@
     "grammar_point": "〜おそれがある",
     "question_ja": "台風のえいきょうで、川の水があふれる（　　）。",
     "choices": [
-      "おそれがある",
       "わけにはいかない",
       "ことになっている",
-      "どころではない"
+      "どころではない",
+      "おそれがある"
     ],
-    "correct_index": 0,
+    "correct_index": 3,
     "explanation_ja": "",
     "explanation_es": "〜おそれがある (existe el riesgo de que) se usa para advertir de algo malo que podría pasar, común en noticias y avisos.",
     "answer_sentence_ja": "台風のえいきょうで、川の水があふれるおそれがある。",
@@ -84,12 +84,12 @@
     "grammar_point": "〜につき",
     "question_ja": "本日はしゅくじつ（　　）、休業いたします。",
     "choices": [
-      "につき",
-      "にしては",
+      "について",
       "にしても",
-      "について"
+      "にしては",
+      "につき"
     ],
-    "correct_index": 0,
+    "correct_index": 3,
     "explanation_ja": "",
     "explanation_es": "〜につき (debido a / por) se usa en avisos formales para dar una razón.",
     "answer_sentence_ja": "本日はしゅくじつにつき、休業いたします。",
@@ -116,12 +116,12 @@
     "grammar_point": "〜にしても",
     "question_ja": "いくら忙しい（　　）、食事ぐらいはとったほうがいい。",
     "choices": [
-      "にしても",
-      "にしては",
       "からには",
+      "にしては",
+      "にしても",
       "としたら"
     ],
-    "correct_index": 0,
+    "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "〜にしても (incluso si, aunque) admite una condición pero muestra que no cambia la conclusión.",
     "answer_sentence_ja": "いくら忙しいにしても、食事ぐらいはとったほうがいい。",
@@ -134,8 +134,8 @@
     "choices": [
       "からには",
       "うちに",
-      "かぎり",
-      "あげく"
+      "あげく",
+      "かぎり"
     ],
     "correct_index": 0,
     "explanation_ja": "",
@@ -149,8 +149,8 @@
     "question_ja": "彼は一度も休む（　　）、働き続けた。",
     "choices": [
       "ことなく",
-      "どころか",
       "ことから",
+      "どころか",
       "もかまわず"
     ],
     "correct_index": 0,
@@ -164,12 +164,12 @@
     "grammar_point": "〜限り",
     "question_ja": "わたしの知っている（　　）、彼はうそをつく人ではない。",
     "choices": [
-      "限り",
-      "うちに",
       "あいだ",
+      "うちに",
+      "限り",
       "とおり"
     ],
-    "correct_index": 0,
+    "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "〜限り (mientras / hasta donde) marca el límite de lo que se sabe o se cumple.",
     "answer_sentence_ja": "わたしの知っている限り、彼はうそをつく人ではない。",
@@ -180,12 +180,12 @@
     "grammar_point": "〜次第",
     "question_ja": "空港に着き（　　）、電話します。",
     "choices": [
-      "しだい",
-      "うちに",
       "あげく",
+      "うちに",
+      "しだい",
       "かと思うと"
     ],
-    "correct_index": 0,
+    "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "動詞のます形 + 次第 (en cuanto) indica que algo se hará inmediatamente después de otra cosa.",
     "answer_sentence_ja": "空港に着きしだい、電話します。",
@@ -196,12 +196,12 @@
     "grammar_point": "〜たとたんに",
     "question_ja": "ドアを開け（　　）、猫が飛び出した。",
     "choices": [
-      "たとたんに",
+      "たすえに",
       "たところで",
       "たばかりに",
-      "たすえに"
+      "たとたんに"
     ],
-    "correct_index": 0,
+    "correct_index": 3,
     "explanation_ja": "",
     "explanation_es": "〜たとたんに (justo en el momento en que) indica que algo pasó inmediatamente después de otra acción, a menudo de forma sorpresiva.",
     "answer_sentence_ja": "ドアを開けたとたんに、猫が飛び出した。",
@@ -212,12 +212,12 @@
     "grammar_point": "〜につけ",
     "question_ja": "この歌を聞く（　　）、学生時代を思い出す。",
     "choices": [
+      "かわりに",
       "につけ",
       "とともに",
-      "かわりに",
       "ことから"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜につけ (cada vez que) indica que algo (un sentimiento o recuerdo) ocurre siempre que pasa cierta cosa.",
     "answer_sentence_ja": "この歌を聞くにつけ、学生時代を思い出す。",
@@ -228,12 +228,12 @@
     "grammar_point": "〜気味",
     "question_ja": "最近、仕事で疲れ（　　）だ。",
     "choices": [
-      "気味",
-      "だらけ",
+      "ぎりぎり",
       "っぽい",
-      "ぎりぎり"
+      "だらけ",
+      "気味"
     ],
-    "correct_index": 0,
+    "correct_index": 3,
     "explanation_ja": "",
     "explanation_es": "〜気味 (un poco, con tendencia a) se usa para describir una condición leve, a menudo negativa.",
     "answer_sentence_ja": "最近、仕事で疲れ気味だ。",
@@ -244,12 +244,12 @@
     "grammar_point": "〜がち",
     "question_ja": "彼女は小さいころから、病気（　　）だった。",
     "choices": [
-      "がち",
+      "っぽい",
       "気味",
-      "だらけ",
-      "っぽい"
+      "がち",
+      "だらけ"
     ],
-    "correct_index": 0,
+    "correct_index": 2,
     "explanation_ja": "",
     "explanation_es": "〜がち (tender a, con frecuencia) describe algo que ocurre con frecuencia, normalmente negativo.",
     "answer_sentence_ja": "彼女は小さいころから、病気がちだった。",
@@ -261,8 +261,8 @@
     "question_ja": "こんなにふくざつな問題では、だれも説明（　　）。",
     "choices": [
       "のしようがない",
-      "するわけがない",
       "しかねない",
+      "するわけがない",
       "するまでもない"
     ],
     "correct_index": 0,
@@ -276,12 +276,12 @@
     "grammar_point": "〜てはじめて",
     "question_ja": "病気になっ（　　）、けんこうのありがたさがわかった。",
     "choices": [
-      "てはじめて",
       "たすえに",
+      "てはじめて",
       "たところで",
       "たとたんに"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation_ja": "",
     "explanation_es": "〜てはじめて (solo después de..., por primera vez) indica que algo se entendió o se dio cuenta solo tras cierta experiencia.",
     "answer_sentence_ja": "病気になってはじめて、けんこうのありがたさがわかった。",
