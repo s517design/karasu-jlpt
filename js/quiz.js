@@ -7,7 +7,12 @@
  *    間違えた問題があれば「repasar mis errores」で再挑戦できる
  */
 
-const LEVEL_LABELS = { n5: "N5", n4: "N4", n3: "N3", n2: "N2" };
+const LEVEL_LABELS = { n5: "N5", n4: "N4", n3: "N3", n2: "N2", n5en: "N5" };
+// "n5en" is the English-language N5 bonus set (data/bonus_n5en.json,
+// answer_sentence_en/explanation_en fields) - every other level/type is
+// Spanish-only. Kept as its own small set rather than a per-question
+// language field, since today only this one bonus set is English.
+const ENGLISH_LEVELS = new Set(["n5en"]);
 // レベルアップの順番（N5が一番やさしく、N2が一番むずかしい）
 const NEXT_LEVEL = { n5: "n4", n4: "n3", n3: "n2", n2: null };
 const PLACEMENT_LEVELS = ["n5", "n4", "n3", "n2"];
@@ -51,6 +56,7 @@ class Quiz {
   constructor(questions, level, options = {}) {
     this.level = level;
     this.type = options.type || "grammar";
+    this.isEnglish = ENGLISH_LEVELS.has(level);
     this.isReview = Boolean(options.isReview);
     this.isPlacement = Boolean(options.isPlacement);
     this.questions = options.skipShuffle ? questions : shuffle(questions);
@@ -96,7 +102,9 @@ class Quiz {
     const q = this.currentQuestion();
 
     const progressPercent = Math.round((this.index / total) * 100);
-    this.els.progressText.textContent = `Pregunta ${this.index + 1} / ${total}`;
+    this.els.progressText.textContent = this.isEnglish
+      ? `Question ${this.index + 1} / ${total}`
+      : `Pregunta ${this.index + 1} / ${total}`;
     this.els.progressBar.style.width = `${progressPercent}%`;
     this.els.progressBarWrap.setAttribute("aria-valuenow", String(progressPercent));
 
@@ -152,12 +160,19 @@ class Quiz {
     }
 
     this.els.answerSentenceJa.textContent = q.answer_sentence_ja || q.question_ja;
-    this.els.answerSentenceEs.textContent = q.answer_sentence_es || "";
-    this.els.explanationEs.textContent = q.explanation_es || "";
+    this.els.answerSentenceEs.textContent =
+      (this.isEnglish ? q.answer_sentence_en : q.answer_sentence_es) || "";
+    this.els.explanationEs.textContent = (this.isEnglish ? q.explanation_en : q.explanation_es) || "";
     this.els.explanation.classList.add("is-visible");
     this.els.nextBtn.disabled = false;
-    this.els.nextBtn.textContent =
-      this.index === this.questions.length - 1 ? "Ver resultado" : "Siguiente pregunta →";
+    const isLastQuestion = this.index === this.questions.length - 1;
+    this.els.nextBtn.textContent = this.isEnglish
+      ? isLastQuestion
+        ? "See result"
+        : "Next question →"
+      : isLastQuestion
+        ? "Ver resultado"
+        : "Siguiente pregunta →";
   }
 
   goNext() {
@@ -199,19 +214,24 @@ class Quiz {
     document.getElementById("result-score").textContent = `${this.score} / ${total}`;
 
     if (this.isReview) {
-      titleEl.textContent = "¡Repaso terminado!";
+      titleEl.textContent = this.isEnglish ? "Review complete!" : "¡Repaso terminado!";
       rankEl.style.display = "none";
-      document.getElementById("result-message").textContent =
-        `Repasaste ${total} pregunta${total === 1 ? "" : "s"} que habías fallado antes. ¡Sigue así!`;
+      document.getElementById("result-message").textContent = this.isEnglish
+        ? `You reviewed ${total} question${total === 1 ? "" : "s"} you missed before. Keep it up!`
+        : `Repasaste ${total} pregunta${total === 1 ? "" : "s"} que habías fallado antes. ¡Sigue así!`;
       document.getElementById("next-level-box").hidden = true;
       document.getElementById("share-cta").hidden = true;
     } else {
-      titleEl.innerHTML =
-        this.type === "vocab"
-          ? '¡Terminaste el vocabulario de <span data-level-label></span>!'
-          : this.type === "bonus"
-            ? '¡Completaste el simulacro extra de <span data-level-label></span>!'
-            : '¡Terminaste el nivel <span data-level-label></span>!';
+      if (this.isEnglish) {
+        titleEl.innerHTML = 'You completed the <span data-level-label></span> bonus mock exam!';
+      } else {
+        titleEl.innerHTML =
+          this.type === "vocab"
+            ? '¡Terminaste el vocabulario de <span data-level-label></span>!'
+            : this.type === "bonus"
+              ? '¡Completaste el simulacro extra de <span data-level-label></span>!'
+              : '¡Terminaste el nivel <span data-level-label></span>!';
+      }
       document.querySelectorAll("[data-level-label]").forEach((el) => {
         el.textContent = LEVEL_LABELS[this.level];
       });
@@ -219,7 +239,18 @@ class Quiz {
 
       const ratio = this.score / total;
       let rank, message;
-      if (ratio >= 0.8) {
+      if (this.isEnglish) {
+        if (ratio >= 0.8) {
+          rank = "🐦‍⬛ Veteran crow";
+          message = "You're flying high: you've mastered most of this stretch of the path. Keep it up.";
+        } else if (ratio >= 0.5) {
+          rank = "Crow in flight";
+          message = "Good pace. With a bit more practice, this level won't test you anymore.";
+        } else {
+          rank = "Crow in the nest";
+          message = "There's still new ground ahead. Every good flight starts step by step - let's strengthen the basics together.";
+        }
+      } else if (ratio >= 0.8) {
         rank = "🐦‍⬛ Cuervo veterano";
         message = "Vuelas alto: dominas la mayoría de este tramo del camino. Sigue así y el siguiente nivel será aún más tuyo.";
       } else if (ratio >= 0.5) {
@@ -266,9 +297,12 @@ class Quiz {
     const reviewBtn = document.getElementById("review-btn");
     const count = this.wrongQuestions.length;
     if (count > 0) {
-      document.getElementById("review-message").textContent =
-        `Fallaste ${count} pregunta${count === 1 ? "" : "s"}. Repasarlas ayuda a que se te queden mejor.`;
-      reviewBtn.textContent = `Repasar mis ${count} error${count === 1 ? "" : "es"}`;
+      document.getElementById("review-message").textContent = this.isEnglish
+        ? `You missed ${count} question${count === 1 ? "" : "s"}. Reviewing them helps them stick.`
+        : `Fallaste ${count} pregunta${count === 1 ? "" : "s"}. Repasarlas ayuda a que se te queden mejor.`;
+      reviewBtn.textContent = this.isEnglish
+        ? `Review my ${count} mistake${count === 1 ? "" : "s"}`
+        : `Repasar mis ${count} error${count === 1 ? "" : "es"}`;
       reviewBtn.onclick = () => this.startReview();
       reviewBox.hidden = false;
     } else {
@@ -341,13 +375,30 @@ class Quiz {
     // que no tiene sentido invitar a quien lo vea a "probarlo también" -
     // no podría sin haber comprado el libro.
     let shareText;
-    if (this.type === "bonus") {
+    if (this.isEnglish) {
+      shareText = `I scored ${this.score}/${total} on the JLPT ${LEVEL_LABELS[this.level]} bonus mock exam from Karasu.`;
+    } else if (this.type === "bonus") {
       shareText = `Hice ${this.score}/${total} en el simulacro extra de JLPT ${LEVEL_LABELS[this.level]} de Karasu.`;
     } else {
       const topic = this.type === "vocab" ? "vocabulario" : "gramática";
       shareText = `Hice ${this.score}/${total} en la práctica de ${topic} JLPT ${LEVEL_LABELS[this.level]} de Karasu. ¡Pruébalo tú también!`;
     }
     const shareUrl = window.location.href;
+    const copiedText = this.isEnglish
+      ? "Copied! Paste it anywhere you want to share it"
+      : "¡Copiado! Pégalo donde quieras compartirlo";
+    const shareBtnDefaultText = this.isEnglish ? "Share my result" : "Compartir mi resultado";
+    const copyFailedText = this.isEnglish
+      ? "Couldn't copy it, copy it manually"
+      : "No se pudo copiar, cópialo manualmente";
+    // The button's static HTML text is Spanish by default - reset it here
+    // so an English session doesn't flash Spanish text before the first
+    // click (and so re-entering results after a review isn't left stale).
+    shareBtn.textContent = shareBtnDefaultText;
+    const tryAnotherLevelLink = document.getElementById("try-another-level-link");
+    if (tryAnotherLevelLink) {
+      tryAnotherLevelLink.textContent = this.isEnglish ? "← Try another level" : "← Probar otro nivel";
+    }
 
     shareBtn.onclick = async () => {
       if (navigator.share) {
@@ -360,12 +411,12 @@ class Quiz {
       }
       try {
         await navigator.clipboard.writeText(`${shareText} ${shareUrl}`);
-        shareBtn.textContent = "¡Copiado! Pégalo donde quieras compartirlo";
+        shareBtn.textContent = copiedText;
         setTimeout(() => {
-          shareBtn.textContent = "Compartir mi resultado";
+          shareBtn.textContent = shareBtnDefaultText;
         }, 2500);
       } catch (err) {
-        shareBtn.textContent = "No se pudo copiar, cópialo manualmente";
+        shareBtn.textContent = copyFailedText;
       }
     };
   }
@@ -430,12 +481,14 @@ async function initLevelQuiz() {
   document.querySelectorAll("[data-level-label]").forEach((el) => {
     el.textContent = LEVEL_LABELS[level];
   });
-  document.title =
-    type === "vocab"
+  document.title = ENGLISH_LEVELS.has(level)
+    ? `${LEVEL_LABELS[level]} Bonus Mock Exam — Karasu`
+    : type === "vocab"
       ? `Vocabulario y Kanji ${LEVEL_LABELS[level]} — Karasu`
       : type === "bonus"
         ? `Simulacro extra ${LEVEL_LABELS[level]} — Karasu`
         : `Práctica JLPT ${LEVEL_LABELS[level]} — Karasu`;
+  document.documentElement.lang = ENGLISH_LEVELS.has(level) ? "en" : "es";
   // El simulacro extra no es contenido público/indexable (está bloqueado
   // detrás de un código), así que no debe anunciarse como un Course
   // gratuito en los datos estructurados.

@@ -63,8 +63,8 @@
 
 <main class="quiz-shell">
   <div class="question-card result-card">
-    <h2>Simulacro extra para lectores del libro</h2>
-    <p>
+    <h2 id="page-heading">Simulacro extra para lectores del libro</h2>
+    <p id="page-intro">
       Si compraste <strong id="book-title">Gramática y Práctica JLPT N5</strong>,
       busca el código al final del libro (en la página de Créditos) e
       introdúcelo aquí para desbloquear un simulacro de examen extra,
@@ -101,16 +101,19 @@
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Cada nivel (N5/N4/N3/N2) tiene su propio código, impreso solo en el
-  // libro de ese nivel - por eso esta página necesita saber de cuál
-  // libro se trata. Sin ?level en la URL, se asume N5 (el primer libro
-  // que incluyó este código, para no romper el enlace ya impreso).
+  // Cada nivel (N5/N4/N3/N2, más n5en para el libro en inglés) tiene su
+  // propio código, impreso solo en el libro correspondiente - por eso esta
+  // página necesita saber de cuál libro se trata. Sin ?level en la URL, se
+  // asume N5 (el primer libro que incluyó este código, para no romper el
+  // enlace ya impreso).
   const BOOK_TITLES = {
     n5: "Gramática y Práctica JLPT N5",
     n4: "Gramática y Práctica JLPT N4",
     n3: "Gramática y Práctica JLPT N3",
     n2: "Gramática y Práctica JLPT N2",
+    n5en: "JLPT N5 Grammar and Practice",
   };
+  const ENGLISH_LEVELS = new Set(["n5en"]);
 
   function getLevelFromUrl() {
     const params = new URLSearchParams(window.location.search);
@@ -119,20 +122,40 @@
   }
 
   const level = getLevelFromUrl();
+  const isEnglish = ENGLISH_LEVELS.has(level);
+
   document.getElementById("book-title").textContent = BOOK_TITLES[level];
-  document.getElementById("page-title").textContent =
-    `Simulacro extra para lectores (${level.toUpperCase()}) — Karasu`;
+
+  if (isEnglish) {
+    document.documentElement.lang = "en";
+    document.getElementById("page-title").textContent =
+      `Bonus mock exam for readers (${level.replace("en", "").toUpperCase()}) — Karasu`;
+    document.getElementById("page-heading").textContent = "Bonus mock exam for readers";
+    document.getElementById("page-intro").innerHTML =
+      `If you bought <strong id="book-title">${BOOK_TITLES[level]}</strong>, ` +
+      "find the code at the end of the book (on the Credits page) and enter " +
+      "it here to unlock a bonus mock exam, exclusive to readers.";
+    document.getElementById("code-input").placeholder = "Code from the book";
+    document.getElementById("code-submit").textContent = "Unlock mock exam";
+    document.getElementById("code-error").textContent =
+      "That code isn't valid. Check the Credits page in the book and try again.";
+  } else {
+    document.getElementById("page-title").textContent =
+      `Simulacro extra para lectores (${level.toUpperCase()}) — Karasu`;
+  }
 
   const form = document.getElementById("code-form");
   const input = document.getElementById("code-input");
   const submitBtn = document.getElementById("code-submit");
   const errorMsg = document.getElementById("code-error");
+  const submitDefaultText = submitBtn.textContent;
+  const checkingText = isEnglish ? "Checking..." : "Comprobando...";
 
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
     errorMsg.hidden = true;
     submitBtn.disabled = true;
-    submitBtn.textContent = "Comprobando...";
+    submitBtn.textContent = checkingText;
 
     try {
       const response = await fetch("/api/redeem", {
@@ -151,7 +174,7 @@
     }
 
     submitBtn.disabled = false;
-    submitBtn.textContent = "Desbloquear simulacro";
+    submitBtn.textContent = submitDefaultText;
   });
 </script>
 </body>

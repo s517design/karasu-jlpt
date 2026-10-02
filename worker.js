@@ -27,6 +27,10 @@ const BONUS_CODES = {
   n4: "CUERVO-N4",
   n3: "CUERVO-N3",
   n2: "CUERVO-N2",
+  // 英語版の本（N5のみ、今のところ）専用のコード。スペイン語版n5とは
+  // 別の問題セット（data/bonus_n5en.json）を解放するので、別のレベル
+  // キー・別のコードにしている。
+  n5en: "CUERVO-N5-EN",
 };
 
 // Cookieの署名に使うだけの秘密鍵（ブラウザには送らない）。
@@ -43,7 +47,7 @@ function bonusCookieName(level) {
 }
 
 const BONUS_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 365; // 1年
-const BONUS_DATA_PATH_PATTERN = /^\/data\/bonus_(n5|n4|n3|n2)\.json$/;
+const BONUS_DATA_PATH_PATTERN = /^\/data\/bonus_(n5en|n5|n4|n3|n2)\.json$/;
 
 async function hmacHex(message, secret) {
   const key = await crypto.subtle.importKey(

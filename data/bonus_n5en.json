@@ -1,0 +1,290 @@
+[
+  {
+    "id": "bonus_n5en_001",
+    "grammar_point": "〜ことができる",
+    "question_ja": "わたしは日本語が少し（　　）ことができます。",
+    "choices": [
+      "話します",
+      "話した",
+      "話して",
+      "話す"
+    ],
+    "correct_index": 3,
+    "explanation_ja": "",
+    "explanation_en": "「ことができます」(can do) comes after the dictionary form of the verb (話す), not the -masu form.",
+    "answer_sentence_ja": "わたしは日本語が少し話すことができます。",
+    "answer_sentence_en": "I can speak a little Japanese."
+  },
+  {
+    "id": "bonus_n5en_002",
+    "grammar_point": "〜と思う",
+    "question_ja": "あしたは雨が（　　）とおもいます。",
+    "choices": [
+      "ふる",
+      "ふります",
+      "ふって",
+      "ふった"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_en": "Before と思います (I think that), use the plain form of the verb (ふる), not the -masu form.",
+    "answer_sentence_ja": "あしたは雨がふるとおもいます。",
+    "answer_sentence_en": "I think it will rain tomorrow."
+  },
+  {
+    "id": "bonus_n5en_003",
+    "grammar_point": "〜ので",
+    "question_ja": "雨がふっている（　　）、出かけません。",
+    "choices": [
+      "のに",
+      "ので",
+      "けど",
+      "でも"
+    ],
+    "correct_index": 1,
+    "explanation_ja": "",
+    "explanation_en": "ので gives a reason in a slightly softer, more objective way than から.",
+    "answer_sentence_ja": "雨がふっているので、出かけません。",
+    "answer_sentence_en": "Since it's raining, I'm not going out."
+  },
+  {
+    "id": "bonus_n5en_004",
+    "grammar_point": "〜のに",
+    "question_ja": "たくさん食べた（　　）、おなかがすいています。",
+    "choices": [
+      "と",
+      "のに",
+      "ので",
+      "から"
+    ],
+    "correct_index": 1,
+    "explanation_ja": "",
+    "explanation_en": "のに shows a result that goes against what you'd expect: despite eating a lot, I'm still hungry.",
+    "answer_sentence_ja": "たくさん食べたのに、おなかがすいています。",
+    "answer_sentence_en": "Even though I ate a lot, I'm still hungry."
+  },
+  {
+    "id": "bonus_n5en_005",
+    "grammar_point": "〜すぎる",
+    "question_ja": "きのうのよる、テレビを（　　）すぎて、ねむいです。",
+    "choices": [
+      "見た",
+      "見て",
+      "見",
+      "見る"
+    ],
+    "correct_index": 2,
+    "explanation_ja": "",
+    "explanation_en": "すぎる (too much) attaches to the verb's -masu stem: 見 + すぎる.",
+    "answer_sentence_ja": "きのうのよる、テレビを見すぎて、ねむいです。",
+    "answer_sentence_en": "I watched too much TV last night, so I'm sleepy."
+  },
+  {
+    "id": "bonus_n5en_006",
+    "grammar_point": "〜かた",
+    "question_ja": "すみません、このかんじの（　　）がわかりません。",
+    "choices": [
+      "読みかた",
+      "読むかた",
+      "読んでかた",
+      "読んだかた"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_en": "〜かた (how to do something) attaches to the verb's -masu stem: 読み + かた.",
+    "answer_sentence_ja": "すみません、このかんじの読みかたがわかりません。",
+    "answer_sentence_en": "Excuse me, I don't know how to read this kanji."
+  },
+  {
+    "id": "bonus_n5en_007",
+    "grammar_point": "〜くなる",
+    "question_ja": "なつになると、（　　）なります。",
+    "choices": [
+      "あつかった",
+      "あつい",
+      "あつくて",
+      "あつく"
+    ],
+    "correct_index": 3,
+    "explanation_ja": "",
+    "explanation_en": "I-adjectives change い to く before なります: あつい → あつく.",
+    "answer_sentence_ja": "なつになると、あつくなります。",
+    "answer_sentence_en": "When summer comes, it gets hot."
+  },
+  {
+    "id": "bonus_n5en_008",
+    "grammar_point": "〜つもり",
+    "question_ja": "来年、日本へ（　　）つもりです。",
+    "choices": [
+      "行って",
+      "行く",
+      "行った",
+      "行きます"
+    ],
+    "correct_index": 1,
+    "explanation_ja": "",
+    "explanation_en": "つもりです (intend to) comes after the dictionary form of the verb.",
+    "answer_sentence_ja": "来年、日本へ行くつもりです。",
+    "answer_sentence_en": "I intend to go to Japan next year."
+  },
+  {
+    "id": "bonus_n5en_009",
+    "grammar_point": "〜たことがある",
+    "question_ja": "わたしはいちど、すしを（　　）ことがあります。",
+    "choices": [
+      "食べます",
+      "食べる",
+      "食べた",
+      "食べて"
+    ],
+    "correct_index": 2,
+    "explanation_ja": "",
+    "explanation_en": "〜たことがあります (have done something before) uses the -ta form of the verb.",
+    "answer_sentence_ja": "わたしはいちど、すしを食べたことがあります。",
+    "answer_sentence_en": "I have eaten sushi once before."
+  },
+  {
+    "id": "bonus_n5en_010",
+    "grammar_point": "〜てみる",
+    "question_ja": "この新しいレストランに（　　）みたいです。",
+    "choices": [
+      "行く",
+      "行って",
+      "行きます",
+      "行った"
+    ],
+    "correct_index": 1,
+    "explanation_ja": "",
+    "explanation_en": "〜てみる (to try doing something) uses the -te form of the verb.",
+    "answer_sentence_ja": "この新しいレストランに行ってみたいです。",
+    "answer_sentence_en": "I want to try going to this new restaurant."
+  },
+  {
+    "id": "bonus_n5en_011",
+    "grammar_point": "〜ておく",
+    "question_ja": "パーティーの前に、へやを（　　）おきます。",
+    "choices": [
+      "そうじします",
+      "そうじした",
+      "そうじして",
+      "そうじする"
+    ],
+    "correct_index": 2,
+    "explanation_ja": "",
+    "explanation_en": "〜ておきます (to do something in advance) uses the -te form of the verb plus おきます.",
+    "answer_sentence_ja": "パーティーの前に、へやをそうじしておきます。",
+    "answer_sentence_en": "I'll clean the room in advance, before the party."
+  },
+  {
+    "id": "bonus_n5en_012",
+    "grammar_point": "〜てしまう",
+    "question_ja": "たいせつなさいふを（　　）しまいました。",
+    "choices": [
+      "なくした",
+      "なくします",
+      "なくして",
+      "なくす"
+    ],
+    "correct_index": 2,
+    "explanation_ja": "",
+    "explanation_en": "〜てしまいます (to end up doing something, often with regret) uses the -te form of the verb.",
+    "answer_sentence_ja": "たいせつなさいふをなくしてしまいました。",
+    "answer_sentence_en": "I lost my important wallet (and I regret it)."
+  },
+  {
+    "id": "bonus_n5en_013",
+    "grammar_point": "〜やすい",
+    "question_ja": "この本はじがおおきくて、とても（　　）です。",
+    "choices": [
+      "読んだやすい",
+      "読みやすい",
+      "読むやすい",
+      "読んでやすい"
+    ],
+    "correct_index": 1,
+    "explanation_ja": "",
+    "explanation_en": "〜やすい (easy to do) attaches to the verb's -masu stem: 読み + やすい.",
+    "answer_sentence_ja": "この本はじがおおきくて、とても読みやすいです。",
+    "answer_sentence_en": "This book has big letters, so it's very easy to read."
+  },
+  {
+    "id": "bonus_n5en_014",
+    "grammar_point": "〜という",
+    "question_ja": "「さくら」（　　）花をしっていますか。",
+    "choices": [
+      "とも",
+      "との",
+      "とは",
+      "という"
+    ],
+    "correct_index": 3,
+    "explanation_ja": "",
+    "explanation_en": "〜という (called, named) is used to introduce the name of something.",
+    "answer_sentence_ja": "「さくら」という花をしっていますか。",
+    "answer_sentence_en": "Do you know the flower called 'sakura'?"
+  },
+  {
+    "id": "bonus_n5en_015",
+    "grammar_point": "〜かもしれない",
+    "question_ja": "あしたは雨が（　　）かもしれません。",
+    "choices": [
+      "ふる",
+      "ふります",
+      "ふって",
+      "ふった"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_en": "かもしれません (might, perhaps) comes after the plain form of the verb.",
+    "answer_sentence_ja": "あしたは雨がふるかもしれません。",
+    "answer_sentence_en": "It might rain tomorrow."
+  },
+  {
+    "id": "bonus_n5en_016",
+    "grammar_point": "あげる",
+    "question_ja": "わたしは友だちにプレゼントを（　　）。",
+    "choices": [
+      "くれます",
+      "もらいました",
+      "くれました",
+      "あげました"
+    ],
+    "correct_index": 3,
+    "explanation_ja": "",
+    "explanation_en": "あげます is used when I give something to someone else.",
+    "answer_sentence_ja": "わたしは友だちにプレゼントをあげました。",
+    "answer_sentence_en": "I gave my friend a present."
+  },
+  {
+    "id": "bonus_n5en_017",
+    "grammar_point": "〜ほうがいい",
+    "question_ja": "かぜをひいたときは、はやく（　　）ほうがいいです。",
+    "choices": [
+      "ねた",
+      "ねる",
+      "ねます",
+      "ねて"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_en": "〜ほうがいいです (it's better to do something) usually uses the -ta form of the verb.",
+    "answer_sentence_ja": "かぜをひいたときは、はやくねたほうがいいです。",
+    "answer_sentence_en": "When you have a cold, it's better to go to bed early."
+  },
+  {
+    "id": "bonus_n5en_018",
+    "grammar_point": "〜とき",
+    "question_ja": "日本へ（　　）とき、カメラをもっていきます。",
+    "choices": [
+      "行く",
+      "行きます",
+      "行った",
+      "行って"
+    ],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_en": "とき (when) comes after the dictionary form of the verb when the action hasn't happened yet.",
+    "answer_sentence_ja": "日本へ行くとき、カメラをもっていきます。",
+    "answer_sentence_en": "When I go to Japan, I'll bring my camera."
+  }
+]
