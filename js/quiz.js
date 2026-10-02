@@ -7,12 +7,12 @@
  *    間違えた問題があれば「repasar mis errores」で再挑戦できる
  */
 
-const LEVEL_LABELS = { n5: "N5", n4: "N4", n3: "N3", n2: "N2", n5en: "N5" };
-// "n5en" is the English-language N5 bonus set (data/bonus_n5en.json,
+const LEVEL_LABELS = { n5: "N5", n4: "N4", n3: "N3", n2: "N2", n5en: "N5", n4en: "N4" };
+// "n5en"/"n4en" are the English-language bonus sets (data/bonus_{level}.json,
 // answer_sentence_en/explanation_en fields) - every other level/type is
 // Spanish-only. Kept as its own small set rather than a per-question
-// language field, since today only this one bonus set is English.
-const ENGLISH_LEVELS = new Set(["n5en"]);
+// language field, since today only these bonus sets are English.
+const ENGLISH_LEVELS = new Set(["n5en", "n4en"]);
 // レベルアップの順番（N5が一番やさしく、N2が一番むずかしい）
 const NEXT_LEVEL = { n5: "n4", n4: "n3", n3: "n2", n2: null };
 const PLACEMENT_LEVELS = ["n5", "n4", "n3", "n2"];
