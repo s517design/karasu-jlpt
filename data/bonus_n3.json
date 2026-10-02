@@ -1,0 +1,200 @@
+[
+  {
+    "id": "bonus_n3_001",
+    "grammar_point": "〜において",
+    "question_ja": "この問題については、会議（　　）話し合う予定だ。",
+    "choices": ["において", "にとって", "について", "として"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜において (en, durante - formal) indica el lugar o la situación donde ocurre algo; es más formal que で.",
+    "answer_sentence_ja": "この問題については、会議において話し合う予定だ。",
+    "answer_sentence_es": "Sobre este tema, está previsto que se discuta en la reunión."
+  },
+  {
+    "id": "bonus_n3_002",
+    "grammar_point": "〜に関して",
+    "question_ja": "環境問題（　　）、さまざまな意見がある。",
+    "choices": ["に関して", "に対して", "にとって", "において"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜に関して (con respecto a, en relación con) introduce el tema del que se habla.",
+    "answer_sentence_ja": "環境問題に関して、さまざまな意見がある。",
+    "answer_sentence_es": "Con respecto a los problemas ambientales, hay diversas opiniones."
+  },
+  {
+    "id": "bonus_n3_003",
+    "grammar_point": "〜に基づいて",
+    "question_ja": "この映画は実話（　　）作られた。",
+    "choices": ["に基づいて", "によって", "について", "に対して"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜に基づいて (basado en) indica el fundamento u origen de algo.",
+    "answer_sentence_ja": "この映画は実話に基づいて作られた。",
+    "answer_sentence_es": "Esta película fue hecha basada en una historia real."
+  },
+  {
+    "id": "bonus_n3_004",
+    "grammar_point": "〜反面",
+    "question_ja": "この仕事は給料がいい（　　）、とても忙しい。",
+    "choices": ["反面", "おかげで", "せいで", "うえに"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜反面 (por otro lado) muestra dos aspectos contrastantes de una misma cosa.",
+    "answer_sentence_ja": "この仕事は給料がいい反面、とても忙しい。",
+    "answer_sentence_es": "Este trabajo tiene buen sueldo, pero por otro lado, es muy ocupado."
+  },
+  {
+    "id": "bonus_n3_005",
+    "grammar_point": "〜おそれがある",
+    "question_ja": "台風の影響で、川の水があふれる（　　）。",
+    "choices": ["おそれがある", "わけにはいかない", "ことになっている", "どころではない"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜おそれがある (existe el riesgo de que) se usa para advertir de algo malo que podría pasar, común en noticias y avisos.",
+    "answer_sentence_ja": "台風の影響で、川の水があふれるおそれがある。",
+    "answer_sentence_es": "Debido al tifón, existe el riesgo de que el río se desborde."
+  },
+  {
+    "id": "bonus_n3_006",
+    "grammar_point": "〜につき",
+    "question_ja": "本日は祝日（　　）、休業いたします。",
+    "choices": ["につき", "にしては", "にしても", "について"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜につき (debido a / por) se usa en avisos formales para dar una razón.",
+    "answer_sentence_ja": "本日は祝日につき、休業いたします。",
+    "answer_sentence_es": "Hoy, debido a que es día festivo, permanecemos cerrados."
+  },
+  {
+    "id": "bonus_n3_007",
+    "grammar_point": "〜にしては",
+    "question_ja": "彼は初心者（　　）、とても上手に話す。",
+    "choices": ["にしては", "にしても", "としては", "について"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜にしては (para ser..., considerando que es...) expresa que algo no coincide con lo esperado de esa condición.",
+    "answer_sentence_ja": "彼は初心者にしては、とても上手に話す。",
+    "answer_sentence_es": "Para ser principiante, habla muy bien."
+  },
+  {
+    "id": "bonus_n3_008",
+    "grammar_point": "〜にしても",
+    "question_ja": "いくら忙しい（　　）、食事ぐらいはとったほうがいい。",
+    "choices": ["にしても", "にしては", "からには", "としたら"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜にしても (incluso si, aunque) admite una condición pero muestra que no cambia la conclusión.",
+    "answer_sentence_ja": "いくら忙しいにしても、食事ぐらいはとったほうがいい。",
+    "answer_sentence_es": "Por muy ocupado que estés, al menos deberías comer algo."
+  },
+  {
+    "id": "bonus_n3_009",
+    "grammar_point": "〜からには",
+    "question_ja": "引き受けた（　　）、最後までやりとげます。",
+    "choices": ["からには", "うちに", "かぎり", "あげく"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜からには (ya que, una vez que) expresa una fuerte determinación tras decidir o aceptar algo.",
+    "answer_sentence_ja": "引き受けたからには、最後までやりとげます。",
+    "answer_sentence_es": "Ya que lo acepté, lo llevaré a cabo hasta el final."
+  },
+  {
+    "id": "bonus_n3_010",
+    "grammar_point": "〜ことなく",
+    "question_ja": "彼は一度も休む（　　）、働き続けた。",
+    "choices": ["ことなく", "どころか", "ことから", "もかまわず"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜ことなく (sin hacer algo) es una forma más literaria de decir 〜ないで.",
+    "answer_sentence_ja": "彼は一度も休むことなく、働き続けた。",
+    "answer_sentence_es": "Él siguió trabajando sin descansar ni una sola vez."
+  },
+  {
+    "id": "bonus_n3_011",
+    "grammar_point": "〜限り",
+    "question_ja": "わたしの知っている（　　）、彼はうそをつく人ではない。",
+    "choices": ["限り", "うちに", "あいだ", "とおり"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜限り (mientras / hasta donde) marca el límite de lo que se sabe o se cumple.",
+    "answer_sentence_ja": "わたしの知っている限り、彼はうそをつく人ではない。",
+    "answer_sentence_es": "Hasta donde yo sé, él no es una persona que mienta."
+  },
+  {
+    "id": "bonus_n3_012",
+    "grammar_point": "〜次第",
+    "question_ja": "空港に着き（　　）、電話します。",
+    "choices": ["次第", "うちに", "あげく", "かと思うと"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "動詞のます形 + 次第 (en cuanto) indica que algo se hará inmediatamente después de otra cosa.",
+    "answer_sentence_ja": "空港に着き次第、電話します。",
+    "answer_sentence_es": "En cuanto llegue al aeropuerto, te llamaré."
+  },
+  {
+    "id": "bonus_n3_013",
+    "grammar_point": "〜たとたんに",
+    "question_ja": "ドアを開け（　　）、猫が飛び出した。",
+    "choices": ["たとたんに", "たところで", "たばかりに", "たすえに"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜たとたんに (justo en el momento en que) indica que algo pasó inmediatamente después de otra acción, a menudo de forma sorpresiva.",
+    "answer_sentence_ja": "ドアを開けたとたんに、猫が飛び出した。",
+    "answer_sentence_es": "Justo al abrir la puerta, el gato salió corriendo."
+  },
+  {
+    "id": "bonus_n3_014",
+    "grammar_point": "〜につけ",
+    "question_ja": "この歌を聞く（　　）、学生時代を思い出す。",
+    "choices": ["につけ", "とともに", "かわりに", "ことから"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜につけ (cada vez que) indica que algo (un sentimiento o recuerdo) ocurre siempre que pasa cierta cosa.",
+    "answer_sentence_ja": "この歌を聞くにつけ、学生時代を思い出す。",
+    "answer_sentence_es": "Cada vez que escucho esta canción, recuerdo mis días de estudiante."
+  },
+  {
+    "id": "bonus_n3_015",
+    "grammar_point": "〜気味",
+    "question_ja": "最近、仕事で疲れ（　　）だ。",
+    "choices": ["気味", "だらけ", "っぽい", "ぎりぎり"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜気味 (un poco, con tendencia a) se usa para describir una condición leve, a menudo negativa.",
+    "answer_sentence_ja": "最近、仕事で疲れ気味だ。",
+    "answer_sentence_es": "Últimamente estoy un poco cansado por el trabajo."
+  },
+  {
+    "id": "bonus_n3_016",
+    "grammar_point": "〜がち",
+    "question_ja": "彼女は小さいころから、病気（　　）だった。",
+    "choices": ["がち", "気味", "だらけ", "っぽい"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜がち (tender a, con frecuencia) describe algo que ocurre con frecuencia, normalmente negativo.",
+    "answer_sentence_ja": "彼女は小さいころから、病気がちだった。",
+    "answer_sentence_es": "Ella, desde pequeña, tendía a enfermarse con frecuencia."
+  },
+  {
+    "id": "bonus_n3_017",
+    "grammar_point": "〜ようがない",
+    "question_ja": "こんなに複雑な問題では、だれも説明（　　）。",
+    "choices": ["のしようがない", "するわけがない", "しかねない", "するまでもない"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜（し）ようがない (no hay manera de hacer algo) expresa que es imposible realizar la acción.",
+    "answer_sentence_ja": "こんなに複雑な問題では、だれも説明のしようがない。",
+    "answer_sentence_es": "Con un problema tan complicado, nadie tiene manera de explicarlo."
+  },
+  {
+    "id": "bonus_n3_018",
+    "grammar_point": "〜てはじめて",
+    "question_ja": "病気になっ（　　）、健康のありがたさがわかった。",
+    "choices": ["てはじめて", "たすえに", "たところで", "たとたんに"],
+    "correct_index": 0,
+    "explanation_ja": "",
+    "explanation_es": "〜てはじめて (solo después de..., por primera vez) indica que algo se entendió o se dio cuenta solo tras cierta experiencia.",
+    "answer_sentence_ja": "病気になってはじめて、健康のありがたさがわかった。",
+    "answer_sentence_es": "Solo después de enfermarme entendí lo valiosa que es la salud."
+  }
+]

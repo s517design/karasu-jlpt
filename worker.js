@@ -10,19 +10,24 @@
  *    国が分からない場合（ローカルでのテスト時など）は何もせず、
  *    amazon-links.js側の言語ベースの判定にそのまま任せる。
  *
- * 2. N5スペイン語版Kindle本の読者限定ボーナス問題（data/bonus_n5.json）
- *    を、本に印刷されたコードを知っている人にだけ配信すること。
- *    コードはこのファイルの中（サーバー側）にだけ置かれ、ブラウザ側の
- *    コードからは一切見えない。検証に成功したら、改ざんできない
- *    署名付きCookieを発行し、以後そのCookieを持つ人だけが
- *    data/bonus_n5.json を取得できるようにする。
- *    完全な不正コピー防止ではなく、「本を買った人への特典」という
- *    位置づけなので、これで十分と判断している。
+ * 2. 各レベル（N5/N4/N3/N2）のスペイン語版Kindle本の読者限定ボーナス問題
+ *    （data/bonus_n{level}.json）を、本に印刷されたコードを知っている人
+ *    にだけ配信すること。コードはこのファイルの中（サーバー側）にだけ
+ *    置かれ、ブラウザ側のコードからは一切見えない。検証に成功したら、
+ *    そのレベル専用の、改ざんできない署名付きCookieを発行し、以後その
+ *    Cookieを持つ人だけが対応する data/bonus_n{level}.json を取得できる
+ *    ようにする。完全な不正コピー防止ではなく、「本を買った人への特典」
+ *    という位置づけなので、これで十分と判断している。
  */
 
-// 本の最後のページ（奥付）にのみ印刷される、N5ボーナス用の合言葉。
+// 各レベルの本の最後のページ（奥付）にのみ印刷される、ボーナス用の合言葉。
 // 大文字小文字やコード前後の空白は区別しない。
-const BONUS_CODE_N5 = "CUERVO-N5";
+const BONUS_CODES = {
+  n5: "CUERVO-N5",
+  n4: "CUERVO-N4",
+  n3: "CUERVO-N3",
+  n2: "CUERVO-N2",
+};
 
 // Cookieの署名に使うだけの秘密鍵（ブラウザには送らない）。
 // この値自体は人には見せない運用で問題ない - 変更したい場合は
@@ -30,8 +35,15 @@ const BONUS_CODE_N5 = "CUERVO-N5";
 // 一斉に無効になる。
 const COOKIE_SECRET = "96b901f122c20870ae1113170abde351fd5aebc2b1e9e8358af2d173f53dbea2";
 
-const BONUS_COOKIE_NAME = "n5_bonus";
+// Cookie名はレベルごとに分けている（n5_bonus, n4_bonus, ...）ので、
+// 例えばN5の本の特典だけ解放している状態でも、N4のボーナスまで
+// 一緒に見えてしまうことはない。
+function bonusCookieName(level) {
+  return `${level}_bonus`;
+}
+
 const BONUS_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 365; // 1年
+const BONUS_DATA_PATH_PATTERN = /^\/data\/bonus_(n5|n4|n3|n2)\.json$/;
 
 async function hmacHex(message, secret) {
   const key = await crypto.subtle.importKey(
@@ -53,17 +65,18 @@ function readCookie(request, name) {
   return match ? decodeURIComponent(match[1]) : null;
 }
 
-async function isValidBonusCookie(value) {
+async function isValidBonusCookie(value, level) {
   if (!value) return false;
   const separatorIndex = value.indexOf(".");
   if (separatorIndex === -1) return false;
   const payload = value.slice(0, separatorIndex);
   const signature = value.slice(separatorIndex + 1);
+  if (payload !== level) return false;
   const expected = await hmacHex(payload, COOKIE_SECRET);
   return signature === expected;
 }
 
-async function handleRedeemN5(request) {
+async function handleRedeem(request) {
   let body;
   try {
     body = await request.json();
@@ -74,24 +87,32 @@ async function handleRedeemN5(request) {
     });
   }
 
+  const level = String(body && body.level ? body.level : "").toLowerCase();
+  const validCode = BONUS_CODES[level];
+  if (!validCode) {
+    return new Response(JSON.stringify({ ok: false }), {
+      status: 400,
+      headers: { "content-type": "application/json" },
+    });
+  }
+
   const submitted = String(body && body.code ? body.code : "")
     .trim()
     .toUpperCase();
-  if (submitted !== BONUS_CODE_N5) {
+  if (submitted !== validCode) {
     return new Response(JSON.stringify({ ok: false }), {
       status: 401,
       headers: { "content-type": "application/json" },
     });
   }
 
-  const payload = "n5";
-  const signature = await hmacHex(payload, COOKIE_SECRET);
-  const cookieValue = `${payload}.${signature}`;
+  const signature = await hmacHex(level, COOKIE_SECRET);
+  const cookieValue = `${level}.${signature}`;
 
   const headers = new Headers({ "content-type": "application/json" });
   headers.append(
     "Set-Cookie",
-    `${BONUS_COOKIE_NAME}=${encodeURIComponent(cookieValue)}; Path=/; Max-Age=${BONUS_COOKIE_MAX_AGE_SECONDS}; HttpOnly; Secure; SameSite=Lax`
+    `${bonusCookieName(level)}=${encodeURIComponent(cookieValue)}; Path=/; Max-Age=${BONUS_COOKIE_MAX_AGE_SECONDS}; HttpOnly; Secure; SameSite=Lax`
   );
   return new Response(JSON.stringify({ ok: true }), { status: 200, headers });
 }
@@ -100,17 +121,20 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
-    if (request.method === "POST" && url.pathname === "/api/redeem-n5") {
-      return handleRedeemN5(request);
+    if (request.method === "POST" && url.pathname === "/api/redeem") {
+      return handleRedeem(request);
     }
 
-    // ボーナス問題データそのものは、有効なCookieを持つリクエストにしか
-    // 返さない。見せかけだけの制限（ページを隠すだけ）ではなく、
-    // データ自体を渡さないようにすることで、コードを知らない人が
-    // ネットワークタブ等からURLを直接叩いても中身を見られないようにする。
-    if (url.pathname === "/data/bonus_n5.json") {
-      const cookieValue = readCookie(request, BONUS_COOKIE_NAME);
-      const valid = await isValidBonusCookie(cookieValue);
+    // ボーナス問題データそのものは、対応するレベルの有効なCookieを持つ
+    // リクエストにしか返さない。見せかけだけの制限（ページを隠すだけ）
+    // ではなく、データ自体を渡さないようにすることで、コードを知らない
+    // 人がネットワークタブ等からURLを直接叩いても中身を見られないように
+    // する。
+    const bonusMatch = url.pathname.match(BONUS_DATA_PATH_PATTERN);
+    if (bonusMatch) {
+      const level = bonusMatch[1];
+      const cookieValue = readCookie(request, bonusCookieName(level));
+      const valid = await isValidBonusCookie(cookieValue, level);
       if (!valid) {
         return new Response("Not found", { status: 404 });
       }

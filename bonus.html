@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Simulacro extra para lectores — Karasu</title>
+<title id="page-title">Simulacro extra para lectores — Karasu</title>
 <link rel="icon" type="image/png" href="assets/favicon.png" />
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
 <link rel="manifest" href="site.webmanifest" />
 <meta name="theme-color" content="#14181c" />
 <meta name="robots" content="noindex" />
-<meta name="description" content="Desbloquea el simulacro extra de JLPT N5 con el código incluido en tu libro." />
+<meta name="description" content="Desbloquea el simulacro extra con el código incluido en tu libro." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -65,10 +65,10 @@
   <div class="question-card result-card">
     <h2>Simulacro extra para lectores del libro</h2>
     <p>
-      Si compraste <strong>JLPT N5: Gramática y Práctica</strong>, busca el
-      código al final del libro (en la página de Créditos) e introdúcelo
-      aquí para desbloquear un cuarto simulacro de examen, exclusivo para
-      lectores.
+      Si compraste <strong id="book-title">Gramática y Práctica JLPT N5</strong>,
+      busca el código al final del libro (en la página de Créditos) e
+      introdúcelo aquí para desbloquear un simulacro de examen extra,
+      exclusivo para lectores.
     </p>
 
     <form class="code-form" id="code-form">
@@ -101,6 +101,28 @@
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
 
+  // Cada nivel (N5/N4/N3/N2) tiene su propio código, impreso solo en el
+  // libro de ese nivel - por eso esta página necesita saber de cuál
+  // libro se trata. Sin ?level en la URL, se asume N5 (el primer libro
+  // que incluyó este código, para no romper el enlace ya impreso).
+  const BOOK_TITLES = {
+    n5: "Gramática y Práctica JLPT N5",
+    n4: "Gramática y Práctica JLPT N4",
+    n3: "Gramática y Práctica JLPT N3",
+    n2: "Gramática y Práctica JLPT N2",
+  };
+
+  function getLevelFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const level = (params.get("level") || "n5").toLowerCase();
+    return BOOK_TITLES[level] ? level : "n5";
+  }
+
+  const level = getLevelFromUrl();
+  document.getElementById("book-title").textContent = BOOK_TITLES[level];
+  document.getElementById("page-title").textContent =
+    `Simulacro extra para lectores (${level.toUpperCase()}) — Karasu`;
+
   const form = document.getElementById("code-form");
   const input = document.getElementById("code-input");
   const submitBtn = document.getElementById("code-submit");
@@ -113,14 +135,14 @@
     submitBtn.textContent = "Comprobando...";
 
     try {
-      const response = await fetch("/api/redeem-n5", {
+      const response = await fetch("/api/redeem", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ code: input.value }),
+        body: JSON.stringify({ level, code: input.value }),
       });
       const data = await response.json().catch(() => ({ ok: false }));
       if (response.ok && data.ok) {
-        window.location.href = "/quiz?level=n5&type=bonus";
+        window.location.href = `/quiz?level=${level}&type=bonus`;
         return;
       }
       errorMsg.hidden = false;
