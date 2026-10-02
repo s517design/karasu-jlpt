@@ -22,10 +22,15 @@ function getLevelFromUrl() {
   return LEVEL_LABELS[level] ? level : "n5";
 }
 
-// ?type=vocab なら語彙・漢字クイズ、それ以外（省略時含む）は文法クイズ。
+// ?type=vocab なら語彙・漢字クイズ、?type=bonus なら本の読者限定ボーナス
+// 問題（data/bonus_n5.jsonはコード入力後だけWorkerが配信する）、
+// それ以外（省略時含む）は文法クイズ。
 function getTypeFromUrl() {
   const params = new URLSearchParams(window.location.search);
-  return params.get("type") === "vocab" ? "vocab" : "grammar";
+  const type = params.get("type");
+  if (type === "vocab") return "vocab";
+  if (type === "bonus") return "bonus";
+  return "grammar";
 }
 
 function isPlacementMode() {
@@ -204,7 +209,9 @@ class Quiz {
       titleEl.innerHTML =
         this.type === "vocab"
           ? '¡Terminaste el vocabulario de <span data-level-label></span>!'
-          : '¡Terminaste el nivel <span data-level-label></span>!';
+          : this.type === "bonus"
+            ? '¡Completaste el simulacro extra de <span data-level-label></span>!'
+            : '¡Terminaste el nivel <span data-level-label></span>!';
       document.querySelectorAll("[data-level-label]").forEach((el) => {
         el.textContent = LEVEL_LABELS[this.level];
       });
@@ -225,20 +232,28 @@ class Quiz {
       rankEl.textContent = rank;
       document.getElementById("result-message").textContent = message;
 
-      document.getElementById("buy-cta-text").innerHTML =
-        this.type === "vocab"
-          ? 'Esto fue solo una muestra. El libro cubre el nivel <strong data-level-label></strong> completo: vocabulario, kanji y gramática explicados a fondo, con 3 simulacros de examen incluidos.'
-          : 'Esto fue solo una muestra. El libro cubre el nivel <strong data-level-label></strong> completo: cada punto de gramática explicado a fondo, en formal e informal, con 3 simulacros de examen incluidos.';
-      document.querySelectorAll("[data-level-label]").forEach((el) => {
-        el.textContent = LEVEL_LABELS[this.level];
-      });
+      if (this.type === "bonus") {
+        // Quien llega aquí ya compró el libro (desbloqueó este simulacro
+        // extra con el código impreso en él) - mostrarle el mismo CTA de
+        // compra y el aviso de "siguiente nivel" no tiene sentido.
+        document.getElementById("buy-cta").hidden = true;
+        document.getElementById("next-level-box").hidden = true;
+      } else {
+        document.getElementById("buy-cta-text").innerHTML =
+          this.type === "vocab"
+            ? 'Esto fue solo una muestra. El libro cubre el nivel <strong data-level-label></strong> completo: vocabulario, kanji y gramática explicados a fondo, con 3 simulacros de examen incluidos.'
+            : 'Esto fue solo una muestra. El libro cubre el nivel <strong data-level-label></strong> completo: cada punto de gramática explicado a fondo, en formal e informal, con 3 simulacros de examen incluidos.';
+        document.querySelectorAll("[data-level-label]").forEach((el) => {
+          el.textContent = LEVEL_LABELS[this.level];
+        });
 
-      const buyBtn = document.getElementById("result-buy-btn");
-      buyBtn.setAttribute("data-book", this.level);
-      wireUpBookLinks(this.els.resultShell);
+        const buyBtn = document.getElementById("result-buy-btn");
+        buyBtn.setAttribute("data-book", this.level);
+        wireUpBookLinks(this.els.resultShell);
+        this.setUpNextLevel();
+      }
+
       document.getElementById("share-cta").hidden = false;
-
-      this.setUpNextLevel();
       this.setUpShareButton(total);
       saveBestScore(this.progressKey(), this.score, total);
     }
@@ -301,7 +316,9 @@ class Quiz {
   }
 
   progressKey() {
-    return this.type === "vocab" ? `${this.level}-vocab` : this.level;
+    if (this.type === "vocab") return `${this.level}-vocab`;
+    if (this.type === "bonus") return `${this.level}-bonus`;
+    return this.level;
   }
 
   setUpNextLevel() {
@@ -320,8 +337,16 @@ class Quiz {
 
   setUpShareButton(total) {
     const shareBtn = document.getElementById("share-btn");
-    const topic = this.type === "vocab" ? "vocabulario" : "gramática";
-    const shareText = `Hice ${this.score}/${total} en la práctica de ${topic} JLPT ${LEVEL_LABELS[this.level]} de Karasu. ¡Pruébalo tú también!`;
+    // El simulacro extra está bloqueado detrás de un código del libro, así
+    // que no tiene sentido invitar a quien lo vea a "probarlo también" -
+    // no podría sin haber comprado el libro.
+    let shareText;
+    if (this.type === "bonus") {
+      shareText = `Hice ${this.score}/${total} en el simulacro extra de JLPT ${LEVEL_LABELS[this.level]} de Karasu.`;
+    } else {
+      const topic = this.type === "vocab" ? "vocabulario" : "gramática";
+      shareText = `Hice ${this.score}/${total} en la práctica de ${topic} JLPT ${LEVEL_LABELS[this.level]} de Karasu. ¡Pruébalo tú también!`;
+    }
     const shareUrl = window.location.href;
 
     shareBtn.onclick = async () => {
@@ -347,7 +372,8 @@ class Quiz {
 }
 
 async function fetchLevelQuestions(level, type = "grammar") {
-  const fileName = type === "vocab" ? `vocab_${level}` : `questions_${level}`;
+  const fileName =
+    type === "vocab" ? `vocab_${level}` : type === "bonus" ? `bonus_${level}` : `questions_${level}`;
   const response = await fetch(`data/${fileName}.json`);
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
@@ -407,11 +433,20 @@ async function initLevelQuiz() {
   document.title =
     type === "vocab"
       ? `Vocabulario y Kanji ${LEVEL_LABELS[level]} — Karasu`
-      : `Práctica JLPT ${LEVEL_LABELS[level]} — Karasu`;
-  injectCourseStructuredData(level, type);
+      : type === "bonus"
+        ? `Simulacro extra ${LEVEL_LABELS[level]} — Karasu`
+        : `Práctica JLPT ${LEVEL_LABELS[level]} — Karasu`;
+  // El simulacro extra no es contenido público/indexable (está bloqueado
+  // detrás de un código), así que no debe anunciarse como un Course
+  // gratuito en los datos estructurados.
+  if (type !== "bonus") {
+    injectCourseStructuredData(level, type);
+  }
 
   const pool = await fetchLevelQuestions(level, type);
-  const questions = shuffle(pool).slice(0, QUESTIONS_PER_QUIZ);
+  // El simulacro extra se presenta completo y en su orden original (como
+  // un simulacro real), no como una muestra aleatoria de 12 preguntas.
+  const questions = type === "bonus" ? pool : shuffle(pool).slice(0, QUESTIONS_PER_QUIZ);
   new Quiz(questions, level, { skipShuffle: true, type });
 }
 

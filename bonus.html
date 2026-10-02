@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Simulacro extra para lectores — Karasu</title>
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#14181c" />
+<meta name="robots" content="noindex" />
+<meta name="description" content="Desbloquea el simulacro extra de JLPT N5 con el código incluido en tu libro." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<style>
+  .code-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 360px;
+    margin: 24px auto 0;
+  }
+  .code-form input[type="text"] {
+    font: inherit;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--color-border);
+    background: var(--color-surface-soft);
+    color: var(--color-ink);
+  }
+  .code-form input[type="text"]:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+  #code-error {
+    color: var(--color-danger);
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <picture>
+        <source srcset="assets/logo-display.webp" type="image/webp" />
+        <img src="assets/logo-display.png" alt="" class="brand-logo" width="616" height="420" />
+      </picture>
+      Karasu
+    </a>
+    <nav class="site-nav">
+      <a href="/#niveles">Practicar</a>
+      <a href="/#libros">Libros</a>
+    </nav>
+  </div>
+</header>
+
+<main class="quiz-shell">
+  <div class="question-card result-card">
+    <h2>Simulacro extra para lectores del libro</h2>
+    <p>
+      Si compraste <strong>JLPT N5: Gramática y Práctica</strong>, busca el
+      código al final del libro (en la página de Créditos) e introdúcelo
+      aquí para desbloquear un cuarto simulacro de examen, exclusivo para
+      lectores.
+    </p>
+
+    <form class="code-form" id="code-form">
+      <input
+        type="text"
+        id="code-input"
+        name="code"
+        placeholder="Código del libro"
+        autocomplete="off"
+        autocapitalize="characters"
+        required
+      />
+      <button type="submit" class="btn btn-primary" id="code-submit">
+        Desbloquear simulacro
+      </button>
+      <p id="code-error" hidden>
+        Ese código no es válido. Revisa la página de Créditos del libro y
+        vuelve a intentarlo.
+      </p>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="year"></span> Karasu · <a href="mailto:info@karasu.page">info@karasu.page</a></p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  const form = document.getElementById("code-form");
+  const input = document.getElementById("code-input");
+  const submitBtn = document.getElementById("code-submit");
+  const errorMsg = document.getElementById("code-error");
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    errorMsg.hidden = true;
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Comprobando...";
+
+    try {
+      const response = await fetch("/api/redeem-n5", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ code: input.value }),
+      });
+      const data = await response.json().catch(() => ({ ok: false }));
+      if (response.ok && data.ok) {
+        window.location.href = "/quiz?level=n5&type=bonus";
+        return;
+      }
+      errorMsg.hidden = false;
+    } catch (err) {
+      errorMsg.hidden = false;
+    }
+
+    submitBtn.disabled = false;
+    submitBtn.textContent = "Desbloquear simulacro";
+  });
+</script>
+</body>
+</html>
